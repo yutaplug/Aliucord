@@ -14,7 +14,7 @@ Unofficial [Aliucord](https://github.com/Aliucord) docs :3
 - Install this [file manager](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) & open it (you can use any file manager that lets you copy file paths, this is just a recommendation since not every file manager lets you do that or does it wrong)
 - Find the image/gif file
 - Click the 3 dots next to it & press `Copy path`
-- Go to Themer settings -> your theme -> `Background` & paste it
+- Go to Themer settings → your theme → `Background` & paste it
 - Add `file:/` at the start
  
 Final result should be `file://storage/emulated/0/Example/Example.jpg`
@@ -26,7 +26,7 @@ Don't forget to enable transparency (chat, chat & settings). If you want full tr
 - Install this [file manager](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) & open it (you can use any file manager that lets you copy file paths, this is just a recommendation since not every file manager lets you do that or does it wrong)
 - Find the font file
 - Click the 3 dots next to it & press `Copy path`
-- Go to Themer settings -> your theme -> `Fonts` & paste it where the asterisk is
+- Go to Themer settings → your theme → `Fonts` & paste it where the asterisk is
 - Add `file:/` at the start
  
 Final result should be `file://storage/emulated/0/Example/Example.ttf`
