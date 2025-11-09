@@ -2,15 +2,6 @@ Unofficial [Aliucord](https://github.com/Aliucord) docs :3
 
 [More Aliucord docs](https://docs.meowery.eu/aliucord/!Index.html)
 
-# How to install Aliucord
-[Aliucord Manager installation guide](https://github.com/Aliucord/Manager#installation)
-
-# How to install plugins
-[InstallPlugins.mp4](https://aliucord.com/files/tut/InstallPlugins.mp4)
-
-# How to install themes
-[InstallThemes.mp4](https://aliucord.com/files/tut/InstallThemes.mp4)
-
 # How to set a custom background image/gif
 - Install [Themer](https://github.com/Vendicated/AliucordPlugins/raw/builds/Themer.zip) plugin
 - Install this [file manager](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) & open it (or any file manager that lets you copy file paths)
