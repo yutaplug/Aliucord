@@ -8,7 +8,7 @@ GitHub:
 - Paste the link(s) into the plugin
 
 Locally:
-- Install this [file manager](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) & open it (or any file manager that lets you copy file paths)
+- Install [this file manager](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) & open it (or any file manager that lets you copy file paths)
 - Find the sound file
 - Click the 3 dots next to it & press `Copy Path`
 - Go to the plugin settings & paste it
