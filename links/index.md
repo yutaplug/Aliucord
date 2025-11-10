@@ -1,4 +1,4 @@
-# How to fix Discord links opening browser/official Discord app instead of Aliucord itself
+# Fix Discord links opening browser/official Discord app instead of Aliucord itself
 ## Samsung
 - Go to Settings app
 - Go to `Apps` section
