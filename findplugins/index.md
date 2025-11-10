@@ -6,6 +6,7 @@ in Aliucord Discord server, open the searchbar ([magnifying class icon at the to
 
 Alternatively, if you still can't find it you can search `PluginNameHere.zip` to (probably) find a message containing the raw link of the desired plugin, if its sent by a trusted member, you can install it by holding the message (NOT THE LINK) (trusted members are people with support-helper or plugin-developer roles). In #plugin-development channel, every plugin can be installed by holding the message no matter the user.
 
+**Note:** Installing plugins by holding a message in #unmaintained-plugins channel is not allowed, you will need to read the [#unmaintained-plugins installation guide](https://yutaplug.github.io/Aliucord/beginner/#how-to-install-a-plugin-manually-required-for-unmaintained-plugins-channel).
 ## PluginRepo
 There's also a [PluginRepo](https://github.com/mantikafasi/AliucordPlugins/raw/builds/PluginRepo.zip) plugin which you can use to easily find common/famous plugins through your Aliucord settings (basically a built-in plugins page like Vencord's one), but note that it's not updated nor synced with the plugin channels found in the Discord server, and viceversa (some plugins are only in PluginRepo).
 
