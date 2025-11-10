@@ -10,7 +10,7 @@ First of all, you need to Install [Themer](https://github.com/Vendicated/Aliucor
 First of all, you need to enable transparency in Themer settings (chat, chat & settings). If you want full transparency, you need to use the template found below.
 
 GitHub:
-- Create a github account 
+- Create a GitHub account 
 - Create a repo (make sure its public)
 - Click add file and upload the image/gif
 - Once uploaded, click its name
@@ -26,11 +26,13 @@ Locally:
 
 Final result should be `file://storage/emulated/0/Example/Example.jpg`
 
+**Note:** GitLab, Imgbb & Imgur also work.
+
 ## How to set a custom font
 First of all, you need to enable the `Enable Custom Fonts` option in Themer settings.
 
 GitHub:
-- Create a github account 
+- Create a GitHub account 
 - Create a repo (make sure its public)
 - Click add file and upload the font
 - Once uploaded, click its name
@@ -46,6 +48,8 @@ Locally:
 - Add `file:/` at the start
 
 Final result should be `file://storage/emulated/0/Example/Example.ttf`
+
+**Note:** GitLab also works.
 
 ## Why does my background image not work
 - You didn't enable transparency
