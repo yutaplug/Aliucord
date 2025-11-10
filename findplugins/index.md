@@ -8,7 +8,7 @@ Alternatively, if you still can't find it you can search `PluginNameHere.zip` to
 
 **Note:** Installing plugins by holding a message in #unmaintained-plugins channel is not allowed, you will need to read the [#unmaintained-plugins installation guide](https://yutaplug.github.io/Aliucord/beginner/#how-to-install-a-plugin-manually-required-for-unmaintained-plugins-channel).
 ## PluginRepo
-There's also a [PluginRepo](https://github.com/mantikafasi/AliucordPlugins/raw/builds/PluginRepo.zip) plugin which you can use to easily find common/famous plugins through your Aliucord settings (basically a built-in plugins page like Vencord's one), but note that it's not updated nor synced with the plugin channels found in the Discord server, and viceversa (some plugins are only in PluginRepo).
+There's also a [PluginRepo](https://github.com/mantikafasi/AliucordPlugins/raw/builds/PluginRepo.zip) plugin which you can use to easily find common/famous plugins through your Aliucord settings (basically a built-in plugins page like Vencord's one), but note that it's not updated nor synced with the plugin channels found on the server, and viceversa (some plugins are only in PluginRepo).
 
 Installation: [Press this](https://github.com/mantikafasi/AliucordPlugins/raw/builds/PluginRepo.zip), it will download `PluginRepo.zip`, now move it to the `Aliucord/plugins` folder using a file manager & restart Aliucord.
 
