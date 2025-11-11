@@ -40,7 +40,6 @@ GitHub:
 - Paste the link(s) into Themer
 
 Locally:
-- Install [Themer](https://github.com/Vendicated/AliucordPlugins/raw/builds/Themer.zip) plugin ([manual way](https://yutaplug.github.io/Aliucord/beginner/#how-to-install-a-plugin-manually-required-for-unmaintained-plugins-channel))
 - Install [this file manager](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) & open it (or any file manager that lets you copy file paths)
 - Find the font file
 - Click the 3 dots next to it & press `Copy path`
