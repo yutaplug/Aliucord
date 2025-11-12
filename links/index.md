@@ -13,3 +13,5 @@
 ## Xiaomi
 - [GitHub Gist guide](https://gist.github.com/Drownbywind/1188572357f76315067f85eb6e9665b6)
 - [Reddit guide](https://www.reddit.com/r/Xiaomi/comments/1achv1f/how_can_i_open_links_to_apps_instead_of_the)
+
+![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fyutaplug.github.io%2FAliucord%2Flinks&label=&icon=eye&color=%23000&message=&style=flat&tz=UTC)
