@@ -15,4 +15,4 @@ Unofficial [Aliucord](https://aliucord.com) docs :3 (made it so i dont have to u
 - [Plugin searching guide](https://yutaplug.github.io/Aliucord/findplugins)
 - [Link opening fix](https://yutaplug.github.io/Aliucord/links)
 
-![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fyutaplug.github.io%2FAliucord&label=&icon=github&color=%23198754&message=&style=flat&tz=UTC)
+![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fyutaplug.github.io%2FAliucord&label=&icon=eye&color=%23000&message=&style=flat&tz=UTC)
