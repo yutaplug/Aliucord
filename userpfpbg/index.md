@@ -21,4 +21,4 @@
 - Go to the plugin settings and click "Redownload databases"
 - Restart Aliucord to see the changes
 
-![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fyutaplug.github.io%2FAliucord%2Fuserpfpbg&label=&icon=eye&color=%23000&message=&style=flat&tz=UTC)
+![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fyutaplug.github.io%2FAliucord%2Fuserpfpbg&label=&icon=eye-fill&color=%23000&message=&style=flat&tz=UTC)
