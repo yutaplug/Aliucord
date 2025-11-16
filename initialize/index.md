@@ -6,4 +6,4 @@ It's suspected that this is caused by something to do with GitHub either silentl
 
 Restart Aliucord and it should be working fine now.
 
-![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fyutaplug.github.io%2FAliucord%2Finitialize&label=&icon=eye-fill&color=%23000&message=&style=flat&tz=UTC)
+![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fyutaplug.github.io%2FAliucord%2Flinks&label=&icon=eye-fill&color=%23000&message=&style=flat&tz=UTC)
