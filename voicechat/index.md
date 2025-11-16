@@ -12,4 +12,4 @@ The most we can recommend for now, is to use the [Official Discord App](https://
 ## Don't leave yet, we still have some good news
 If you still want plugins to improve the Voice Chat experience on Discord (such as [Bluetooth Audio Fix](https://ibb.co/h1hYRc9Z)), we strongly recommend looking for another modified Discord client that uses the new version, in which Voice Chat has the minimum number of errors compared to Aliucord and will support the new encryption protocol. You can find an updated list of modified Discord clients and their status [here](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties).
 
-![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fyutaplug.github.io%2FAliucord%2Fvoicechat&label=&icon=eye&color=%23000&message=&style=flat&tz=UTC)
+![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fyutaplug.github.io%2FAliucord%2Fvoicechat&label=&icon=eye-fill&color=%23000&message=&style=flat&tz=UTC)
