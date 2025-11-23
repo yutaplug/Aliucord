@@ -37,3 +37,5 @@
 - NPE when leaving guild with forwarded msg loaded (fixes a crash when leaving a server with a forwarded message loaded)
 - Handle unknown new reply message types (fixes reply previews)
 - Add AlignThreads fix as a CorePlugin
+
+![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fyutaplug.github.io%2FAliucord%2Fchangelog&label=&icon=eye-fill&color=%23000&message=&style=flat&tz=UTC)
