@@ -5,7 +5,7 @@
 
 > How do i install the plugins from here?
 > 
-> Click the plugin names, it will download the plugin .zip, now just move it to the `Aliucord/plugins` folder using a file manager & restart Aliucord if it was open.
+> Click the plugin names, it will download the plugin `.zip`, now just move it to the `Aliucord/plugins` folder using a file manager & restart Aliucord if it was open.
 
 # Plugins
 |Feature|Plugin Name|
