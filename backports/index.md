@@ -62,7 +62,7 @@
 - Enable [Developer Mode](https://github.com/user-attachments/assets/ee6a45bd-08a5-4bf8-af39-6d03b9d969a4) & [Aliucord from storage](https://github.com/user-attachments/assets/37f9f074-741e-46e1-8162-f753f4af8b30)
 - Restart Aliucord
 
-https://github.com/user-attachments/assets/6860f787-cae9-4560-9d29-5efa1f05af78
+Video: https://github.com/user-attachments/assets/6860f787-cae9-4560-9d29-5efa1f05af78
 
 **Backports that use this method**
 - [Guild tags, nameplates & display name styles (All in One)](https://nightly.link/LavaDesu/Aliucord/workflows/build/next/build.zip?status=completed)
@@ -70,3 +70,5 @@ https://github.com/user-attachments/assets/6860f787-cae9-4560-9d29-5efa1f05af78
   - [Nameplates](https://nightly.link/LavaDesu/Aliucord/workflows/build/feat%2Fdecor_nameplate/build.zip?status=completed)
   - [Display name styles](https://nightly.link/LavaDesu/Aliucord/workflows/build/feat%2Fdecor_displaynamestyles/build.zip?status=completed)
 - [Account Standing](https://nightly.link/omardotdev/aliucar/workflows/build/feat%2Faccount-standing/build.zip?status=completed)
+
+![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fyutaplug.github.io%2FAliucord%2Fbackports&label=&icon=eye-fill&color=%23000&message=&style=flat&tz=UTC)
