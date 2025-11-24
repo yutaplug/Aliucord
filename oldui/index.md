@@ -2,7 +2,7 @@
 
 - The new Discord mobile client uses the React Native framework, which is not as performant as Kotlin. React Native is a port from iOS while Kotlin is Android native.
 
-- Even If we'd want to use the new one, everything would need to be rewriten and thats a waste of time considering how bad React Native is.
+- Even if we'd want to use the new one, everything would need to be rewriten and thats a waste of time considering how bad React Native is.
 
 - Aliucord developers don't & [didn't](https://github.com/Aliucord/AliucordRN) like to work with the new one.
 
