@@ -11,3 +11,5 @@
 - Features from the new Discord can be [backported](https://en.wikipedia.org/wiki/Backporting) to the old one, [and theres already a ton](/Aliucord/backports)!
 
 - Modified clients for new Discord versions already exist, you can find them [here](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties).
+
+![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fyutaplug.github.io%2FAliucord%2Foldui&label=&icon=eye-fill&color=%23000&message=&style=flat&tz=UTC)
