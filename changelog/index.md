@@ -1,6 +1,6 @@
 # Changelog
 
-# 2.?.? (unknown version number yet)
+#@ 2.?.? (unknown version number yet)
 - Fix avatar decorations alignment in DMs list
 
 ## 2.6.0 (current version)
