@@ -12,7 +12,8 @@
 
 **Note:** Most of the plugins need an app restart so they can properly work.
 
-[How to find plugins? is there a built-in Plugin Browser?](/Aliucord/findplugins)
+> How to find plugins?
+Type `L!plugins PluginName` in #support & #plugin-support channels.
 
 ## How to install themes
 - Join [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
