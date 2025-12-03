@@ -1,4 +1,4 @@
-# Aliucord guide for beginner users
+# Aliucord guide for beginners
 
 ## How to install Aliucord
 - [Aliucord Manager installation guide](https://github.com/Aliucord/Manager#installation)
