@@ -10,11 +10,9 @@
 - Go to [#plugins-list](https://discord.com/channels/811255666990907402/811275162715553823) or [#new-plugins](https://discord.com/channels/811255666990907402/845784407846813696) channels and hold any message (NOT THE LINK)
 - PluginDownloader/Install option will appear
 
-**Note:** Most of the plugins need an app restart so they can properly work.
-
-> How to find plugins?
-
-Type `L!plugins PluginName` in #support & #plugin-support channels.
+**Notes:**
+- Most of the plugins need an app restart so they can properly work.
+- PluginWeb plugin is recommended if you want a built-in plugin searching experience.
 
 ## How to install themes
 - Join [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
