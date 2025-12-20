@@ -37,6 +37,8 @@
 |Member since|[UserDetails](https://github.com/Juby210/Aliucord-plugins/raw/builds/UserDetails.zip)|
 |DMTabsV2|[DMTabs](https://github.com/OmegaSunkey/awesomeplugins/raw/builds/DMTabs.zip)|
 |Remove attachments individually|[AttachmentRemover](https://github.com/RazerTexz/My-plugins/raw/builds/AttachmentRemover.zip)|
+|Silent messages|[SilentMessages](https://github.com/RazerTexz/My-plugins/raw/builds/SilentMessages.zip)|
+|Compact message links|[MessageLinkCompact](https://github.com/LampDelivery/AliucordPlugins/raw/builds/MessageLinkCompact.zip)|
 
 ## Built-in to Aliucord
 - Viewing forwarded messages
