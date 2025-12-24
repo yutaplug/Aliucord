@@ -12,8 +12,8 @@ Locally:
 - Find the sound file
 - Click the 3 dots next to it & press `Copy Path`
 - Go to the plugin settings & paste it
-- Add `file:/` at the start
+- Add `file://` at the start
  
-Final result should be `file://storage/emulated/0/Example/Example.mp3`
+Final result should be `file:///storage/emulated/0/Example/Example.mp3`
 
 ![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fyutaplug.github.io%2FAliucord%2Fsounds&label=&icon=eye-fill&color=%23000&message=&style=flat&tz=UTC)
