@@ -6,4 +6,5 @@ This was made with the intention of:
 - Have every guide in one single place
 - Help Aliucord users in support channels
 # Credits
-Hit counter by https://hitscounter.dev
+- Hit counter by https://hitscounter.dev
+- Vitepress by nyx
