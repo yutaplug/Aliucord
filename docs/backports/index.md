@@ -1,7 +1,8 @@
 # What features have been backported to Aliucord?
-
+:::tip Legend
 - 💣: Broken or partially broken
 - 🚧: Still in development or beta
+  :::
 
 **Note:** To install the plugins from here you need to click the plugin name, it will download the plugin .zip, now just move it to the `Aliucord/plugins` folder using a file manager & restart Aliucord in case it was open.
 
