@@ -1,0 +1,24 @@
+{
+  "name": "aliucord-pages",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vue": "^3.5.14",
+    "vitepress": "^1.6.3"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  },
+  "dependencies": {
+    "@catppuccin/vitepress": "^0.1.2"
+  }
+}
