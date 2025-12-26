@@ -8,12 +8,12 @@ Compared to the RN client.
 |Shop|Discord decoration/orbs store
 |Ignoring users|Ignoring users (blocking without removing as friends)
 |Super reactions|The fancy reactions that are more annoying than normal ones
-|E2EE VC|End-to-end encryption in voice chats (or dms i think)
+|E2EE VC|End-to-end encryption in voice chats
 |Connection info|Steam games count, reddit karma count, etc.
 |Onboarding|Server onboarding
-|Managing join requests|Managing join requests (idk)
+|Managing join requests|Managing join requests
 |Family center|Family center
-|Post tagging|Adding tags to forums posts (before they're created
+|Post tagging|Adding tags to forums posts
 |In-game friends|In-game friends
 |Media channels|"They're a thing apparently"
 |Remixing images|Remixing images
