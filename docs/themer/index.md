@@ -12,11 +12,11 @@ First of all, you need to enable transparency in Themer settings (chat, chat & s
 - GitHub:
 
   - Create a GitHub account
-  - Create a repo (make sure its public)
+  - Create a repo (make sure it's public)
   - Click `Add file` and upload the image/gif
   - Once uploaded, click its name
   - Hold the image and copy the address
-  - Paste the link into Themer
+  - Go to Themer settings → your theme → `Background` & paste it
 
 - Locally:
   - Install [this file manager](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) & open it (or any file manager that lets you copy file paths)
@@ -37,11 +37,11 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
 
 - GitHub:
   - Create a GitHub account
-  - Create a repo (make sure its public)
+  - Create a repo (make sure it's public)
   - Click `Add file` and upload the font
   - Once uploaded, click its name
   - Hold `View raw` and copy the address
-  - Paste the link(s) into Themer
+  - Go to Themer settings → your theme → `Fonts` & paste it where the asterisk is
     :::tip
     If the font you want is already uploaded in some repo, you can just copy the raw link, no need to make your own repo.
     :::
