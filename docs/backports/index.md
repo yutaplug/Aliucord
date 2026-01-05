@@ -39,6 +39,7 @@
 | Remove attachments individually  | [AttachmentRemover](https://github.com/RazerTexz/My-plugins/raw/builds/AttachmentRemover.zip)                              |
 | Silent messages                  | [SilentMessages](https://github.com/RazerTexz/My-plugins/raw/builds/SilentMessages.zip)                                    |
 | Compact message links            | [MessageLinkCompact](https://github.com/LampDelivery/AliucordPlugins/raw/builds/MessageLinkCompact.zip)                    |
+| Channel browser                  | [ChannelBrowser](https://github.com/LampDelivery/AliucordPlugins/raw/builds/ChannelBrowser.zip)                            |
 
 ## Built-in to Aliucord
 
