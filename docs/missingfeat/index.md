@@ -21,5 +21,6 @@ Compared to the RN client.
 |Security keys|Security key to login
 |Gradient roles|Roles with fancy styles
 |Adding friends|Adding friends from the "Add friend" page
+|Message requests|Message requests
 
-For a list of backported features, see the Backports page.
+For a list of backported features, see the [Backports page](/backports).
