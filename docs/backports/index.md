@@ -14,8 +14,8 @@
 | Playing Audio files              | [AudioPlayer](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip) (fork) |
 | Forwarding messages              | [ForwardMessages](https://github.com/reisxd/AliucordPlugins/raw/builds/ForwardMessages.zip)                                |
 | Closing DMs from bottomsheet     | [CloseDMs](https://github.com/reisxd/AliucordPlugins/raw/builds/ForwardMessages.zip)                                       |
-| SlashCommandsV3                  | [SlashCommandsFix](https://github.com/LavaDesu/Awoocord/raw/builds/SlashCommandsFixBeta.zip) 🚧                            |
-| ComponentsV2                     | [ComponentsV2](https://github.com/LavaDesu/Awoocord/raw/builds/ComponentsV2Beta.zip) 🚧                                    |
+| Bot commands                     | [SlashCommandsFix](https://github.com/LavaDesu/Awoocord/raw/builds/SlashCommandsFixBeta.zip) 🚧                            |
+| Bot embeds                       | [ComponentsV2](https://github.com/LavaDesu/Awoocord/raw/builds/ComponentsV2Beta.zip) 🚧                                    |
 | Quests                           | [ViewQuests](https://github.com/nyxiereal/AliucordPlugins/raw/builds/ViewQuests.zip) 🚧                                    |
 | Summaries                        | [Summaries](https://github.com/MCausc78/RNSucks/raw/builds/Summaries.zip) 🚧                                               |
 | Embed playing                    | [Fluff](https://github.com/yutaplug/Aliucord/raw/main/stuff/Fluff.zip)                                                     |
@@ -27,7 +27,7 @@
 | Devices page                     | [Sessions](https://github.com/wingio/plugins/raw/builds/Sessions.zip) 💣                                                   |
 | Webhooks                         | [EditWebhooks](https://github.com/c10udburst-discord/aliucord-plugins/raw/builds/EditWebhooks.zip)                         |
 | Sorted searching                 | [Scout](https://github.com/LavaDesu/Awoocord/raw/builds/Scout.zip)                                                         |
-| Markdown syntax                  | [MoreHighlight](https://github.com/wingio/plugins/raw/builds/MoreHighlight.zip)                                            |
+| Markdown                         | [MoreHighlight](https://github.com/wingio/plugins/raw/builds/MoreHighlight.zip)                                            |
 | Connection icons                 | [UnknownConnectionIcons](https://github.com/nyakowint/AliuPlugins/raw/builds/UnknownConnectionIcons.zip)                   |
 | Copy message link                | [MessageLinkContext](https://github.com/wingio/plugins/raw/builds/MessageLinkContext.zip)                                  |
 | Delete embed                     | [DeleteEmbeds](https://github.com/c10udburst-discord/aliucord-plugins/raw/builds/DeleteEmbeds.zip)                         |
