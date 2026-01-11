@@ -1,6 +1,9 @@
 # Changelog
 
 ## 2.?.? (unknown version number yet)
+- Display guild tags
+- Implement nameplates
+- Allow installing plugins from #bot-spam channel
 - Fix avatar decorations alignment in DMs list
 
 ## 2.6.0 (current version)
