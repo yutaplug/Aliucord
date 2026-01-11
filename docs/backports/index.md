@@ -51,6 +51,8 @@
 - Pronouns
 - New profile badges (quests, developer, etc.)
 - Avatar decorations
+- Guild tags (soon in core, wait for a version bump)
+- Nameplates (soon in core, wait for a version bump)
 
 ## Aliucord from storage
 
@@ -72,8 +74,6 @@ You can also watch the [video instructions](https://github.com/user-attachments/
 
 **Backports that use this method**
 
-- [Guild tags, nameplates & display name styles (All in One)](https://nightly.link/LavaDesu/Aliucord/workflows/build/next/build.zip?status=completed)
-  - [Guild tags](https://nightly.link/LavaDesu/Aliucord/workflows/build/feat%2Ffluff_guildtag/build.zip?status=completed)
-  - [Nameplates](https://nightly.link/LavaDesu/Aliucord/workflows/build/feat%2Fdecor_nameplate/build.zip?status=completed)
-  - [Display name styles](https://nightly.link/LavaDesu/Aliucord/workflows/build/feat%2Fdecor_displaynamestyles/build.zip?status=completed)
+- [Guild tags & Nameplates](https://nightly.link/Aliucord/Aliucord/workflows/build/main/build.zip)
+- [Display name styles](https://nightly.link/LavaDesu/Aliucord/workflows/build/feat%2Fdecor_displaynamestyles/build.zip?status=completed)
 - [Account Standing](https://nightly.link/omardotdev/aliucar/workflows/build/feat%2Faccount-standing/build.zip?status=completed)
