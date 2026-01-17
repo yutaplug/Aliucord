@@ -68,7 +68,7 @@ GitLab also works.
 ## How to make the background work with full transparency
 
 - Open the [template](https://github.com/OasisVee/theme-templates/blob/main/full-transparency-background-template.json)
-- Press the download button
+- Press the 3 dots and download
 - Move the downloaded `.json` to your `Aliucord/themes` folder using a file manager & restart Aliucord if it was open
 - Go to Themer settings, enable full transparency & enable the theme
 - Go inside the theme settings → `Background` & paste the image/gif url
