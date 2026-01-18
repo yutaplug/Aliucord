@@ -26,7 +26,6 @@
 3. Install the [Themer plugin](https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/Themer.zip) (move the .zip to `Aliucord/plugins` folder & restart app)
 4. Go to [#themes](https://discord.com/channels/811255666990907402/824357609778708580) channel and hold any message (NOT THE LINK)
 5. Click on the first option ("Install [theme name]")
-6. Go to Themer plugin settings to enable it
 
 :::tip Tips
 
