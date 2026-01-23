@@ -5,8 +5,8 @@
 1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
 2. Make sure you are using the Aliucord app
 3. Go to [#plugins-list](https://discord.com/channels/811255666990907402/811275162715553823) or [#new-plugins](https://discord.com/channels/811255666990907402/845784407846813696) channels and hold any message (NOT THE LINK)
-4. Click on the first option ("Open Plugin Downloader")
-5. Click on any of the plugins shown in the Plugin Downloader to install them
+4. Click on the first option ("Open Plugin Downloader" for #plugins-list and "Install [plugin name]" for #new-plugins)
+5. Install the plugin you want
 
 :::tip Tips
 
