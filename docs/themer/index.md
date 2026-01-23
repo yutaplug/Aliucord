@@ -9,8 +9,7 @@
 
 First of all, you need to enable transparency in Themer settings (chat, chat & settings). If you want full transparency, you need to use the [template](#how-to-make-the-background-work-with-full-transparency).
 
-- GitHub:
-
+**GitHub:**
   - Create a GitHub account
   - Create a repo (make sure it's public)
   - Click `Add file` and upload the image/gif
@@ -18,7 +17,7 @@ First of all, you need to enable transparency in Themer settings (chat, chat & s
   - Hold the image and copy the address
   - Go to Themer settings → your theme → `Background` & paste it
 
-- Locally:
+**Locally:**
   - Install [this file manager](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) & open it (or any file manager that lets you copy file paths)
   - Find the image/gif file
   - Click the 3 dots next to it & press `Copy path`
@@ -35,7 +34,7 @@ GitLab, Imgbb & Imgur also work.
 
 First of all, you need to enable the `Enable Custom Fonts` option in Themer settings.
 
-- GitHub:
+**GitHub:**
   - Create a GitHub account
   - Create a repo (make sure it's public)
   - Click `Add file` and upload the font
@@ -45,7 +44,7 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
     :::tip
     If the font you want is already uploaded in some repo, you can just copy the raw link, no need to make your own repo.
     :::
-- Locally:
+**Locally:**
   - Install [this file manager](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) & open it (or any file manager that lets you copy file paths)
   - Find the font file
   - Click the 3 dots next to it & press `Copy path`
@@ -53,10 +52,6 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
   - Add `file:/` at the start
 
 Final result should be `file://storage/emulated/0/Example/Example.ttf`
-
-:::tip
-GitLab also works.
-:::
 
 ## Why does my background image not work
 
