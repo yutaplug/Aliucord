@@ -9,10 +9,9 @@
 5. Install the plugin you want
 
 :::tip Tips
-
 - Most plugins need an app restart to work properly.
 - The PluginWeb plugin is recommended if you want a built-in plugin list.
-  :::
+:::
 
 ## How to install themes
 
@@ -23,11 +22,9 @@
 5. Click on the first option ("Install [theme name]")
 
 :::tip Tips
-
 - After installing a theme you should go to Themer settings to enable it.
 - Themes require an app restart to work properly.
-- [Additional info about Themer plugin](/themer/)
-  :::
+:::
 
 ## How to install plugins manually
 
