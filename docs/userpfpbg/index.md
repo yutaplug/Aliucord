@@ -6,7 +6,6 @@
 - Read `#avatar-rules` before proceeding
 - Go to `#request-here` and use the `/request` command
 - Add the gif you want
-- You will get a ping whenever it has been added or rejected
 - When it's accepted go to the plugin settings and click "Redownload databases"
 - Restart Aliucord to see the changes
 
@@ -17,5 +16,5 @@
 - Use the `/bg` command in any channel that you can type in
 - Add the image/gif you want
 - Check `#userbg-log` to see if it has been accepted or not
-- Go to the plugin settings and click "Redownload databases"
+- When it's accepted go to the plugin settings and click "Redownload databases"
 - Restart Aliucord to see the changes
