@@ -13,3 +13,5 @@
 - Ip fork by Serinova fixes the `/ip` command.
 
 - SendEmbeds fork by Serinova makes the `/embed` command work again by using directwebhook (original API died).
+
+- PersistSettings fork by Archimedes makes the plugin work again in 126.21 version.
