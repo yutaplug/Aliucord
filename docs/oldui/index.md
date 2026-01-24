@@ -1,4 +1,3 @@
-
 # Why does Aliucord use an old Discord version?
 
 1. React Native is very slow compared to Kotlin. RN is a framework for building apps using JavaScript, which is not as performant as Kotlin code. Discord's React Native version is known to have performance issues, especially on lower-end devices, because the app has been ported from iOS over to Android.
@@ -21,4 +20,4 @@ Backporting is the process of porting a software update that was developed for a
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Backporting)
 :::
 
-6. Modded clients for the new Discord version already exist, such as [Kettu](https://github.com/C0C0B01/KettuManager/releases/).
+6. Modded clients for the new Discord version already exist, such as [Kettu](https://www.raincord.dev/kettu) or [Shiggycord](https://shiggycord.dev).
