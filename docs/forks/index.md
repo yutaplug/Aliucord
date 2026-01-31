@@ -2,7 +2,7 @@
 
 To install them, download the plugin .zip and move it to the `Aliucord/plugins` folder using a file manager & restart Aliucord in case it was open.
 
-|Feature|Download|
+|Fork|Download|
 |-|-|
 |AudioPlayer fork by Halkion fixes crashes and some bugs with audio files.|[Download AudioPlayer fork](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip)|
 |Waifuim, NekosLife forks by Serinova fix the commands being fully broken. Additionally, Serinova made a plugin called AnimeImageFetch containing NSFW since NekosLife doesnt contain NSFW anymore.|[Download Waifuim fork](https://github.com/OasisVee/AliucordPlugins3/raw/builds/Waifuim.zip), [Download NekosLife fork](https://github.com/OasisVee/AliucordPlugins3/raw/builds/NekosLife.zip), [Download AnimeImageFetch](https://github.com/OasisVee/my-plugins/raw/builds/AnimeImageFetch.zip)|
