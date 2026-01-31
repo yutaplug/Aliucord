@@ -2,7 +2,7 @@
 
 This page only shows the most relevant/important changes for most Aliucord users, if you want to see more internal changes that are not that relevant for normal Aliucord users, see the [commits page](https://github.com/Aliucord/Aliucord/commits/main).
 
-## 2.?.? (unknown version number yet)
+## 2.?.? (NOT AVAILABLE YET)
 - Remove sideloading block warning
 - Properly display decos during message send
 - Display guild tags
@@ -10,7 +10,7 @@ This page only shows the most relevant/important changes for most Aliucord users
 - Allow installing plugins from #bot-spam channel
 - Fix avatar decorations alignment in DMs list
 
-## 2.6.0 (current version)
+## 2.6.0 (CURRENT VERSION)
 - Temporarily fix Voice Chat until March
 - Implement avatar decorations
 - Fix animated webp emojis not rendering
