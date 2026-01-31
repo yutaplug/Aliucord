@@ -1,5 +1,7 @@
 # Changelog
 
+This page only shows the most relevant/important changes for most Aliucord users, if you want to see more internal changes that are not that relevant for normal Aliucord users, see the [commits page](https://github.com/Aliucord/Aliucord/commits/main).
+
 ## 2.?.? (unknown version number yet)
 - Remove sideloading block warning
 - Properly display decos during message send
@@ -12,7 +14,7 @@
 - Temporarily fix Voice Chat until March
 - Implement avatar decorations
 - Fix animated webp emojis not rendering
-- Add safe mode (disables all plugins)
+- Add safe mode to disable all plugins
 - Add missing experiments
 - Disable smooth keyboard animation
 - Add new Discord badges
@@ -25,7 +27,7 @@
 - Fix links opening in aliucord's window instead of the link's app window (such as youtube)
 
 ## 2.4.0
-- User decorations coming soon (there's a coreplugin that lays the underground, they are not visible yet tho)
+- User decorations coming soon
 - Add Google sideloading block warning
 - Rich video embed fix (such as fxtwitter)
 - Italicize CorePlugins for /plugins command
@@ -34,14 +36,11 @@
 - Disable school hubs dialog
 - Add support for avif
 - Remove billing
-- Prevent overriding CorePlugins with external plugins in PluginDownloader
 - Support new pin features
 - Fix duplicate install buttons in #plugin-development channel
-- Use original ref from links in PluginDownloader
 
 ## 2.3.1
 - Fix various poll bugs
-- Add fallback gif format sticker
-- NPE when leaving guild with forwarded msg loaded (fixes a crash when leaving a server with a forwarded message loaded)
-- Handle unknown new reply message types (fixes reply previews)
+- Fix a crash when leaving a server with a forwarded message loaded
+- Fix reply previews
 - Add AlignThreads fix as a CorePlugin
