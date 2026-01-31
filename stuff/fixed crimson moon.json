@@ -1,8 +1,8 @@
 {
     "manifest": {
         "version": "1.0.0",
-        "author": "[change me in manifest]",
-        "name": "full-transparency-background-template"
+        "author": "yutaplug",
+        "name": "Fixed Crimson Moon"
     },
     "background": {
         "url": "https:\/\/gitlab.com\/Grzesiek11\/aliucord-theme-mirror\/-\/raw\/master\/assets\/Crimson%20moon\/1686790640350.jpg"
