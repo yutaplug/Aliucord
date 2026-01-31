@@ -1,6 +1,8 @@
 # Changelog
 
 ## 2.?.? (unknown version number yet)
+- Remove sideloading block warning
+- Properly display decos during message send
 - Display guild tags
 - Implement nameplates
 - Allow installing plugins from #bot-spam channel
