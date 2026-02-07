@@ -5,7 +5,7 @@ You can install Aliucord [here](https://github.com/Aliucord/Manager/releases/dow
 1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
 2. Make sure you are using the Aliucord app
 3. Go to [#plugins-list](https://discord.com/channels/811255666990907402/811275162715553823) or [#new-plugins](https://discord.com/channels/811255666990907402/845784407846813696) channels and hold any message or link
-4. Click on "View [Author]'s Plugins" (for #new-plugins, if you hold message or link you can directly install the plugin you want by pressing "Install [Plugin]"
+4. Click on "View [Author]'s Plugins" (for #new-plugins, if you hold message or link you can directly install the plugin you want by pressing "Install [Plugin name]"
 5. Install the plugin you want
 
 :::tip Tips
@@ -19,7 +19,7 @@ You can install Aliucord [here](https://github.com/Aliucord/Manager/releases/dow
 2. Make sure you are using the Aliucord app
 3. Install the [Themer plugin](https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/Themer.zip) (move the .zip to `Aliucord/plugins` folder & restart app)
 4. Go to [#themes](https://discord.com/channels/811255666990907402/824357609778708580) channel and hold any message (NOT THE LINK)
-5. Click on the first option ("Install [theme name]")
+5. Click on the first option ("Install [Theme name]")
 
 :::tip Tips
 - After installing a theme you should go to Themer settings to enable it.
