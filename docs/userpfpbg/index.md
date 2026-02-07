@@ -11,7 +11,7 @@
 
 ## UserBG
 - Make sure you have the plugin installed
-- Join the [UserBG server](https://discord.gg/TeRQEPb)
+- Join the [UserBG server](https://discord.gg/ECg96KZ3Fh)
 - Read `#usrbg-guide` before proceeding
 - Use the `/bg` command in any channel that you can type in
 - Add the image/gif you want
