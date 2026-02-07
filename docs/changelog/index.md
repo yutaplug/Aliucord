@@ -2,7 +2,7 @@
 
 This page only shows the most relevant/important changes for most Aliucord users, if you want to see more internal changes that are not that relevant for normal Aliucord users, see the [commits page](https://github.com/Aliucord/Aliucord/commits/main).
 
-## 2.?.? (NOT AVAILABLE YET)
+## 2.7.0 (CURRENT VERSION)
 - Allow installing plugins from link context menu
 - Fix token login
 - Fix "Hide Muted Channels" option accidentally hiding muted threads with unread mentions from channel list
@@ -14,7 +14,7 @@ This page only shows the most relevant/important changes for most Aliucord users
 - Allow installing plugins from #bot-spam channel
 - Fix avatar decorations alignment in DMs list
 
-## 2.6.0 (CURRENT VERSION)
+## 2.6.0
 - Temporarily fix Voice Chat until March
 - Implement avatar decorations
 - Fix animated webp emojis not rendering
