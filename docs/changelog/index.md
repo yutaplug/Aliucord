@@ -2,7 +2,7 @@
 
 This page only shows the most relevant/important changes for most Aliucord users, if you want to see more internal changes that are not that relevant for normal Aliucord users, see the [commits page](https://github.com/Aliucord/Aliucord/commits/main).
 
-## 2.7.1
+## 2.7.1 (CURRENT VERSION)
 - Support slowmode permission
 - Unhide when threads have unread mentions (fixes collapsing bug)
 - Account for admin/owner perms
