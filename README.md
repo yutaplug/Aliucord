@@ -1,2 +1,1 @@
-# Credits
-Nyx
+Aliucord documentation
