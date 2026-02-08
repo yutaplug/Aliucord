@@ -8,10 +8,9 @@ You can install Aliucord [here](https://github.com/Aliucord/Manager/releases/dow
 4. Click on "View [Author]'s Plugins" (for #new-plugins, if you hold message or link you can directly install the plugin you want by pressing "Install [Plugin name]")
 5. Install the plugin you want
 
-:::tip Tips
+**Notes:**
 - Most plugins need an app restart to work properly.
 - The PluginWeb plugin is recommended if you want a built-in plugin list.
-:::
 
 ## How to install themes
 
@@ -21,17 +20,16 @@ You can install Aliucord [here](https://github.com/Aliucord/Manager/releases/dow
 4. Go to [#themes](https://discord.com/channels/811255666990907402/824357609778708580) channel and hold any message (NOT THE LINK)
 5. Click on the first option ("Install [Theme name]")
 
-:::tip Tips
+**Notes:**
 - After installing a theme you should go to Themer settings to enable it.
 - Themes require an app restart to work properly.
-:::
 
 ## How to install plugins manually
 
 Required for [#unmaintained-plugins](https://discord.com/channels/811255666990907402/861935147272110100) channel
-:::tip
+
+**Note:**
 If you already have the plugin .zip, just follow two last steps.
-:::
 
 1. Go to any plugin repository ([like this one](https://github.com/Juby210/Aliucord-plugins))
 2. Click the branch button and select `builds`  
