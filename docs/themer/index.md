@@ -23,10 +23,6 @@ First of all, you need to enable transparency in Themer settings (chat, chat & s
 
 Final result should be `file://storage/emulated/0/Example/Example.jpg`
 
-:::tip
-GitLab, Imgbb & Imgur also work.
-:::
-
 ## How to set a custom font
 
 First of all, you need to enable the `Enable Custom Fonts` option in Themer settings.
