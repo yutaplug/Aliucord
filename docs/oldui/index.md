@@ -6,18 +6,8 @@
 
 - Aliucord developers don't like to work with the new one. [Notice from the AliucordRN repository](https://github.com/Aliucord/AliucordRN#-notice-)
 
-- If Aliucord ceases to exist, there wouldn't be any active clients using the good old Discord version.
+- If Aliucord ceases to exist, there wouldn't be any active clients using the good old Discord version. [Bluecord situation](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties#user-content-fn-8-9830c9da557f0042dfc833eae2becd36)
 
-:::warning Bluecord
-Bluecord is also a modded client for the old version of Discord, but the main developer is not a good person, so we don't recommend using it.  
-Source: [Google Drive](https://drive.google.com/drive/mobile/folders/1Y2m2lMSpN3GlOcXyceaO88Ljnr8xuNcp)
-:::
-
-- Features from new Discord versions can be backported to the old one.
-
-:::tip What does backporting mean?
-Backporting is the process of porting a software update that was developed for a relatively current version of a software entity, to an older version of the software.  
-Source: [Wikipedia](https://en.wikipedia.org/wiki/Backporting)
-:::
+- Features from new Discord versions can be backported to the old one. [What does backporting mean?](https://en.wikipedia.org/wiki/Backporting)
 
 - Modded clients for the new Discord version already exist, such as [Kettu](https://www.raincord.dev/kettu) or [Shiggycord](https://shiggycord.dev).
