@@ -321,7 +321,7 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
   - Hold `View raw` and copy the address
   - Go to Themer settings → your theme → `Fonts` & paste it where the asterisk is
 
-    **Note:** If the font you want is already uploaded in some repo, you can just copy the raw link, no need to make your own repo.
+**Note:** If the font you want is already uploaded in some repo, you can just copy the raw link, no need to make your own repo.
 
 **Locally:**
   - Install [this file manager](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) & open it (or any file manager that lets you copy file paths)
