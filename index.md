@@ -1,3 +1,7 @@
+# Aliucord documentation
+
+Unofficial documentation for the Aliucord app.
+
 # What features have been backported to Aliucord?
 
 - 💣: Broken or partially broken
@@ -80,7 +84,9 @@ You can also watch the [video instructions](https://github.com/user-attachments/
 ---
 
 # Aliucord guide for beginners
+
 You can install Aliucord [here](https://github.com/Aliucord/Manager/releases/download/v1.2.1/aliucord-manager-v1.2.1.apk).
+
 ## How to install plugins
 
 1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
@@ -113,8 +119,7 @@ Required for [#unmaintained-plugins](https://discord.com/channels/81125566699090
 If you already have the plugin .zip, just follow two last steps.
 
 1. Go to any plugin repository ([like this one](https://github.com/Juby210/Aliucord-plugins))
-2. Click the branch button and select `builds`  
-![branch selector](image.png)
+2. Click the branch button and select `builds`
 3. Click the `[PluginName].zip` of the plugin you want
 4. Click `Raw`, `View raw` or the download button to download the .zip file
 5. Using a file manager ([we recommend Material Files](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) ([F-Droid](https://f-droid.org/packages/me.zhanghai.android.files/))) move the downloaded `.zip` to the `Aliucord/plugins` folder
