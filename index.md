@@ -2,7 +2,7 @@
 
 Unofficial documentation for the Aliucord app.
 
-# What features have been backported to Aliucord?
+# Backports
 
 - 💣: Broken or partially broken
 - 🚧: Still in development or beta
@@ -83,7 +83,7 @@ You can also watch the [video instructions](https://github.com/user-attachments/
 
 ---
 
-# Aliucord guide for beginners
+# Beginner
 
 You can install Aliucord [here](https://github.com/Aliucord/Manager/releases/download/v1.2.1/aliucord-manager-v1.2.1.apk).
 
@@ -190,7 +190,7 @@ This page only shows the most relevant/important changes for most Aliucord users
 
 ---
 
-# Plugin forks
+# Forks
 
 To install them, download the plugin .zip and move it to the `Aliucord/plugins` folder using a file manager & restart Aliucord in case it was open.
 
@@ -210,7 +210,7 @@ To install them, download the plugin .zip and move it to the `Aliucord/plugins` 
 
 ---
 
-# Features missing from Aliucord
+# Missing Features
 
 Compared to the RN client.
 
@@ -239,7 +239,7 @@ For a list of backported features, see the [Backports](/backports) page.
 
 ---
 
-# How to make Aliucord look like modern Discord
+# New interface
 
 This is not really possible due to Aliucord using an old Discord version. However, there are two themes ([DiscordRN Dark](https://discord.com/channels/811255666990907402/824357609778708580/1396601756187885659) & [Discord Midnight theme](https://discord.com/channels/811255666990907402/824357609778708580/1400698799600570398)) that replicate the color & font of it (the UI itself is not possible to replicate).
 
@@ -247,7 +247,7 @@ Alternatively, you can search for another modified Discord client that uses the 
 
 ---
 
-# Why does Aliucord use an old Discord version?
+# Old version
 
 - The new Discord app is React Native while the Discord version that Aliucord uses (126.21) is Kotlin. React Native is very slow compared to Kotlin. RN is a framework for building apps using JavaScript, which is not as performant as Kotlin code. Discord's React Native version is known to have performance issues, especially on lower-end devices, because the app has been ported from iOS over to Android.
 
@@ -263,7 +263,7 @@ Alternatively, you can search for another modified Discord client that uses the 
 
 ---
 
-# How to use StartupSound, NoticeSound & CustomSounds plugins
+# Sounds
 
 **GitHub:**
   - Create a GitHub account
@@ -284,7 +284,7 @@ Final result should be `file:///storage/emulated/0/Example/Example.mp3`
 
 ---
 
-# Themer plugin guide
+# Themer
 
 **Note:** Reading the [Documentation](https://github.com/Aliucord/documentation/blob/main/theme-dev) and using the [Theme maker site](https://aliucord.com/theme-maker) can help you make your own theme.
 
@@ -350,7 +350,7 @@ Final result should be `file://storage/emulated/0/Example/Example.ttf`
 
 ---
 
-# How to use UserPFP & UserBG plugins
+# Profile
 
 ## UserPFP
 - Make sure you have the plugin installed
