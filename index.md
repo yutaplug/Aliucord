@@ -267,6 +267,8 @@ Alternatively, you can search for another modified Discord client that uses the 
 
 # Sounds
 
+**How to use CustomSounds, StartupSound and NoticeSound plugins**
+
 **GitHub:**
   - Create a GitHub account
   - Create a repo (make sure it's public)
