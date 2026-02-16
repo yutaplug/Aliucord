@@ -357,7 +357,7 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
 
 ---
 
-# UserPFP/BG
+# UserPFP and BG
 
 ## UserPFP
 - Make sure you have the plugin installed
@@ -377,5 +377,6 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
 - Check `#userbg-log` to see if it has been accepted or not
 - When it's accepted go to the plugin settings and click "Redownload databases"
 - Restart Aliucord to see the changes
+
 
 <style>html, body, .markdown-body, table, tr, td, th { background-color: #121212 !important; color: white !important; } h1, h2 { border-bottom: none !important; }</style>
