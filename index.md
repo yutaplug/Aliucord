@@ -370,6 +370,19 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
 - Restart Aliucord to see the changes
 
 <style>
-  html, body { background-color: #121212 !important; color: white !important; }
-  .markdown-body { background-color: #121212 !important; color: white !important; }
+  /* Your existing code */
+  html, body { 
+      background-color: #121212 !important; 
+      color: white !important; 
+  }
+  .markdown-body { 
+      background-color: #121212 !important; 
+      color: white !important; 
+  }
+
+  /* Fix for tables */
+  table, tr, td, th {
+      background-color: #121212 !important;
+      color: white !important;
+  }
 </style>
