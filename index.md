@@ -214,7 +214,7 @@ To install them, download the plugin .zip and move it to the `Aliucord/plugins` 
 
 # Missing Features
 
-Compared to the RN client.
+Compared to the React Native client.
 
 |Feature|Notes|
 |-|-|
