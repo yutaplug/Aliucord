@@ -87,7 +87,7 @@ You can also watch the [video instructions](https://github.com/user-attachments/
 
 ---
 
-# Beginner
+# Beginner guide
 
 You can install Aliucord [here](https://github.com/Aliucord/Manager/releases/download/v1.2.1/aliucord-manager-v1.2.1.apk).
 
