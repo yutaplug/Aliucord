@@ -1,13 +1,18 @@
 <style>
-  /* 1. Turn the whole page dark by inverting colors */
-  html, body {
-      filter: invert(1) hue-rotate(180deg);
-      background-color: white !important; /* Ensure base is white so it inverts to black */
+  /* Your existing code */
+  html, body { 
+      background-color: #121212 !important; 
+      color: white !important; 
+  }
+  .markdown-body { 
+      background-color: #121212 !important; 
+      color: white !important; 
   }
 
-  /* 2. "Un-invert" images so they look normal again */
-  img, video, iframe {
-      filter: invert(1) hue-rotate(180deg);
+  /* Fix for tables */
+  table, tr, td, th {
+      background-color: #121212 !important;
+      color: white !important;
   }
 </style>
 
