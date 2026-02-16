@@ -1,3 +1,16 @@
+<style>
+  /* 1. Turn the whole page dark by inverting colors */
+  html, body {
+      filter: invert(1) hue-rotate(180deg);
+      background-color: white !important; /* Ensure base is white so it inverts to black */
+  }
+
+  /* 2. "Un-invert" images so they look normal again */
+  img, video, iframe {
+      filter: invert(1) hue-rotate(180deg);
+  }
+</style>
+
 # Aliucord documentation
 
 Unofficial documentation for the Aliucord app.
@@ -368,21 +381,3 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
 - Check `#userbg-log` to see if it has been accepted or not
 - When it's accepted go to the plugin settings and click "Redownload databases"
 - Restart Aliucord to see the changes
-
-<style>
-  /* Your existing code */
-  html, body { 
-      background-color: #121212 !important; 
-      color: white !important; 
-  }
-  .markdown-body { 
-      background-color: #121212 !important; 
-      color: white !important; 
-  }
-
-  /* Fix for tables */
-  table, tr, td, th {
-      background-color: #121212 !important;
-      color: white !important;
-  }
-</style>
