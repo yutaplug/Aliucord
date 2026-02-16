@@ -2,6 +2,8 @@
 
 Unofficial documentation for the Aliucord app.
 
+---
+
 # Backports
 
 - 💣: Broken or partially broken
