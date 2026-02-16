@@ -348,6 +348,8 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
 
 ---
 
+# UserPFP/BG
+
 ## UserPFP
 - Make sure you have the plugin installed
 - Join the [UserPFP server](https://discord.gg/userpfp-1129784704267210844)
