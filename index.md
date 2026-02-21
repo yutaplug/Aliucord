@@ -385,34 +385,22 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
 
 # How to logcat
 
-**How to logcat Aliucord errors for bug reporting** (original guide by hairyfred)
+A logcat provides invaluable information about any errors that occurred in our app(s) or related errors
+on your device for further debugging. (Do **NOT** apply **ANY** filters!)
 
-## Rooted (Easiest) 
-1. Install your preferred logcat viewer (but in this guide I'm going to use matlog)
-2. Open Matlog and grant root access
-3. By default it should start logging but if not press the play button
-4. Recreate your issue by opening Aliucord and repeating what caused your bug/error/crash
-5. Go back to matlog and press the pause button to stop logging
-6. Search Aliucord and logs related to Aliucord should appear
-7. Find where you crashed (Easiest way to do this is by using timestamps) , expand the error and screenshot it (exporting the whole log is better but normally the singular error is enough)
-8. Send that screenshot to Aliucords #support channel
+You will need:
+- A computer
+- ADB installed ([Windows tutorial](<https://streamable.com/h0618w>))
 
-## Non Root (PC Required)
-1. Install your preferred logcat viewer (but in this guide I'm going to use matlog)
-2. Enable Developer options (Google this if you don't know how)
-3. In Developer options Enable USB Debugging
-4. On your PC install ADB drivers from here <https://is.gd/dp0iAb> (you can install them officially or elsewhere, this is just a simple method to explain)
-5. After installation plug your device into your PC and a pop up on the device should ask to allow this PC to use ADB , press allow
-6. Open Powershell/cmd and run the command ADB devices , if a device comes up you have followed the instructions successfully
-7. run "adb shell pm grant com.pluscubed.matlog android.permission.READ_LOGS" , this will allow matlog to function without root access (just replace the matlog package name with your preferred one in the non root guide)
-8. Follow the rooted guide from step 3
-
-## Non Root (No PC Required BUT Android 9+ AND some devices are missing wireless adb)
-1. Install your preferred logcat viewer (but in this guide I'm going to use matlog)
-2. Check if you have wireless adb, go to developer settings (Guide how to enable developer settings <https://is.gd/uq8mno>) and near Enable USB Debugging you should see Wireless Debugging (<https://is.gd/FzcAWk>)
-	2.5 If you can't see Wireless Debugging, this method will not work :(
-3. In developer settings enable "USB Debugging" and enable "Wireless Debugging"
-4. Install LADB from <https://github.com/ShiroBlank/LADB/releases/tag/sex> - Thank you Shiro for kindly building
-5. <https://is.gd/wflFTQ> Im linking this guide because it has gifs that explain the process a lot better than I can, follow step 4's instructions then return here
-6. Hopefully you have LADB up and running , if so run the command "adb shell pm grant com.pluscubed.matlog android.permission.READ_LOGS" , this will allow matlog to function without root access (just replace the matlog package name with your preferred one)
-7. After opening matlog, follow the root guide from step 3 onwards
+1. Enable USB debugging in your phone's developer options
+2. Run the following command in a terminal (cmd for Windows):
+```sh
+adb logcat -c
+```
+3. If you have not previously authorized adb on your phone, open it now and authorize your pc
+4. Now open OpenCord and reproduce the issue
+5. Run the following command now
+```sh
+adb logcat -d > logcat.txt
+```
+6. The generated logcat will be in your user home directory
