@@ -398,7 +398,7 @@ You will need:
 adb logcat -c
 ```
 3. If you have not previously authorized adb on your phone, open it now and authorize your pc
-4. Now open OpenCord and reproduce the issue
+4. Now open Aliucord and reproduce the issue
 5. Run the following command now
 ```sh
 adb logcat -d > logcat.txt
