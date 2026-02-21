@@ -385,10 +385,6 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
 
 **How to logcat Aliucord errors for bug reporting**
 
-**Note:** ~~You need root or pc access at least once , there is no way around this requirement~~
-
-**There is now a method without needing root or a pc BUT it only works on android 9+**
-    
 ## Rooted (Easiest) 
 1. Install your preferred logcat viewer (but in this guide I'm going to use matlog)
 2. Open Matlog and grant root access
