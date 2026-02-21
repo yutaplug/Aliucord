@@ -381,9 +381,11 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
 - When it's accepted go to the plugin settings and click "Redownload databases"
 - Restart Aliucord to see the changes
 
+---
+
 # How to logcat
 
-**How to logcat Aliucord errors for bug reporting**
+**How to logcat Aliucord errors for bug reporting** (original guide by hairyfred)
 
 ## Rooted (Easiest) 
 1. Install your preferred logcat viewer (but in this guide I'm going to use matlog)
