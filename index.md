@@ -393,14 +393,8 @@ You will need:
 - ADB installed ([Windows tutorial](<https://streamable.com/h0618w>))
 
 1. Enable USB debugging in your phone's developer options
-2. Run the following command in a terminal (cmd for Windows):
-```sh
-adb logcat -c
-```
+2. Run the following command in a terminal (cmd for Windows): `adb logcat -c`
 3. If you have not previously authorized adb on your phone, open it now and authorize your pc
 4. Now open Aliucord and reproduce the issue
-5. Run the following command now
-```sh
-adb logcat -d > logcat.txt
-```
+5. Run the following command now: `adb logcat -d > logcat.txt`
 6. The generated logcat will be in your user home directory
