@@ -270,7 +270,7 @@ Alternatively, you can search for another modified Discord client that uses the 
 
 - Features from new Discord versions can be backported to the old one. [What does backporting mean?](https://en.wikipedia.org/wiki/Backporting)
 
-- Modded clients for the new Discord version already exist, such as [Kettu](https://www.raincord.dev/kettu) or [Shiggycord](https://shiggycord.dev).
+- Modded clients for the new Discord version already exist, such as [Kettu](https://github.com/C0C0B01/KettuManager/releases/download/1220/Manager.apk).
 
 ---
 
