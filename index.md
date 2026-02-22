@@ -94,9 +94,7 @@ You can also watch the [video instructions](https://github.com/user-attachments/
 
 ## How to install Aliucord
 
-You can install Aliucord [here](https://github.com/Aliucord/Manager/releases).
-
-<video src="https://github.com/user-attachments/assets/bae2ea76-ef04-4497-a1ef-92fb45c73426" controls="controls" width="500"></video>
+You can install Aliucord [here](https://github.com/Aliucord/Manager/releases). Also watch the [video instructions](https://github.com/user-attachments/assets/bae2ea76-ef04-4497-a1ef-92fb45c73426).
 
 ## How to install plugins
 
