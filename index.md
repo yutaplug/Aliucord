@@ -97,6 +97,7 @@ You can also watch the [video instructions](https://github.com/user-attachments/
 You can install Aliucord [here](https://github.com/Aliucord/Manager/releases).
 
 ![](https://github.com/user-attachments/assets/bae2ea76-ef04-4497-a1ef-92fb45c73426)
+<video src="https://github.com/user-attachments/assets/bae2ea76-ef04-4497-a1ef-92fb45c73426" controls preload></video>
 
 ## How to install plugins
 
