@@ -398,3 +398,29 @@ You will need:
 4. Now open Aliucord and reproduce the issue
 5. Run the following command now: `adb logcat -d > logcat.txt`
 6. The generated logcat will be in your user home directory
+
+---
+
+# Plugin FAQ
+
+**Read this before using `!plugins` command!**
+
+1. For fakenitro plugins, type `!fakenitro`.
+
+2. Do not use "Repo" plugins (PluginRepo/ThemeRepo), they are broken & outdated. Use PluginWeb/ThemeWeb instead.
+
+3. If you are looking for a plugin to fix markdown such as # headers, -# subtext, [hyperlinks](https://example.com), install MoreHighlight.
+
+4. To fix slash commands and bot embeds, install SlashCommandsFixBeta & ComponentsV2Beta.
+
+5. No, there is no plugin for RPC.
+
+6. TapTap is better than SwipeToReply.
+
+7. SimpleMessageLogger has less bugs and it's lighter than normal MessageLogger, but it doesn't have a database.
+
+8. No, a plugin for new/modern ui doesn't exist. Use [Kettu](https://github.com/C0C0B01/KettuManager/releases/download/1220/Manager.apk) if you want a React Native mod client.
+
+9. No, there is no soundboard plugin.
+
+10. install VoiceMessages if you want to send voice messages, AudioPlayer if you want to play them (but don't install the original one, install the [fork](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip)!)
