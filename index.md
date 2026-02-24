@@ -424,7 +424,7 @@ You will need:
 
 9. No, there is no soundboard plugin.
 
-10. Install VoiceMessages if you want to send voice messages. AudioPlayer if you want to play them. But don't install the original one (it has issues), install the [fork](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip) instead.
+10. Do not install original AudioPlayer, it has issues and it's outdated. Install the [fork](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip) instead.
 
 11. No, there is no plugin to mass/bulk delete messages/dms.
 
