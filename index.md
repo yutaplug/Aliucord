@@ -427,6 +427,4 @@ You will need:
 
 10. Install VoiceMessages if you want to send voice messages. AudioPlayer if you want to play them. But don't install the original one (it has issues), install the [fork](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip) instead.
 
-11. No, it is not possible to see inside hidden channels.
-
-12. No, there is no plugin to mass/bulk delete messages/dms.
+11. No, there is no plugin to mass/bulk delete messages/dms.
