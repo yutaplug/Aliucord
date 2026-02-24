@@ -427,3 +427,5 @@ You will need:
 10. Install VoiceMessages if you want to send voice messages. AudioPlayer if you want to play them. But don't install the original one (it has issues), install the [fork](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip) instead.
 
 11. No, there is no plugin to mass/bulk delete messages/dms.
+
+12. Do not use PlayableEmbeds, its outdated and broken. Use [Fluff](https://github.com/yutaplug/Aliucord/raw/main/stuff/Fluff.zip) instead.
