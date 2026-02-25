@@ -408,24 +408,24 @@ You will need:
 
 1. For fakenitro plugins, type `!fakenitro`.
 
-2. Do not use "Repo" plugins (PluginRepo/ThemeRepo), they are broken & outdated. Use PluginWeb/ThemeWeb instead.
+2. Don't use "Repo" plugins (PluginRepo/ThemeRepo), they are broken & outdated. Use PluginWeb/ThemeWeb instead.
 
-3. If you are looking for a plugin to fix markdown such as # headers, -# subtext, [hyperlinks](https://example.com), install MoreHighlight.
+4. If you are looking for a plugin to fix markdown such as # headers, -# subtext, [hyperlinks](https://example.com), install MoreHighlight.
 
-4. To fix slash commands and bot embeds, install SlashCommandsFixBeta & ComponentsV2Beta.
+5. To fix slash commands and bot embeds, install SlashCommandsFixBeta & ComponentsV2Beta.
 
-5. No, there is no plugin for RPC.
+6. No, there is no plugin for RPC.
 
-6. TapTap is better than SwipeToReply.
+7. TapTap is better than SwipeToReply.
 
-7. SimpleMessageLogger has less bugs and it's lighter than normal MessageLogger, but it doesn't have a database.
+8. SimpleMessageLogger has less bugs and it's lighter than normal MessageLogger, but it doesn't have a database.
 
-8. No, a plugin for new/modern ui doesn't exist. Use [Kettu](https://github.com/C0C0B01/KettuManager/releases/download/1220/Manager.apk) if you want a React Native mod client.
+9. No, a plugin for new/modern ui doesn't exist. Use [Kettu](https://github.com/C0C0B01/KettuManager/releases/download/1220/Manager.apk) if you want a React Native mod client.
 
-9. No, there is no soundboard plugin.
+10. No, there is no soundboard plugin.
 
-10. Do not install original AudioPlayer, it has issues and it's outdated. Install the [fork](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip) instead.
+11. Don't install original AudioPlayer, it has issues and it's outdated. Install the [fork](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip) instead.
 
-11. No, there is no plugin to mass/bulk delete messages/dms.
+12. No, there is no plugin to mass/bulk delete messages/dms.
 
-12. Do not use PlayableEmbeds, its outdated and broken. Use [Fluff](https://github.com/yutaplug/Aliucord/raw/main/stuff/Fluff.zip) instead.
+13. Don't use PlayableEmbeds, it's outdated and broken. Use [Fluff](https://github.com/yutaplug/Aliucord/raw/main/stuff/Fluff.zip) instead.
