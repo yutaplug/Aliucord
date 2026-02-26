@@ -386,6 +386,8 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
 
 # How to logcat
 
+**Note:** You will need a computer, if you don't have one, read [this](https://pastebin.com/pNhXwhrd) instead.
+
 A logcat provides invaluable information about any errors that occurred in our app(s) or related errors
 on your device for further debugging. (Do **NOT** apply **ANY** filters!)
 
