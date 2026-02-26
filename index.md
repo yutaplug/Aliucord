@@ -408,24 +408,26 @@ You will need:
 
 **Read this before using `!plugins` command!**
 
-1. Don't use "Repo" plugins (PluginRepo/ThemeRepo), they are broken & outdated. Use PluginWeb/ThemeWeb instead.
+1. Type `!fakenitro` for fakenitro plugins.
 
-2. If you are looking for a plugin to fix markdown such as # headers, -# subtext, [hyperlinks](https://example.com), install MoreHighlight.
+2. Don't use "Repo" plugins (PluginRepo/ThemeRepo), they are broken & outdated. Use PluginWeb/ThemeWeb instead.
 
-3. To fix slash commands and bot embeds, install SlashCommandsFixBeta & ComponentsV2Beta.
+3. If you are looking for a plugin to fix markdown such as # headers, -# subtext, [hyperlinks](https://example.com), install MoreHighlight.
 
-4. No, there is no plugin for RPC.
+4. To fix slash commands and bot embeds, install SlashCommandsFixBeta & ComponentsV2Beta.
 
-5. TapTap is better than SwipeToReply.
+5. No, there is no plugin for RPC.
 
-6. SimpleMessageLogger has less bugs and it's lighter than normal MessageLogger, but it doesn't have a database.
+6. No, there is no soundboard plugin.
 
-7. No, a plugin for new/modern ui doesn't exist. Use [Kettu](https://github.com/C0C0B01/KettuManager/releases/download/1220/Manager.apk) if you want a React Native mod client.
+7. No, there is no plugin to mass/bulk delete messages/dms.
 
-8. No, there is no soundboard plugin.
+8. No, a plugin for new/modern ui doesn't exist. Use [Kettu](https://github.com/C0C0B01/KettuManager/releases/download/1220/Manager.apk) if you want a React Native mod client.
+
+9. TapTap is better than SwipeToReply.
+
+10. SimpleMessageLogger has less bugs and it's lighter than normal MessageLogger, but it doesn't have a database.
 
 11. Don't install original AudioPlayer, it has issues and it's outdated. Install the [fork](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip) instead.
 
-9. No, there is no plugin to mass/bulk delete messages/dms.
-
-10. Don't use PlayableEmbeds, it's outdated and broken. Use [Fluff](https://github.com/yutaplug/Aliucord/raw/main/stuff/Fluff.zip) instead.
+12. Don't use PlayableEmbeds, it's outdated and broken. Use [Fluff](https://github.com/yutaplug/Aliucord/raw/main/stuff/Fluff.zip) instead.
