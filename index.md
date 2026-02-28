@@ -431,3 +431,9 @@ You will need:
 11. Don't install original AudioPlayer, it has issues and it's outdated. Install the [fork](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip) instead.
 
 12. Don't use PlayableEmbeds, it's outdated and broken. Use [Fluff](https://github.com/yutaplug/Aliucord/raw/main/stuff/Fluff.zip) instead.
+
+---
+
+# Message links
+
+to do
