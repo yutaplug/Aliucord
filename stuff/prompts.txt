@@ -26,7 +26,7 @@ You probably have security keys, check if you do using the official Discord app/
 Make sure the token is still valid and that it doesn't contain any white spaces.
 
 "PlayableEmbeds not working"
-Install [Fluff](https://github.com/yutaplug/Aliucord/raw/builds/Fluff.zip) instead
+Install [Fluff](https://github.com/yutaplug/Aliucord/raw/builds/Fluff.zip) instead.
 
 "Why does Aliucord use an old Discord version?"
 <https://yutaplug.github.io/Aliucord/#old-version>
