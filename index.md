@@ -101,7 +101,7 @@ You can install Aliucord [here](https://github.com/Aliucord/Manager/releases). A
 1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
 2. Make sure you are using the Aliucord app
 3. Go to [#plugins-list](https://discord.com/channels/811255666990907402/811275162715553823) or [#new-plugins](https://discord.com/channels/811255666990907402/845784407846813696) channels and hold any message or link
-4. Click on "View [Author]'s Plugins" (or "Install [Plugin name]" for [#new-plugins](https://discord.com/channels/811255666990907402/845784407846813696))
+4. Click on "View [Author]'s Plugins" for [#plugins-list](https://discord.com/channels/811255666990907402/811275162715553823) or "Install [Plugin name]" for [#new-plugins](https://discord.com/channels/811255666990907402/845784407846813696)
 5. Install the plugin you want
 
 **Notes:**
