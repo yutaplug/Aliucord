@@ -8,7 +8,7 @@ This is not really possible due to Aliucord using an old Discord version, howeve
 Search for it using the `!plugins` command in #bot-spam, PluginWeb plugin or using the built-in Discord searchbar. If you can't find it, stand by until a supporter can assist you.
 
 "Can I get nitro?"
-Real nitro is not possible, but  you can get plugins that mimic a few nitro features (use the `!fakenitro` command).
+Real nitro is not possible, but you can get plugins that mimic a few nitro features (use the `!fakenitro` command).
 
 "Where can I find the changelog?"
 <https://yutaplug.github.io/Aliucord/#changelog>
