@@ -1,7 +1,7 @@
-"How to use modern ui/interface?"
+"How to get modern UI/interface?"
 This is not really possible due to Aliucord using an old Discord version, however, you can install "DiscordRN Dark" theme from #themes channel or use Kettu/Rain clients.
 
-"How to install aliucord/plugins/themes?"
+"How to install Aliucord/plugins/themes?"
 <https://yutaplug.github.io/Aliucord/#beginner-guide>
 
 "Is there x plugin?"
