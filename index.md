@@ -92,8 +92,6 @@ You can also watch the [video instructions](https://github.com/user-attachments/
 
 # Beginner guide
 
-## How to install Aliucord
-
 You can install Aliucord [here](https://github.com/Aliucord/Manager/releases). Also watch the [video instructions](https://github.com/user-attachments/assets/bae2ea76-ef04-4497-a1ef-92fb45c73426).
 
 ## How to install plugins
@@ -101,7 +99,7 @@ You can install Aliucord [here](https://github.com/Aliucord/Manager/releases). A
 1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
 2. Make sure you are using the Aliucord app
 3. Go to [#plugins-list](https://discord.com/channels/811255666990907402/811275162715553823) or [#new-plugins](https://discord.com/channels/811255666990907402/845784407846813696) channels and hold any message or link
-4. Click on "View [Author]'s Plugins" for [#plugins-list](https://discord.com/channels/811255666990907402/811275162715553823) or "Install [Plugin name]" for [#new-plugins](https://discord.com/channels/811255666990907402/845784407846813696)
+4. Click on "View [Author]'s Plugins" for #plugins-listhttps://discord.com/channels/811255666990907402/811275162715553823 or "Install [Plugin name]" for #new-plugins
 5. Install the plugin you want
 
 **Notes:**
