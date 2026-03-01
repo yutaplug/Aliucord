@@ -26,7 +26,7 @@ Unofficial documentation for the Aliucord app.
 |Bot embeds|[ComponentsV2](https://github.com/LavaDesu/Awoocord/raw/builds/ComponentsV2Beta.zip) 🚧|
 |Quests|[ViewQuests](https://github.com/nyxiereal/AliucordPlugins/raw/builds/ViewQuests.zip) 🚧|
 |Summaries|[Summaries](https://github.com/MCausc78/RNSucks/raw/builds/Summaries.zip) 🚧|
-|Embed playing|[PlayableEmbeds](https://github.com/yutaplug/Aliucord/raw/main/stuff/PlayableEmbeds.zip) (fork)|
+|Embed playing|[Fluff](https://github.com/yutaplug/Aliucord/raw/builds/Fluff.zip)|
 |Swiping to reply|[SwipeToReply](https://github.com/RazerTexz/My-plugins/raw/builds/SwipeToReply.zip) ([TapTap](https://github.com/Vendicated/AliucordPlugins/raw/builds/TapTap.zip) is recommended instead)|
 |Nick command|[SlashNick](https://github.com/rushiiMachine/aliucord-plugins/raw/builds/SlashNick.zip)|
 |Changing pronouns & display name|[MoreProfile](https://github.com/Halkiion/aliucord-plugins/raw/builds/MoreProfile.zip) ⚠️|
