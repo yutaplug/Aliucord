@@ -85,7 +85,6 @@ You can also watch the [video instructions](https://github.com/user-attachments/
 
 **Backports that use this method**
 
-- [Display name styles](https://nightly.link/LavaDesu/Aliucord/workflows/build/feat%2Fdecor_displaynamestyles/build.zip?status=completed)
 - [Account Standing](https://nightly.link/omardotdev/aliucar/workflows/build/feat%2Faccount-standing/build.zip?status=completed)
 
 ---
