@@ -110,7 +110,7 @@ You can install Aliucord [here](https://github.com/Aliucord/Manager/releases). A
 1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
 2. Make sure you are using the Aliucord app
 3. Install the [Themer plugin](https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/Themer.zip) (move the .zip to `Aliucord/plugins` folder & restart app)
-4. Go to [#themes](https://discord.com/channels/811255666990907402/824357609778708580) channel and hold any message (NOT THE LINK)
+4. Go to #themes channel and hold any message (NOT THE LINK)
 5. Click on the first option ("Install [Theme name]")
 
 **Notes:**
