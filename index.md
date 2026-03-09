@@ -212,7 +212,7 @@ To install them, download the plugin .zip and move it to the `Aliucord/plugins` 
 |PlayableEmbeds fork by Enovale and Omar (renamed to Fluff) makes the embeds work for every site and fixes YouTube embeds.|[Download Fluff](https://github.com/yutaplug/Aliucord/raw/builds/Fluff.zip)|
 |NitroSpoof fork by Nyx (renamed to FreeNitroEmojis) adds features from other NitroSpoof forks to the settings page.|[Download FreeNitroEmojis](https://github.com/nyxiereal/AliucordPlugins/raw/builds/FreeNitroEmojis.zip)|
 |TapTap fork by Rushii adds option to delete messages.|[Download TapTap fork](https://github.com/yutaplug/Aliucord/raw/builds/TapTap.zip)|
-|TextReplace fork by DeafThink removes character limit|[Download TextReplace fork](https://github.com/DeafThing/aliucord-pluginsC/raw/builds/TextReplace.zip)|
+|TextReplace fork by DeafThink removes character limit.|[Download TextReplace fork](https://github.com/DeafThing/aliucord-pluginsC/raw/builds/TextReplace.zip)|
 
 ---
 
