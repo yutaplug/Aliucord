@@ -267,7 +267,7 @@ Alternatively, you can search for another modified Discord client that uses the 
 
 4. If Aliucord ceases to exist, there wouldn't be any active clients using the good old Discord version. [Bluecord situation](https://github.com/user-attachments/assets/11f4b1cc-e786-4c74-a6a6-3a55dc7c26f0)
 
-5. Features from new Discord versions can be backported to the old one. [What does backporting mean?](https://en.wikipedia.org/wiki/Backporting)
+5. Features from new Discord versions can be backported to the old one, and [many already have been](https://yutaplug.github.io/Aliucord/#backports). [What does backporting mean?](https://en.wikipedia.org/wiki/Backporting)
 
 6. Modded clients for the new Discord version already exist, such as [Kettu](https://github.com/C0C0B01/KettuManager/releases/download/1220/Manager.apk).
 
