@@ -91,8 +91,6 @@ You can also watch the [video instructions](https://github.com/user-attachments/
 
 # Beginner guide
 
-You can install Aliucord [here](https://github.com/Aliucord/Manager/releases). Also watch the [video instructions](https://github.com/user-attachments/assets/bae2ea76-ef04-4497-a1ef-92fb45c73426).
-
 ## How to install plugins
 
 1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
@@ -109,12 +107,12 @@ You can install Aliucord [here](https://github.com/Aliucord/Manager/releases). A
 
 1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
 2. Make sure you are using the Aliucord app
-3. Install the [Themer plugin](https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/Themer.zip) (move the .zip to `Aliucord/plugins` folder & restart app)
+3. Install the Themer plugin (can be found with !plugins command in #bot-spam channel)
 4. Go to #themes channel and hold any message (NOT THE LINK)
 5. Click on the first option ("Install [Theme name]")
 
 **Notes:**
-- After installing a theme you should go to Themer settings to enable it.
+- After installing a theme you should go to Themer plugin settings to enable it ("Plugins" section in your Aliucord settings).
 - Themes require an app restart to work properly.
 
 ## How to install plugins manually
