@@ -110,10 +110,7 @@ You can also watch the [video instructions](https://github.com/user-attachments/
 3. Install the Themer plugin (can be found with !plugins command in #bot-spam channel)
 4. Go to #themes channel and hold any message (NOT THE LINK)
 5. Click on the first option ("Install [Theme name]")
-
-**Notes:**
-- After installing a theme you should go to Themer plugin settings to enable it ("Plugins" section in your Aliucord settings).
-- Themes require an app restart to work properly.
+6. Go to Themer plugin settings and enable the theme
 
 ## How to install plugins manually
 
@@ -204,11 +201,9 @@ To install them, download the plugin .zip and move it to the `Aliucord/plugins` 
 |Waifuim fork by Serinova fixes the command being fully broken.|[Download Waifuim fork](https://github.com/OasisVee/AliucordPlugins3/raw/builds/Waifuim.zip)|
 |NekosLife fork by Serinova fixes the command being fully broken.|[Download NekosLife fork](https://github.com/OasisVee/AliucordPlugins3/raw/builds/NekosLife.zip)|
 |CheckLinks fork by Serinova fixes the majority of the urls not being checked (VirusTotal changed its link structure).|[Download CheckLinks fork](https://github.com/OasisVee/AliucordPlugins2/raw/builds/CheckLinks.zip)|
-|FakeStickers fork by Archimedes (renamed to BetterFakeStickers) fixes not being able to reply with stickers.|[Download BetterFakeStickers](https://github.com/Archimedes9500/aliucord-plugins/raw/builds/BetterFakeStickers.zip)|
 |Ip fork by Serinova fixes the `/ip` command.|[Download Ip fork](https://github.com/OasisVee/AliucordPluginsSc/raw/builds/Ip.zip)|
 |SendEmbeds fork by Serinova makes the `/embed` command work again by using directwebhook (original API died).|[Download SendEmbeds fork](https://github.com/OasisVee/aliucord-pluginsC/raw/builds/SendEmbeds.zip)|
 |PlayableEmbeds fork by Enovale and Omar (renamed to Fluff) makes the embeds work for every site and fixes YouTube embeds.|[Download Fluff](https://github.com/yutaplug/Aliucord/raw/builds/Fluff.zip)|
-|NitroSpoof fork by Nyx (renamed to FreeNitroEmojis) adds features from other NitroSpoof forks to the settings page.|[Download FreeNitroEmojis](https://github.com/nyxiereal/AliucordPlugins/raw/builds/FreeNitroEmojis.zip)|
 |TapTap fork by Rushii adds option to delete messages.|[Download TapTap fork](https://github.com/yutaplug/Aliucord/raw/builds/TapTap.zip)|
 |TextReplace fork by DeafThing removes the character limit.|[Download TextReplace fork](https://github.com/DeafThing/aliucord-pluginsC/raw/builds/TextReplace.zip)|
 
