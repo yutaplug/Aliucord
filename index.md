@@ -296,6 +296,8 @@ Alternatively, you can search for another modified Discord client that uses the 
 
 First of all, you need to enable transparency in Themer settings (chat, chat & settings). If you want full transparency, you need to use the [template](#how-to-make-the-background-work-with-full-transparency).
 
+**ALLOWED HOSTS:** GitHub, GitLab, Imgbb, Imgur, Locally (this one is not a website but your local files).
+
 **GitHub:**
   - Create a GitHub account
   - Create a repo (make sure it's public)
