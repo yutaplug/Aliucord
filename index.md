@@ -206,6 +206,7 @@ To install them, download the plugin .zip and move it to the `Aliucord/plugins` 
 |PlayableEmbeds fork by Enovale and Omar (renamed to Fluff) makes the embeds work for every site and fixes YouTube embeds.|[Download Fluff](https://github.com/yutaplug/Aliucord/raw/builds/Fluff.zip)|
 |TapTap fork by Rushii adds option to delete messages.|[Download TapTap fork](https://github.com/yutaplug/Aliucord/raw/builds/TapTap.zip)|
 |TextReplace fork by DeafThing removes the character limit.|[Download TextReplace fork](https://github.com/DeafThing/aliucord-pluginsC/raw/builds/TextReplace.zip)|
+|FakeStickers fork by Archimedes fixes the plugin being broken.|[Download FakeStickers fork](https://github.com/Archimedes9500/aliucord-plugins-1/raw/builds/FakeStickers.zip)|
 
 ---
 
