@@ -133,6 +133,7 @@ If you already have the plugin .zip, just follow two last steps.
 This page only shows the most relevant/important changes for most Aliucord users, if you want to see more internal changes that are not that relevant for normal Aliucord users, see the [commits page](https://github.com/Aliucord/Aliucord/commits/main).
 
 ## 2.?.? (NOT AVAILABLE YET)
+- Fix Aliucord dir not being created
 - Fix various PluginDownloader bugs
 - Allow disabling updater
 
