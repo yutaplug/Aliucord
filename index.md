@@ -107,7 +107,7 @@ You can also watch the [video instructions](https://github.com/user-attachments/
 
 1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
 2. Make sure you are using the Aliucord app
-3. Install the Themer plugin (can be found in #bot-spam channel with `!plugins themer` command)
+3. Install "Themer" plugin (can be found in #bot-spam channel with `!plugins themer` command)
 4. Go to #themes channel and hold any message (NOT THE LINK)
 5. Click on the first option ("Install [Theme name]")
 6. Go to Themer plugin settings and enable the theme
