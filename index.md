@@ -107,7 +107,7 @@ You can also watch the [video instructions](https://github.com/user-attachments/
 
 1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
 2. Make sure you are using the Aliucord app
-3. Install the Themer plugin (can be found with !plugins command in #bot-spam channel)
+3. Install the Themer plugin (can be found in #bot-spam channel with `!plugins themer` command)
 4. Go to #themes channel and hold any message (NOT THE LINK)
 5. Click on the first option ("Install [Theme name]")
 6. Go to Themer plugin settings and enable the theme
@@ -207,7 +207,6 @@ To install them, download the plugin .zip and move it to the `Aliucord/plugins` 
 |PlayableEmbeds fork by Enovale and Omar (renamed to Fluff) makes the embeds work for every site and fixes YouTube embeds.|[Download Fluff](https://github.com/yutaplug/Aliucord/raw/builds/Fluff.zip)|
 |TapTap fork by Rushii adds option to delete messages.|[Download TapTap fork](https://github.com/yutaplug/Aliucord/raw/builds/TapTap.zip)|
 |TextReplace fork by DeafThing removes the character limit.|[Download TextReplace fork](https://github.com/DeafThing/aliucord-pluginsC/raw/builds/TextReplace.zip)|
-|FakeStickers fork by Archimedes fixes the plugin being broken.|[Download FakeStickers fork](https://github.com/Archimedes9500/aliucord-plugins-1/raw/builds/FakeStickers.zip)|
 
 ---
 
