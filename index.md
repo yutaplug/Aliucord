@@ -50,8 +50,9 @@ Unofficial documentation for the Aliucord app.
 |Compact links|[CompactLinks](https://github.com/LampDelivery/AliucordPlugins/raw/builds/CompactLinks.zip)|
 |Copy channel link|[CopyLinks](https://github.com/LampDelivery/AliucordPlugins/raw/builds/CopyLinks.zip)|
 |Message grouping|[Clump](https://github.com/LavaDesu/Awoocord/raw/builds/Clump.zip)|
-|Profile themes|[NewProfiles](https://github.com/Juby210/Aliucord-plugins/raw/builds/NewProfiles.zip)|
+|Profile colors|[ModernProfiles](https://github.com/l6t9/AliucordPlugins/raw/builds/ModernProfiles.zip)|
 |DM previews|[Glance](https://github.com/cillynder/Awoocord/raw/builds/Glance.zip)|
+|Evolving Nitro badges|[ModernNitroIcons](https://github.com/Ushie/Aliucord-Plugins/raw/builds/ModernNitroIcons.zip)|
 
 ## Built-in to Aliucord
 
