@@ -198,7 +198,7 @@ This page only shows the most relevant/important changes for most Aliucord users
 
 # Forks
 
-To install them, download the plugin .zip and move it to the `Aliucord/plugins` folder using a file manager & restart Aliucord in case it was open.
+To install them, download the plugin `.zip` and move it to the `Aliucord/plugins` folder using a file manager & restart Aliucord in case it was open.
 
 |Fork|Download|
 |-|-|
