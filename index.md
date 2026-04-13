@@ -268,7 +268,7 @@ Alternatively, you can search for another modified Discord client that uses the 
 
 5. Features from new Discord versions can be backported to the old one, and [many already have been](https://yutaplug.github.io/Aliucord/#backports). [What does backporting mean?](https://en.wikipedia.org/wiki/Backporting)
 
-6. Modded clients for the new Discord version already exist, such as [Kettu](https://github.com/C0C0B01/KettuManager/releases/download/1220/Manager.apk).
+6. Modded clients for the new Discord version already exist, such as [Kettu/Rain](https://raincord.dev).
 
 ---
 
