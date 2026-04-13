@@ -19,7 +19,7 @@ Unofficial documentation for the Aliucord app.
 |Feature|Plugin Name|
 |-|-|
 |Voice messages|[VoiceMessages](https://github.com/mantikafasi/AliucordPlugins/raw/builds/VoiceMessages.zip)|
-|Playing Audio files|[AudioPlayer](https://github.com/yutaplug/Aliucord/raw/builds/AudioPlayer.zip) (fork)|
+|Playing Audio files|[AudioPlayer](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip) (fork)|
 |Forwarding messages|[ForwardMessages](https://github.com/reisxd/AliucordPlugins/raw/builds/ForwardMessages.zip)|
 |Closing DMs from bottomsheet|[CloseDMs](https://github.com/reisxd/AliucordPlugins/raw/builds/ForwardMessages.zip)|
 |Bot commands|[SlashCommandsFix](https://github.com/LavaDesu/Awoocord/raw/builds/SlashCommandsFixBeta.zip) 🚧|
