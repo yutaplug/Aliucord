@@ -48,6 +48,8 @@ Required for [#unmaintained-plugins](https://discord.com/channels/81125566699090
 5. Using a file manager ([we recommend Material Files](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) ([F-Droid](https://f-droid.org/packages/me.zhanghai.android.files/))) move the downloaded `.zip` to the `Aliucord/plugins` folder
 6. Restart Aliucord
 
+---
+
 # Backports
 
 - 💣: Broken or partially broken
