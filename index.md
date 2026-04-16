@@ -243,9 +243,9 @@ For a list of backported features, see the [Backports](/Aliucord/#backports) pag
 
 ---
 
-# New interface
+# New UI
 
-**How to get modern Discord UI on Aliucord**
+**How to get modern Discord interface (UI) in Aliucord**
 
 This is not really possible due to Aliucord using an old Discord version. However, there are two themes ([DiscordRN Dark](https://discord.com/channels/811255666990907402/824357609778708580/1396601756187885659) & [Discord Midnight theme](https://discord.com/channels/811255666990907402/824357609778708580/1400698799600570398)) that replicate the color & font of it (the UI itself is not possible to replicate).
 
@@ -253,9 +253,9 @@ Alternatively, you can search for another modified Discord client that uses the 
 
 ---
 
-# Old version
+# Old UI
 
-**Reasons of why Aliucord uses an old Discord version**
+**Why does Aliucord use an old Discord version?**
 
 1. The new Discord app is React Native while the Discord version that Aliucord uses (126.21) is Kotlin. React Native is a framework for building apps using JavaScript, which is not as performant as Kotlin code. Discord's React Native version is known to have performance issues, especially on lower-end devices, because the app has been ported from iOS over to Android.
 
