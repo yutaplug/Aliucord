@@ -6,6 +6,48 @@ Unofficial documentation for the Aliucord app.
 
 ---
 
+# Beginner guide
+
+[DOWNLOAD ALIUCORD](https://github.com/Aliucord/Manager/releases/download/v1.2.1/aliucord-manager-v1.2.1.apk)
+
+## How to install plugins
+
+**IF YOU DON'T HAVE THE OPTION TO INSTALL PLUGINS, READ THE PINNED MESSAGE IN #SUPPORT CHANNEL**
+
+1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
+2. Make sure you are using the Aliucord app
+3. Go to `#plugins-list` or `#new-plugins` channels and hold any message or link
+4. Click on `View [Author]'s Plugins` for `#plugins-list` or `Install [Plugin name]` for `#new-plugins`
+5. Install the plugin you want
+
+**Notes:**
+- Most plugins need an app restart to work properly.
+- The PluginWeb plugin is recommended if you want a built-in plugin list.
+
+## How to install themes
+
+**IF THE THEME YOU ARE USING DOESN'T WORK FOR YOU: EITHER YOU ARE NOT USING THE RIGHT TRANSPARENCY MODE, YOU ARE NOT USING THE THEME MIRROR FROM #THEME-SUPPORT PINS, OR SADLY THEMER IS BROKEN ON YOUR END AND THERE'S NOTHING YOU CAN DO (CAN HAPPEN DEPENDING ON THE DEVICE)**
+
+1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
+2. Make sure you are using the Aliucord app
+3. Install `Themer` plugin (can be found in `#bot-spam` channel with `!plugins themer` command)
+4. Go to #themes channel and hold any message (NOT THE LINK)
+5. Click on the first option `Install [Theme name]`
+6. Go to Themer plugin settings and enable the theme
+
+## How to install plugins manually
+
+Required for [#unmaintained-plugins](https://discord.com/channels/811255666990907402/861935147272110100) channel
+
+**Note:** If you already have the plugin `.zip`, just follow two last steps.
+
+1. Go to any plugin repository ([like this one](https://github.com/Juby210/Aliucord-plugins))
+2. Click the branch button and select `builds`
+3. Click the `[PluginName].zip` of the plugin you want
+4. Click `Raw`, `View raw` or the download button to download the .zip file
+5. Using a file manager ([we recommend Material Files](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) ([F-Droid](https://f-droid.org/packages/me.zhanghai.android.files/))) move the downloaded `.zip` to the `Aliucord/plugins` folder
+6. Restart Aliucord
+
 # Backports
 
 - 💣: Broken or partially broken
@@ -87,48 +129,6 @@ You can also watch the [video instructions](https://github.com/user-attachments/
 **Backports that use this method**
 
 - [Account Standing](https://nightly.link/omardotdev/aliucar/workflows/build/feat%2Faccount-standing/build.zip?status=completed)
-
----
-
-# Beginner guide
-
-## How to install plugins
-
-**IF YOU DON'T HAVE THE OPTION TO INSTALL PLUGINS, READ THE PINNED MESSAGE IN #SUPPORT CHANNEL**
-
-1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
-2. Make sure you are using the Aliucord app
-3. Go to `#plugins-list` or `#new-plugins` channels and hold any message or link
-4. Click on `View [Author]'s Plugins` for `#plugins-list` or `Install [Plugin name]` for `#new-plugins`
-5. Install the plugin you want
-
-**Notes:**
-- Most plugins need an app restart to work properly.
-- The PluginWeb plugin is recommended if you want a built-in plugin list.
-
-## How to install themes
-
-**IF THE THEME YOU ARE USING DOESN'T WORK FOR YOU: EITHER YOU ARE NOT USING THE RIGHT TRANSPARENCY MODE, YOU ARE NOT USING THE THEME MIRROR FROM #THEME-SUPPORT PINS, OR SADLY THEMER IS BROKEN ON YOUR END AND THERE'S NOTHING YOU CAN DO (CAN HAPPEN DEPENDING ON THE DEVICE)**
-
-1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
-2. Make sure you are using the Aliucord app
-3. Install `Themer` plugin (can be found in `#bot-spam` channel with `!plugins themer` command)
-4. Go to #themes channel and hold any message (NOT THE LINK)
-5. Click on the first option `Install [Theme name]`
-6. Go to Themer plugin settings and enable the theme
-
-## How to install plugins manually
-
-Required for [#unmaintained-plugins](https://discord.com/channels/811255666990907402/861935147272110100) channel
-
-**Note:** If you already have the plugin `.zip`, just follow two last steps.
-
-1. Go to any plugin repository ([like this one](https://github.com/Juby210/Aliucord-plugins))
-2. Click the branch button and select `builds`
-3. Click the `[PluginName].zip` of the plugin you want
-4. Click `Raw`, `View raw` or the download button to download the .zip file
-5. Using a file manager ([we recommend Material Files](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) ([F-Droid](https://f-droid.org/packages/me.zhanghai.android.files/))) move the downloaded `.zip` to the `Aliucord/plugins` folder
-6. Restart Aliucord
 
 ---
 
@@ -399,3 +399,45 @@ You will need:
 4. Now open Aliucord and reproduce the issue
 5. Run the following command now: `adb logcat -d > logcat.txt`
 6. The generated logcat will be in your user home directory
+
+---
+
+# Plugin FAQ
+
+This section answer most of the "is there x plugin" and related questions.
+
+- Aliucord plugins are subjective, there is no "best" plugins becasue it totally depends on your needs.
+
+- Type `!fakenitro` in `#bot-spam` channel to get all fakenitro plugins.
+
+- Don't use "Repo" plugins (PluginRepo/ThemeRepo), they are broken & outdated. Use PluginWeb/ThemeWeb instead.
+
+- If you are looking for a plugin to fix markdown such as # headers, -# subtext, [hyperlinks](https://example.com), install MoreHighlight.
+
+- To fix slash commands and bot embeds, install SlashCommandsFixBeta & ComponentsV2Beta.
+
+- No, there is no plugin for RPC.
+
+- No, there is no soundboard plugin.
+
+- No, there is no plugin to mass/bulk delete messages/dms.
+
+- No, a plugin for new/modern ui doesn't exist. Use [Kettu](<https://github.com/C0C0B01/KettuManager/releases/latest>) or [Rain (Beta)](<https://codeberg.org/raincord/rain>) if you want a React Native mod client.
+
+- No, there is no plugin to bypass file size.
+
+- TapTap is better than SwipeToReply.
+
+- SimpleMessageLogger has less bugs and it's lighter than normal MessageLogger, but it doesn't have a database.
+
+- Don't install original AudioPlayer, it has issues and it's outdated. Install the [fork](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip) instead.
+
+- Don't use PlayableEmbeds, it's outdated and broken. Use [Fluff](https://github.com/yutaplug/Aliucord/raw/builds/Fluff.zip) instead.
+
+- Install [ForumChannelsFix](https://github.com/yutaplug/Aliucord/raw/builds/ForumChannelsFix.zip) to fix unread bug.
+
+- Install [OpenLinksInApp](https://github.com/Canny1913/AliucordPlugins/raw/builds/OpenLinksInApp.zip) to fix opening message links.
+
+- Install [AuthorizedAppsCrashFix](https://github.com/MCausc78/RNSucks/raw/builds/AuthorizedAppsCrashFix.zip) to fix crash in Authorized Apps page.
+
+- No, we do not have a plugin to show channels you're not supposed to.
