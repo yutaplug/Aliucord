@@ -404,7 +404,7 @@ You will need:
 
 # Plugin FAQ
 
-This section answers most of the "is there x plugin" and related questions about plugins.
+**This section answers most of the "is there x plugin" and related questions about plugins.**
 
 - Aliucord plugins are subjective, there is no "best" plugins becasue it totally depends on your needs.
 
