@@ -8,8 +8,6 @@ Mirror of the documentation for the Aliucord app. Official page [here](https://a
 
 # Beginner guide
 
-[DOWNLOAD ALIUCORD](https://github.com/Aliucord/Manager/releases/download/v1.2.1/aliucord-manager-v1.2.1.apk)
-
 ## How to install plugins
 
 **IF YOU DON'T HAVE THE OPTION TO INSTALL PLUGINS, READ THE PINNED MESSAGE IN #SUPPORT CHANNEL**
