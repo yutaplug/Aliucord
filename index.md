@@ -1,6 +1,6 @@
 # Aliucord documentation
 
-Unofficial documentation for the Aliucord app.
+Mirror of the documentation for the Aliucord app. Official page [here](https://aliucord.com/documentation).
 
 <style>html, body, .markdown-body, table, tr, td, th { background-color: #121212 !important; color: white !important; } h1, h2 { border-bottom: none !important; }</style>
 
@@ -406,7 +406,7 @@ You will need:
 
 # Plugin FAQ
 
-This section answer most of the "is there x plugin" and related questions.
+This section answers most of the "is there x plugin" and related questions about plugins.
 
 - Aliucord plugins are subjective, there is no "best" plugins becasue it totally depends on your needs.
 
