@@ -77,7 +77,7 @@ Required for [#unmaintained-plugins](https://discord.com/channels/81125566699090
 |Devices page|[Sessions](https://github.com/wingio/plugins/raw/builds/Sessions.zip) 💣|
 |Webhooks|[EditWebhooks](https://github.com/c10udburst-discord/aliucord-plugins/raw/builds/EditWebhooks.zip)|
 |Sorted searching|[Scout](https://github.com/LavaDesu/Awoocord/raw/builds/Scout.zip)|
-|Markdown|[MoreHighlight](https://github.com/wingio/plugins/raw/builds/MoreHighlight.zip)|
+|New Discord markdown|[MarkdownFix](https://github.com/yutaplug/yutaplugins/raw/builds/MarkdownFix.zip)|
 |Connection icons|[UnknownConnectionIcons](https://github.com/nyakowint/AliuPlugins/raw/builds/UnknownConnectionIcons.zip)|
 |Copy message link|[MessageLinkContext](https://github.com/wingio/plugins/raw/builds/MessageLinkContext.zip)|
 |Delete embed|[DeleteEmbeds](https://github.com/c10udburst-discord/aliucord-plugins/raw/builds/DeleteEmbeds.zip)|
@@ -406,40 +406,23 @@ You will need:
 
 # Plugin FAQ
 
-**This section answers most of the "is there x plugin" and related questions about plugins.**
-
-- Aliucord plugins are subjective, there is no "best" plugins becasue it totally depends on your needs.
-
-- Type `!fakenitro` in `#bot-spam` channel to get all fakenitro plugins.
-
-- Don't use "Repo" plugins (PluginRepo/ThemeRepo), they are broken & outdated. Use PluginWeb/ThemeWeb instead.
-
-- If you are looking for a plugin to fix markdown such as # headers, -# subtext, [hyperlinks](https://example.com), install MoreHighlight.
-
-- To fix slash commands and bot embeds, install SlashCommandsFixBeta & ComponentsV2Beta.
-
+# "Is there a plugin for...?"
+- No, we do not have a plugin to show channels you're not supposed to see.
 - No, there is no plugin for RPC.
-
 - No, there is no soundboard plugin.
-
 - No, there is no plugin to mass/bulk delete messages/dms.
-
-- No, a plugin for new/modern ui doesn't exist. Use [Kettu](<https://github.com/C0C0B01/KettuManager/releases/latest>) or [Rain (Beta)](<https://codeberg.org/raincord/rain>) if you want a React Native mod client.
-
+- No, a plugin for new/modern ui doesn't exist.
 - No, there is no plugin to bypass file size.
 
+# Other
+- If you are looking for a plugin to fix markdown such as # headers, -# subtext, [hyperlinks](https://example.com), install [MarkdownFix](https://github.com/yutaplug/yutaplugins/raw/builds/MarkdownFix.zip).
+- To fix slash commands and bot embeds, install SlashCommandsFixBeta & ComponentsV2Beta.
+- Type `!fakenitro` in `#bot-spam` channel to get all fakenitro plugins.
+- Don't use "Repo" plugins (PluginRepo/ThemeRepo), they are broken & outdated. Use PluginWeb/ThemeWeb instead.
 - TapTap is better than SwipeToReply.
-
 - SimpleMessageLogger has less bugs and it's lighter than normal MessageLogger, but it doesn't have a database.
-
 - Don't install original AudioPlayer, it has issues and it's outdated. Install the [fork](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip) instead.
-
 - Don't use PlayableEmbeds, it's outdated and broken. Use [Fluff](https://github.com/yutaplug/Aliucord/raw/builds/Fluff.zip) instead.
-
 - Install [ForumChannelsFix](https://github.com/yutaplug/Aliucord/raw/builds/ForumChannelsFix.zip) to fix unread bug.
-
 - Install [OpenLinksInApp](https://github.com/Canny1913/AliucordPlugins/raw/builds/OpenLinksInApp.zip) to fix opening message links.
-
 - Install [AuthorizedAppsCrashFix](https://github.com/MCausc78/RNSucks/raw/builds/AuthorizedAppsCrashFix.zip) to fix crash in Authorized Apps page.
-
-- No, we do not have a plugin to show channels you're not supposed to.
