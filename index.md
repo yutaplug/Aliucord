@@ -10,7 +10,7 @@ Mirror of the documentation for the Aliucord app. Official page [here](https://a
 
 ## How to install plugins
 
-**IF YOU DON'T HAVE THE OPTION TO INSTALL PLUGINS, READ THE PINNED MESSAGE IN #SUPPORT CHANNEL**
+**If you don't have the option to install plugins, read the pinned message in `#support` channel**
 
 1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
 2. Make sure you are using the Aliucord app
@@ -24,7 +24,7 @@ Mirror of the documentation for the Aliucord app. Official page [here](https://a
 
 ## How to install themes
 
-**IF THE THEME YOU ARE USING DOESN'T WORK FOR YOU: EITHER YOU ARE NOT USING THE RIGHT TRANSPARENCY MODE, YOU ARE NOT USING THE THEME MIRROR FROM #THEME-SUPPORT PINS, OR SADLY THEMER IS BROKEN ON YOUR END AND THERE'S NOTHING YOU CAN DO (CAN HAPPEN DEPENDING ON THE DEVICE)**
+**If the theme you are using doesn't work for you, either you are not using the right transparency mode, you are not using theme mirror from `#theme-support` pins, or Themer is broken on your end (can happen depending on the device/os)**
 
 1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
 2. Make sure you are using the Aliucord app
