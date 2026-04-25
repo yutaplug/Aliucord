@@ -275,7 +275,7 @@ Alternatively, you can search for another modified Discord client that uses the 
 
 # Sounds
 
-**How to use CustomSounds, StartupSound and NoticeSound plugins**
+**How to use StartupSound & NoticeSound plugins**
 
 **GitHub:**
   - Create a GitHub account
@@ -408,7 +408,7 @@ You will need:
 
 # "Is there a plugin for...?"
 - No, we do not have a plugin to show channels you're not supposed to see.
-- No, there is no plugin for RPC.
+- No, there is no plugin for RPC (Rich Presence).
 - No, there is no soundboard plugin.
 - No, there is no plugin to mass/bulk delete messages/dms.
 - No, a plugin for new/modern ui doesn't exist.
