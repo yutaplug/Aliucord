@@ -101,6 +101,9 @@ Required for [#unmaintained-plugins](https://discord.com/channels/81125566699090
 |Persist message drafts|[PersistMessageDrafts](https://github.com/Ushie/Aliucord-Plugins/raw/builds/PersistMessageDrafts.zip)|
 |Fix attachment limit|[AttachmentLimitFix](https://github.com/Ushie/Aliucord-Plugins/raw/builds/AttachmentLimitFix.zip)|
 |Showing mentions inside muted-hidden channels|[ShowHiddenMutedChannelsWithMentions](https://github.com/Ushie/Aliucord-Plugins/raw/builds/ShowHiddenMutedChannelsWithMentions.zip)|
+|Adding friends by username|[FriendFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/FriendFix.zip)|
+|Adding tags to forums|[ForumTagFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/ForumTagFix.zip)|
+|Media channels|[MediaChannelFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/MediaChannelFix.zip)|
 
 ## Built-in to Aliucord
 
@@ -230,14 +233,11 @@ Compared to the React Native client.
 |Onboarding|Server onboarding
 |Managing join requests|Managing join requests
 |Family center|Family center
-|Post tagging|Adding tags to forums posts
 |In-game friends|In-game friends
-|Media channels|"They're a thing apparently"
 |Remixing images|Remixing images
 |Soundboard|Soundboard in VCs
 |Security keys|Security key to login
 |Gradient roles|Roles with fancy styles
-|Adding friends|Adding friends from the "Add friend" page
 |Message requests|Message requests
 
 For a list of backported features, see the [Backports](/Aliucord/#backports) page.
@@ -414,14 +414,14 @@ You will need:
 - No, there is no plugin to bypass file size.
 
 # "Is there a plugin to fix...?"
-**Note:** Install these by downloading the `.zip` and moving it to `Aliucord/plugins` folder instead of searching with the bot, because many of these plugins are not officially registered (but are safe to use, so don't worry)
 |Feature/s|Plugin/s|
 |-|-|
 |Sending voice messages and playing them|[VoiceMessages](https://github.com/mantikafasi/AliucordPlugins/raw/builds/VoiceMessages.zip) & [AudioPlayer fork](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip)
 |Using bot commands and seeing bot embeds|[SlashCommandsFixBeta](https://github.com/cillynder/Awoocord/raw/builds/SlashCommandsFixBeta.zip) & [ComponentsV2Beta](https://github.com/LavaDesu/Awoocord/raw/builds/ComponentsV2Beta.zip)
 |#, ##, ### headers, -# subtext and `[]()` hyperlinks|[MarkdownFix](https://github.com/yutaplug/yutaplugins/raw/builds/MarkdownFix.zip)
-|Opening links in Aliucord instead of Discord/browser|[OpenLinksInApp](https://github.com/Canny1913/AliucordPlugins/raw/builds/OpenLinksInApp.zip)
-|Unread bug when there's a forum in the server|[ForumChannelsFix](https://github.com/yutaplug/Aliucord/raw/builds/ForumChannelsFix.zip)
+|Opening links in Aliucord instead of Discord/browser|[OpenLinksInApp](https://github.com/Canny1913/AliuPlugins/raw/builds/OpenLinksInApp.zip)
 |Not being able to add friends|[FriendFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/FriendFix.zip)
 |Not being able to create threads (adds a command for it instead)|[ThreadCMD](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/ThreadCMD.zip)
 |Some bugs with forums such as adding tags|[ForumTagFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/ForumTagFix.zip)
+|Media channels|[MediaChannelFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/MediaChannelFix.zip)
+|HEIC images (converts them to jpg when you send them)|[HeicFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/HeicFix.zip)
