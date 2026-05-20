@@ -59,7 +59,7 @@ Required for [#unmaintained-plugins](https://discord.com/channels/81125566699090
 |Feature|Plugin Name|
 |-|-|
 |Voice messages|[VoiceMessages](https://github.com/mantikafasi/AliucordPlugins/raw/builds/VoiceMessages.zip)|
-|Playing Audio files|[AudioPlayer](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip) (fork)|
+|Playing Audio files|[AudioPlayer](https://github.com/mantikafasi/AliucordPlugins/raw/builds/AudioPlayer.zip)|
 |Forwarding messages|[ForwardMessages](https://github.com/reisxd/AliucordPlugins/raw/builds/ForwardMessages.zip)|
 |Closing DMs from bottomsheet|[CloseDMs](https://github.com/reisxd/AliucordPlugins/raw/builds/ForwardMessages.zip)|
 |Bot commands|[SlashCommandsFix](https://github.com/LavaDesu/Awoocord/raw/builds/SlashCommandsFixBeta.zip) 🚧|
@@ -212,7 +212,6 @@ To install them, download the plugin `.zip` and move it to the `Aliucord/plugins
 
 |Fork|Download|
 |-|-|
-|AudioPlayer fork by Halkion fixes crashes and some bugs with audio files.|[Download AudioPlayer fork](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip)|
 |Waifuim fork by Serinova fixes the command being fully broken.|[Download Waifuim fork](https://github.com/OasisVee/AliucordPlugins3/raw/builds/Waifuim.zip)|
 |NekosLife fork by Serinova fixes the command being fully broken.|[Download NekosLife fork](https://github.com/OasisVee/AliucordPlugins3/raw/builds/NekosLife.zip)|
 |CheckLinks fork by Serinova fixes the majority of the urls not being checked (VirusTotal changed its link structure).|[Download CheckLinks fork](https://github.com/OasisVee/AliucordPlugins2/raw/builds/CheckLinks.zip)|
@@ -221,6 +220,7 @@ To install them, download the plugin `.zip` and move it to the `Aliucord/plugins
 |PlayableEmbeds fork by Enovale and Omar (renamed to Fluff) makes the embeds work for every site and fixes YouTube embeds.|[Download Fluff](https://github.com/yutaplug/Aliucord/raw/builds/Fluff.zip)|
 |TapTap fork by Rushii adds option to delete messages.|[Download TapTap fork](https://github.com/yutaplug/Aliucord/raw/builds/TapTap.zip)|
 |TextReplace fork by DeafThing removes the character limit.|[Download TextReplace fork](https://github.com/DeafThing/aliucord-pluginsC/raw/builds/TextReplace.zip)|
+|MoreHighlight fork by yuta fixes empty lines not showing when theres several headers in a row, and link not being blue in subtext.|Download [MarkdownFix](https://github.com/yutaplug/yutaplugins/blob/builds/MarkdownFix.zip)|
 
 ---
 
@@ -422,7 +422,7 @@ You will need:
 # "Is there a plugin to fix...?"
 |Feature/s|Plugin/s|
 |-|-|
-|Sending voice messages and playing them|[VoiceMessages](https://github.com/mantikafasi/AliucordPlugins/raw/builds/VoiceMessages.zip) & [AudioPlayer fork](https://github.com/Archimedes9500/Halkiion-rushiiMachine-aliucord-plugins/raw/builds/AudioPlayer.zip)
+|Sending voice messages and playing them|[VoiceMessages](https://github.com/mantikafasi/AliucordPlugins/raw/builds/VoiceMessages.zip) & [AudioPlayer](https://github.com/mantikafasi/AliucordPlugins/raw/builds/AudioPlayer.zip)
 |Using bot commands and seeing bot embeds|[SlashCommandsFixBeta](https://github.com/cillynder/Awoocord/raw/builds/SlashCommandsFixBeta.zip) & [ComponentsV2Beta](https://github.com/LavaDesu/Awoocord/raw/builds/ComponentsV2Beta.zip)
 |#, ##, ### headers, -# subtext and `[]()` hyperlinks|[MarkdownFix](https://github.com/yutaplug/yutaplugins/raw/builds/MarkdownFix.zip)
 |Opening links in Aliucord instead of Discord/browser|[OpenLinksInApp](https://github.com/Canny1913/AliuPlugins/raw/builds/OpenLinksInApp.zip)
