@@ -412,7 +412,6 @@ You will need:
 # Plugin FAQ
 
 # "Is there a plugin for...?"
-- No, we do not have a plugin to show channels you're not supposed to see.
 - No, there is no plugin for RPC (Rich Presence).
 - No, there is no soundboard plugin.
 - No, there is no plugin to mass/bulk delete messages/dms.
