@@ -104,6 +104,7 @@ Required for [#unmaintained-plugins](https://discord.com/channels/81125566699090
 |Adding friends by username|[FriendFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/FriendFix.zip)|
 |Adding tags to forums|[ForumTagFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/ForumTagFix.zip)|
 |Media channels|[MediaChannelFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/MediaChannelFix.zip)|
+|Media remix|[PhotoEditor](https://github.com/mantikafasi/AliucordPlugins/raw/builds/PhotoEditor.zip)|
 
 ## Built-in to Aliucord
 
@@ -240,7 +241,6 @@ Compared to the React Native client.
 |Managing join requests|Managing join requests
 |Family center|Family center
 |In-game friends|In-game friends
-|Remixing images|Remixing images
 |Soundboard|Soundboard in VCs
 |Security keys|Security key to login
 |Gradient roles|Roles with fancy styles
