@@ -105,6 +105,7 @@ Required for [#unmaintained-plugins](https://discord.com/channels/81125566699090
 |Adding tags to forums|[ForumTagFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/ForumTagFix.zip)|
 |Media channels|[MediaChannelFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/MediaChannelFix.zip)|
 |Media remix|[PhotoEditor](https://github.com/mantikafasi/AliucordPlugins/raw/builds/PhotoEditor.zip)|
+|Onboarding|[FixOnboardingFork](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/FixOnboardingFork.zip)|
 
 ## Built-in to Aliucord
 
@@ -221,7 +222,7 @@ To install them, download the plugin `.zip` and move it to the `Aliucord/plugins
 |PlayableEmbeds fork by Enovale and Omar (renamed to Fluff) makes the embeds work for every site and fixes YouTube embeds.|[Download Fluff](https://github.com/yutaplug/Aliucord/raw/builds/Fluff.zip)|
 |TapTap fork by Rushii adds option to delete messages.|[Download TapTap fork](https://github.com/yutaplug/Aliucord/raw/builds/TapTap.zip)|
 |TextReplace fork by DeafThing removes the character limit.|[Download TextReplace fork](https://github.com/DeafThing/aliucord-pluginsC/raw/builds/TextReplace.zip)|
-|MoreHighlight fork by yuta (renamed to MarkdownFix) fixes empty lines not showing when theres several headers in a row, and link not being blue in subtext.|Download [MarkdownFix](https://github.com/yutaplug/yutaplugins/blob/builds/MarkdownFix.zip)|
+|MoreHighlight fork by yuta (renamed to MarkdownFix) fixes empty lines not showing when theres several headers in a row, and link not being blue in subtext.|[Download MarkdownFix](https://github.com/yutaplug/yutaplugins/blob/builds/MarkdownFix.zip)|
 
 ---
 
@@ -229,24 +230,23 @@ To install them, download the plugin `.zip` and move it to the `Aliucord/plugins
 
 Compared to the React Native client.
 
+If a feature isn't here, see the [Backports](/documentation/#backports) page in case it already exists as a plugin or it's already built-in.
+
 |Feature|Notes|
 |-|-|
-|Apps|This means games like `/wordle` (ny times)
-|Shop|Discord decoration/orbs store
-|Ignoring users|Ignoring users (blocking without removing as friends)
-|Super reactions|The fancy reactions that are more annoying than normal ones
-|E2EE VC|End-to-end encryption in voice chats
-|Connection info|Steam games count, reddit karma count, etc.
-|Onboarding|Server onboarding
-|Managing join requests|Managing join requests
-|Family center|Family center
-|In-game friends|In-game friends
-|Soundboard|Soundboard in VCs
-|Security keys|Security key to login
-|Gradient roles|Roles with fancy styles
-|Message requests|Message requests
-
-For a list of backported features, see the [Backports](/Aliucord/#backports) page.
+|Apps|This means games like `/wordle` (ny times)|
+|Shop|Discord decoration/orbs store|
+|Ignoring users|Ignoring users (blocking without removing as friends)|
+|Super reactions|The fancy reactions that are more annoying than normal ones|
+|E2EE VC|End-to-end encryption in voice chats|
+|Connection info|Steam games count, reddit karma count, etc.|
+|Managing join requests|Managing join requests|
+|Family center|Family center|
+|In-game friends|In-game friends|
+|Soundboard|Soundboard in VCs|
+|Security keys|Security key to login|
+|Gradient roles|Roles with fancy styles|
+|Message requests|Message requests|
 
 ---
 
@@ -421,12 +421,13 @@ You will need:
 # "Is there a plugin to fix...?"
 |Feature/s|Plugin/s|
 |-|-|
-|Sending voice messages and playing them|[VoiceMessages](https://github.com/mantikafasi/AliucordPlugins/raw/builds/VoiceMessages.zip) & [AudioPlayer](https://github.com/mantikafasi/AliucordPlugins/raw/builds/AudioPlayer.zip)
-|Using bot commands and seeing bot embeds|[SlashCommandsFixBeta](https://github.com/cillynder/Awoocord/raw/builds/SlashCommandsFixBeta.zip) & [ComponentsV2Beta](https://github.com/LavaDesu/Awoocord/raw/builds/ComponentsV2Beta.zip)
-|#, ##, ### headers, -# subtext and `[]()` hyperlinks|[MarkdownFix](https://github.com/yutaplug/yutaplugins/raw/builds/MarkdownFix.zip)
-|Opening links in Aliucord instead of Discord/browser|[OpenLinksInApp](https://github.com/Canny1913/AliuPlugins/raw/builds/OpenLinksInApp.zip)
-|Not being able to add friends|[FriendFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/FriendFix.zip)
-|Not being able to create threads (adds a command for it instead)|[ThreadCMD](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/ThreadCMD.zip)
-|Some bugs with forums such as adding tags|[ForumTagFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/ForumTagFix.zip)
-|Media channels|[MediaChannelFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/MediaChannelFix.zip)
-|HEIC images (converts them to jpg when you send them)|[HeicFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/HeicFix.zip)
+|Sending voice messages and playing them|[VoiceMessages](https://github.com/mantikafasi/AliucordPlugins/raw/builds/VoiceMessages.zip) & [AudioPlayer](https://github.com/mantikafasi/AliucordPlugins/raw/builds/AudioPlayer.zip)|
+|Using bot commands and seeing bot embeds|[SlashCommandsFixBeta](https://github.com/cillynder/Awoocord/raw/builds/SlashCommandsFixBeta.zip) & [ComponentsV2Beta](https://github.com/LavaDesu/Awoocord/raw/builds/ComponentsV2Beta.zip)|
+|#, ##, ### headers, -# subtext and `[]()` hyperlinks|[MarkdownFix](https://github.com/yutaplug/yutaplugins/raw/builds/MarkdownFix.zip)|
+|Opening links in Aliucord instead of Discord/browser|[OpenLinksInApp](https://github.com/Canny1913/AliuPlugins/raw/builds/OpenLinksInApp.zip)|
+|Not being able to add friends|[FriendFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/FriendFix.zip)|
+|Not being able to create threads|[ThreadCMD](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/ThreadCMD.zip) (adds a command for it instead)|
+|Forums|[ForumTagFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/ForumTagFix.zip)|
+|Media channels|[MediaChannelFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/MediaChannelFix.zip)|
+|HEIC images |[HeicFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/HeicFix.zip) (converts them to jpg when you send them)|
+|Onboarding|[FixOnboardingFork](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/FixOnboardingFork.zip)|
