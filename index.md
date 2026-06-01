@@ -60,8 +60,8 @@ Required for [#unmaintained-plugins](https://discord.com/channels/81125566699090
 |-|-|
 |Voice messages|[VoiceMessages](https://github.com/mantikafasi/AliucordPlugins/raw/builds/VoiceMessages.zip)|
 |Playing Audio files|[AudioPlayer](https://github.com/mantikafasi/AliucordPlugins/raw/builds/AudioPlayer.zip)|
-|Forwarding messages|[MessageForwarder](https://github.com/mantikafasi/AliucordPlugins/blob/builds/MessageForwarder.zip)|
-|Closing DMs from bottomsheet|[CloseDMs](https://github.com/reisxd/AliucordPlugins/raw/builds/ForwardMessages.zip)|
+|Forwarding messages|[ForwardMessages](https://github.com/Ushie/Aliucord-Plugins/raw/builds/ForwardMessages.zip)|
+|Closing DMs from bottomsheet|[CloseDMs](https://github.com/DiamondMiner88/aliucord-plugins/raw/builds/CloseDMs.zip)|
 |Bot commands|[SlashCommandsFix](https://github.com/LavaDesu/Awoocord/raw/builds/SlashCommandsFixBeta.zip) 🚧|
 |Bot embeds|[ComponentsV2](https://github.com/LavaDesu/Awoocord/raw/builds/ComponentsV2Beta.zip) 🚧|
 |Quests|[ViewQuests](https://github.com/nyxiereal/AliucordPlugins/raw/builds/ViewQuests.zip) 🚧|
@@ -96,7 +96,6 @@ Required for [#unmaintained-plugins](https://discord.com/channels/81125566699090
 |New member badge|[NewMemberBadge](https://github.com/Ushie/Aliucord-Plugins/raw/builds/NewMemberBadge.zip)|
 |Friend nicknames|[NativeFriendNicknames](https://github.com/miaaaa0a/aliucord-plugins/raw/builds/NativeFriendNicknames.zip)|
 |Muting voice channels|[MuteVoiceAndStageChannels](https://github.com/Ushie/Aliucord-Plugins/raw/builds/MuteVoiceAndStageChannels.zip)|
-|Display name styles|[DisplayNameStyles](https://github.com/cillynder/Awoocord/raw/builds/DisplayNameStyles.zip)|
 |Avatar in dm header|[AvatarInHeader](https://github.com/Ushie/Aliucord-Plugins/raw/builds/AvatarInHeader.zip)|
 |Persist message drafts|[PersistMessageDrafts](https://github.com/Ushie/Aliucord-Plugins/raw/builds/PersistMessageDrafts.zip)|
 |Fix attachment limit|[AttachmentLimitFix](https://github.com/Ushie/Aliucord-Plugins/raw/builds/AttachmentLimitFix.zip)|
@@ -107,6 +106,10 @@ Required for [#unmaintained-plugins](https://discord.com/channels/81125566699090
 |Media remix|[PhotoEditor](https://github.com/mantikafasi/AliucordPlugins/raw/builds/PhotoEditor.zip)|
 |Onboarding|[FixOnboardingFork](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/FixOnboardingFork.zip)|
 |Compact images|[MosaicFork](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/MosaicFork.zip)|
+|Gradient role colors and styled display names|[ModernUserStyles](https://github.com/pilotbellyt-spec/AliucordPlugins/raw/builds/ModernUserStyles.zip)|
+|New icons|[NewIcons](https://github.com/mantikafasi/AliucordPlugins/raw/builds/NewIcons.zip)|
+|Bookmarks/reminders for messages|[MessageBookmarks](https://github.com/pilotbellyt-spec/AliucordPlugins/raw/builds/MessageBookmarks.zip)|
+|Ignoring users|[IgnoreFeature](https://github.com/pilotbellyt-spec/AliucordPlugins/raw/builds/IgnoreFeature.zip)|
 
 ## Built-in to Aliucord
 
@@ -237,7 +240,6 @@ If a feature isn't here, see the [Backports](/documentation/#backports) page in 
 |-|-|
 |Apps|This means games like `/wordle` (ny times)|
 |Shop|Discord decoration/orbs store|
-|Ignoring users|Ignoring users (blocking without removing as friends)|
 |Super reactions|The fancy reactions that are more annoying than normal ones|
 |E2EE VC|End-to-end encryption in voice chats|
 |Connection info|Steam games count, reddit karma count, etc.|
@@ -246,8 +248,8 @@ If a feature isn't here, see the [Backports](/documentation/#backports) page in 
 |In-game friends|In-game friends|
 |Soundboard|Soundboard in VCs|
 |Security keys|Security key to login|
-|Gradient roles|Roles with fancy styles|
 |Message requests|Message requests|
+|Managing stickers|Managing stickers in server settings|
 
 ---
 
@@ -428,7 +430,8 @@ You will need:
 |Opening links in Aliucord instead of Discord/browser|[OpenLinksInApp](https://github.com/Canny1913/AliuPlugins/raw/builds/OpenLinksInApp.zip)|
 |Not being able to add friends|[FriendFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/FriendFix.zip)|
 |Not being able to create threads|[ThreadCMD](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/ThreadCMD.zip) (adds a command for it instead)|
-|Forums|[ForumTagFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/ForumTagFix.zip)|
+|Not being able to add tags to forums|[ForumTagFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/ForumTagFix.zip)|
 |Media channels|[MediaChannelFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/MediaChannelFix.zip)|
-|HEIC images |[HeicFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/HeicFix.zip) (converts them to jpg when you send them)|
-|Onboarding|[FixOnboardingFork](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/FixOnboardingFork.zip)|
+|HEIC images|[HeicFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/HeicFix.zip) (converts them to jpg when you send them)|
+|Not being able to talk in servers due to onboarding|[FixOnboardingFork](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/FixOnboardingFork.zip)|
+|Audit log and bans sections in server settings|[ServerSettingsFix](https://github.com/pilotbellyt-spec/AliucordPlugins/raw/builds/ServerSettingsFix.zip)|
