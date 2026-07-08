@@ -258,7 +258,7 @@ If a feature isn't here, see the [Backports](/documentation/#backports) page in 
 
 |Feature|Notes|
 |-|-|
-|Apps|This means games like `/wordle` (ny times)|
+|Apps|Context menu for bots|
 |Shop|Discord decoration/orbs store|
 |Super reactions|The fancy reactions that are more annoying than normal ones|
 |E2EE VC|End-to-end encryption in voice chats|
