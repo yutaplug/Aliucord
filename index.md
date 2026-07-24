@@ -57,7 +57,7 @@ If you already have the plugin `.zip`, just follow two last steps.
 No. Aliucord can only be used with 126.21 Discord version and the devs won't update the base version to a newer one due to several reasons (a list can be found [here](/documentation#old-ui)). This doesn't mean Aliucord is abandoned, it is still actively maintained and plugins are still being created and worked on, along with backports of features from new Discord. You can use [another client](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties) that uses the new version if you prefer it.
 
 ## What features from new Discord have been backported? and which ones are missing?
-See [this list](/documentation#backports) for backported features and [this one](/documentation#missing-features) for missing features.
+See [this list](/Aliucord/#backports) for backported features and [this one](/Aliucord/#missing-features) for missing features.
 
 ## Is tracking & telemetry disabled / is there a no track plugin?
 Yes, NoTrack is part of the CorePlugins. Crashlytics, Adjust, Discord analytics and Spotify analytics are all disabled.
