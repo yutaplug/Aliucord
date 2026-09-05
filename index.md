@@ -6,7 +6,7 @@ Mirror of the documentation for the Aliucord app. Official page [here](https://a
 
 ---
 
-# FAQ and Common issues
+# Beginner guide
 
 ## How to install Aliucord
 Download the latest [Manager APK](https://github.com/Aliucord/Manager/releases/download/v1.3.0/aliucord-manager-v1.3.0.apk) and install it. Once installed, open it and grant all perms, then press "New install" and proceed with the installation.
@@ -45,15 +45,9 @@ If you already have the plugin `.zip`, just follow two last steps.
 5. Using a file manager ([we recommend Material Files](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) ([F-Droid](https://f-droid.org/packages/me.zhanghai.android.files/))) move the downloaded `.zip` to the `Aliucord/plugins` folder
 6. Restart Aliucord
 
-## Is there a plugin for...?
-- No, there is no plugin to get nitro for free. However, you can type `!fakenitro` in `#bot-spam` channel to get a list of plugins that mimic nitro features.
-- No, there is no plugin for RPC (Rich Presence).
-- No, there is no soundboard plugin.
-- No, there is no plugin to mass/bulk delete messages/dms.
-- No, a plugin for new/modern UI doesn't exist. However, you can install the "DiscordRN Dark" theme which mimics the color & font of it.
-- No, there is no plugin to bypass file size.
+# FAQ
 
-## Can i use Aliucord with the new Discord UI? will the devs update it to a newer version?
+## Can Aliucord be used with the new Discord UI? will the devs update it to a newer version?
 No. Aliucord can only be used with 126.21 Discord version and the devs won't update the base version to a newer one due to several reasons (a list can be found [here](/documentation#old-ui)). This doesn't mean Aliucord is abandoned, it is still actively maintained and plugins are still being created and worked on, along with backports of features from new Discord. You can use [another client](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties) that uses the new version if you prefer it.
 
 ## What features from new Discord have been backported? and which ones are missing?
@@ -159,6 +153,13 @@ Your OS doesn't properly show install prompts. Cancel the install, enable "Keep 
 |Activities V2|[ActivitiesV2](https://github.com/secp192k1/Aliucord-Plugins/raw/builds/ActivitiesV2.zip)|
 |QR login|[QRCodeLogin](https://github.com/secp192k1/Aliucord-Plugins/raw/21770595a84b0961253155f0806e17d0f97db609/QRCodeLogin.zip)|
 |Spoilers|[FixSpoilers](https://github.com/mantikafasiCorp/VibePlugins/raw/builds/FixSpoilers.zip)|
+|Larger File Uploads guild boost perk|[LargerUploadsPerk](https://github.com/secp192k1/Aliucord-Plugins/raw/builds/LargerUploadsPerk.zip)|
+|Keep video playing when scrolling|[KeepVideoPlaying](https://github.com/secp192k1/Aliucord-Plugins/raw/builds/KeepVideoPlaying.zip)|
+|Holding servers|[ServerIconLongPressFix](https://github.com/bappitybup/aliucord-plugins/raw/builds/ServerIconLongPressFix.zip)|
+|DM pins|[DMPins](https://github.com/bappitybup/aliucord-plugins/raw/builds/DMPins.zip)|
+|Six most recent profile pictures|[RecentProfilePictures](https://github.com/yutaplug/yutaplugins/raw/builds/RecentProfilePictures.zip)|
+|Super reactions|[SuperReactions](https://github.com/yutaplug/yutaplugins/raw/builds/SuperReactions.zip)|
+|Profile effects and frames|[ProfileEffects](https://github.com/yutaplug/yutaplugins/raw/builds/ProfileEffects.zip)|
 
 ## Built-in to Aliucord
 
@@ -303,7 +304,6 @@ If a feature isn't here, see the [Backports](/documentation/#backports) page in 
 |-|-|
 |Apps|Context menu for bots|
 |Shop|Discord decoration/orbs store|
-|Super reactions|The fancy reactions that are more annoying than normal ones|
 |E2EE VC|End-to-end encryption in voice chats|
 |Connection info|Steam games count, reddit karma count, etc.|
 |Managing join requests|Managing join requests|
@@ -472,3 +472,56 @@ You will need:
 4. Now open Aliucord and reproduce the issue
 5. Run the following command now: `adb logcat -d > logcat.txt`
 6. The generated logcat will be in your user home directory
+
+# Themer Fixer
+
+If you are on an AOSP-based ROM / Custom ROM and you have issues with Themer not theming some components properly, and you have root access, you can try this method. It works for full transparency and no transparency.
+
+## Requirements
+
+- [LSPosed/Vector](https://github.com/JingMatrix/Vector/releases)
+    - Vector needs a Zygisk implementation to work
+- [Discord Themer](https://github.com/Aliucord/DiscordThemer/releases)
+- Aliucord Themer plugin
+
+## Steps
+
+1. Install the Themer plugin in Aliucord and install and enable a theme.
+2. Install Discord Themer. You need LSPosed for it to work, so install it too.
+3. Enter LSPosed and enable Discord Themer in Modules.
+4. Select Aliucord.
+5. [Download this file](https://github.com/WhenFreedom/Themes/releases/download/v1.0.1/ThemerFixer.json) 
+6. Go to Discord Themer and enable Advanced Settings, then press Load Settings and select the json file you downloaded.
+7. Restart Aliucord
+
+## It doesn't work!
+
+In case it didnt work you may want to try to do the following:
+
+1. Enter Discord Themer and enable Force Disable Module.
+2. Tap on Colors. 
+3. Search for "primary" in the search bar
+4. Scroll until you see strings with "(i)" next to them.
+5. Make each of these strings transparent by clicking on the color and sliding the transparency bar.
+6. Make sure these listed strings are transparent:
+    - primary
+        - primary_500
+        - primary_600
+        - primary_630
+        - primary_660
+        - primary_700
+        - primary_800
+    - primary_dark
+        - primary_dark_600
+        - primary_dark_630
+        - primary_dark_660
+        - primary_dark_700
+        - primary_dark_800
+    - brand
+        - brand_500
+    - brand_new
+        - brand_new
+        - brand_new_500
+7. Go back and disable Force Disable Module.
+8. Disable Advanced Settings and re-enable it.
+9. Restart Aliucord.
