@@ -1,7 +1,5 @@
 # Aliucord documentation
 
-Mirror of the documentation for the Aliucord app. Official page [here](https://aliucord.com/documentation).
-
 <style>html, body, .markdown-body, table, tr, td, th { background-color: #121212 !important; color: white !important; } h1, h2 { border-bottom: none !important; }</style>
 
 ---
