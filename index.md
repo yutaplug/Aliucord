@@ -178,7 +178,19 @@ Your OS doesn't properly show install prompts. Cancel the install, enable "Keep 
 
 This page only shows the most relevant/important changes for most Aliucord users, if you want to see more internal changes that are not that relevant for normal Aliucord users, see the [commits page](https://github.com/Aliucord/Aliucord/commits/main).
 
-## 2.9.7 (CURRENT VERSION)
+## 2.10.0 (CURRENT VERSION)
+- Support new 20MB file size limit
+- Fix spoilered attachments
+- Fix server icon long press
+- Backport safety hub/account standing
+- Fix jumping to archived threads
+- Add support for Friend Request Accepted message type
+- Fix "Larger File Uploads" guild boost perk
+- Show authors for core plugins
+- Add UI feedback to Token login
+- Fix navbar in Plugin Settings Page
+
+## 2.9.7 
 - Fix avatars not loading
 - Fix crash when clicking on safe mode status
 
