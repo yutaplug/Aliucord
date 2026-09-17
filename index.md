@@ -150,10 +150,7 @@ Your OS doesn't properly show install prompts. Cancel the install, enable "Keep 
 |Managing stickers in server settings|[ManageStickers](https://github.com/pilotbellyt-spec/AliucordPlugins/raw/builds/ManageStickers.zip)|
 |Activities V2|[ActivitiesV2](https://github.com/secp192k1/Aliucord-Plugins/raw/builds/ActivitiesV2.zip)|
 |QR login|[QRCodeLogin](https://github.com/secp192k1/Aliucord-Plugins/raw/21770595a84b0961253155f0806e17d0f97db609/QRCodeLogin.zip)|
-|Spoilers|[FixSpoilers](https://github.com/mantikafasiCorp/VibePlugins/raw/builds/FixSpoilers.zip)|
-|Larger File Uploads guild boost perk|[LargerUploadsPerk](https://github.com/secp192k1/Aliucord-Plugins/raw/builds/LargerUploadsPerk.zip)|
 |Keep video playing when scrolling|[KeepVideoPlaying](https://github.com/secp192k1/Aliucord-Plugins/raw/builds/KeepVideoPlaying.zip)|
-|Holding servers|[ServerIconLongPressFix](https://github.com/bappitybup/aliucord-plugins/raw/builds/ServerIconLongPressFix.zip)|
 |DM pins|[DMPins](https://github.com/bappitybup/aliucord-plugins/raw/builds/DMPins.zip)|
 |Six most recent profile pictures|[RecentProfilePictures](https://github.com/yutaplug/yutaplugins/raw/builds/RecentProfilePictures.zip)|
 |Super reactions|[SuperReactions](https://github.com/yutaplug/yutaplugins/raw/builds/SuperReactions.zip)|
@@ -171,6 +168,10 @@ Your OS doesn't properly show install prompts. Cancel the install, enable "Keep 
 - Avatar decorations
 - Guild tags
 - Nameplates
+- Account standing
+- `Larger File Uploads` guild perk
+- New spoilered attachments
+
 
 ---
 
