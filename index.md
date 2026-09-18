@@ -45,8 +45,10 @@ If you already have the plugin `.zip`, just follow two last steps.
 
 # FAQ
 
-## Can Aliucord be used with the new Discord UI? will the devs update it to a newer version?
+## Can Aliucord be used with the new Discord UI?
 No. Aliucord can only be used with 126.21 Discord version and the devs won't update the base version to a newer one due to several reasons (a list can be found [here](/documentation#old-ui)). This doesn't mean Aliucord is abandoned, it is still actively maintained and plugins are still being created and worked on, along with backports of features from new Discord. You can use [another client](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties) that uses the new version if you prefer it.
+
+Note: To make Aliucord the closest possible to new Discord, you can use [DiscordRN Dark](https://discord.com/channels/811255666990907402/824357609778708580/1396601756187885659) or [Discord Midnight theme](https://discord.com/channels/811255666990907402/824357609778708580/1400698799600570398) themes that replicate the color & font (the UI itself is not possible to replicate). You can also use NewIcons plugin and BetterFontScale with 16.5 size.
 
 ## What features from new Discord have been backported? and which ones are missing?
 See [this list](/Aliucord/#backports) for backported features and [this one](/Aliucord/#missing-features) for missing features.
@@ -329,7 +331,7 @@ If a feature isn't here, see the [Backports](/documentation/#backports) page in 
 
 **How to get modern Discord interface (UI) in Aliucord**
 
-This is not really possible due to Aliucord using an old Discord version. However, there are two themes ([DiscordRN Dark](https://discord.com/channels/811255666990907402/824357609778708580/1396601756187885659) & [Discord Midnight theme](https://discord.com/channels/811255666990907402/824357609778708580/1400698799600570398)) that replicate the color & font of it (the UI itself is not possible to replicate).
+This is not really possible due to Aliucord using an old Discord version. However, there are two themes ([DiscordRN Dark](https://discord.com/channels/811255666990907402/824357609778708580/1396601756187885659) or [Discord Midnight theme](https://discord.com/channels/811255666990907402/824357609778708580/1400698799600570398)) that replicate the color & font of it (the UI itself is not possible to replicate). You can also use NewIcons plugin and BetterFontScale with 16.5 size.
 
 Alternatively, you can search for another modified Discord client that uses the new version instead of the old one [here](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties).
 
