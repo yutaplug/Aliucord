@@ -94,9 +94,9 @@ Your OS doesn't properly show install prompts. Cancel the install, enable "Keep 
 
 |Feature|Plugin Name|
 |-|-|
-|Voice messages|[VoiceMessages](https://github.com/mantikafasi/AliucordPlugins/raw/builds/VoiceMessages.zip)|
+|Voice messages|[VoiceMessages](https://github.com/yutaplug/yutaplugins/raw/builds/VoiceMessages.zip)|
 |Playing Audio files|[AudioPlayer](https://github.com/mantikafasi/AliucordPlugins/raw/builds/AudioPlayer.zip)|
-|Forwarding messages|[ForwardMessages](https://github.com/Ushie/Aliucord-Plugins/raw/builds/ForwardMessages.zip)|
+|Forwarding messages|[ForwardMessages](https://github.com/yutaplug/yutaplugins/raw/builds/ForwardMessages.zip)|
 |Closing DMs from bottomsheet|[CloseDMs](https://github.com/DiamondMiner88/aliucord-plugins/raw/builds/CloseDMs.zip)|
 |Bot commands|[SlashCommandsFix](https://github.com/LavaDesu/Awoocord/raw/builds/SlashCommandsFixBeta.zip) 🚧|
 |Bot embeds|[ComponentsV2](https://github.com/LavaDesu/Awoocord/raw/builds/ComponentsV2Beta.zip) 🚧|
@@ -173,6 +173,7 @@ Your OS doesn't properly show install prompts. Cancel the install, enable "Keep 
 - Account standing
 - `Larger File Uploads` guild perk
 - New spoilered attachments
+- 20MB file size limit
 
 
 ---
