@@ -1,10 +1,32 @@
 # Aliucord documentation
 
-<style>html, body, .markdown-body, table, tr, td, th { background-color: #121212 !important; color: white !important; } h1, h2 { border-bottom: none !important; }</style>
+<link rel="stylesheet" href="/Aliucord/assets/css/custom.css?v=dark-10">
+<script src="/Aliucord/assets/js/sections.js?v=1" defer></script>
+
+<nav class="section-selector" aria-label="Documentation sections">
+  <span class="section-selector-label">Choose a section</span>
+  <div class="section-links">
+    <a href="#beginner-guide">Beginner guide</a>
+    <a href="#backports">Backports</a>
+    <a href="#changelog">Changelog</a>
+    <a href="#forks">Forks</a>
+    <a href="#missing-features">Missing features</a>
+    <a href="#new-ui">New UI</a>
+    <a href="#old-ui">Old UI</a>
+    <a href="#sounds">Sounds</a>
+    <a href="#themer">Themer</a>
+    <a href="#userpfp-and-bg">UserPFP and BG</a>
+    <a href="#how-to-logcat">How to logcat</a>
+    <a href="#themer-fixer">Themer Fixer</a>
+    <a href="#faq">FAQ</a>
+  </div>
+</nav>
 
 ---
 
 # Beginner guide
+
+**READING [FAQ](/Aliucord/#faq) IS HIGHLY RECOMMENDED**
 
 ## How to install Aliucord
 Download the latest [Manager APK](https://github.com/Aliucord/Manager/releases/download/v1.3.0/aliucord-manager-v1.3.0.apk) and install it. Once installed, open it and grant all perms, then press "New install" and proceed with the installation.
@@ -16,20 +38,14 @@ Download the latest [Manager APK](https://github.com/Aliucord/Manager/releases/d
 4. Click on `View [Author]'s Plugins` for `#plugins-list` or `Install [Plugin name]` for `#new-plugins`
 5. Install the plugin you want
 
-**Tips:**
-- Most plugins need an app restart to work properly.
-- The PluginWeb plugin is recommended if you want a built-in plugin list.
-- You can use the `#bot-spam` channel to find plugins with Lumi bot. Just type `!plugins` followed by the name/keyword of the plugin you want.
-
-## How to install themes
-**If the theme you are using doesn't work for you, either you are not using the right transparency mode, you are not using theme mirror from `#theme-support` pins (this only affects image background), or Themer is broken on your end (can happen depending on Android version/OS)**
-
-1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
-2. Make sure you are using the Aliucord app
-3. Install `Themer` plugin
-4. Go to `#themes` channel and hold any message (NOT THE LINK)
-5. Click on the first option `Install [Theme name]`
-6. Go to Themer plugin settings and enable the theme
+<details class="plugin-tips">
+<summary>Plugin tips</summary>
+<ul class="tips-list">
+  <li><span class="tip-label">Restart</span><p>Most plugins need an app restart to work properly.</p></li>
+  <li><span class="tip-label">Browse</span><p>Use the PluginWeb plugin for a built-in plugin list.</p></li>
+  <li><span class="tip-label">Search</span><p>Find plugins with Lumi bot in <code>#bot-spam</code>. Type <code>!plugins</code> followed by a plugin name or keyword.</p></li>
+</ul>
+</details>
 
 ## How to install plugins manually
 Required for [#unmaintained-plugins](https://discord.com/channels/811255666990907402/861935147272110100) channel
@@ -43,52 +59,30 @@ If you already have the plugin `.zip`, just follow two last steps.
 5. Using a file manager ([we recommend Material Files](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) ([F-Droid](https://f-droid.org/packages/me.zhanghai.android.files/))) move the downloaded `.zip` to the `Aliucord/plugins` folder
 6. Restart Aliucord
 
-# FAQ
+## How to install themes
+**If the theme you are using doesn't work for you, either you are not using the right transparency mode, you are not using theme mirror from `#theme-support` pins (this only affects image background), or Themer is broken on your end (can happen depending on Android version/OS)**
 
-## Can Aliucord be used with the new Discord UI?
-No. Aliucord can only be used with 126.21 Discord version and the devs won't update the base version to a newer one due to several reasons (a list can be found [here](/documentation#old-ui)). This doesn't mean Aliucord is abandoned, it is still actively maintained and plugins are still being created and worked on, along with backports of features from new Discord. You can use [another client](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties) that uses the new version if you prefer it.
-
-Note: To make Aliucord the closest possible to new Discord, you can use [DiscordRN Dark](https://discord.com/channels/811255666990907402/824357609778708580/1396601756187885659) or [Discord Midnight theme](https://discord.com/channels/811255666990907402/824357609778708580/1400698799600570398) themes that replicate the color & font (the UI itself is not possible to replicate). You can also use NewIcons plugin and BetterFontScale with 16.5 size.
-
-## What features from new Discord have been backported? and which ones are missing?
-See [this list](/Aliucord/#backports) for backported features and [this one](/Aliucord/#missing-features) for missing features.
-
-## Is tracking & telemetry disabled / is there a no track plugin?
-Yes, NoTrack is part of the CorePlugins. Crashlytics, Adjust, Discord analytics and Spotify analytics are all disabled.
-
-## Is Aliucord safe? does it have any virus or can i get banned for using it?
-Aliucord is completely safe & open source. It has been the most popular Discord client mod for many years already, and there's no case of someone being banned for using it nor getting hacked. Just don't install unofficial plugins that might abuse the API or steal your credentials (and don't share your token).
-
-## Google Play Protect says Aliucord is potentially harmful
-Every Android app is signed with a signature by its developer. This way Android can confirm an apk comes from a credible source and wasn't tampered with. Because Aliucord is built locally on your device, that also means it is signed locally on your device, with a signature created just for you (can be found at Aliucord/ks.keystore). This means that the signature of your Aliucord app is unique and Google doesn't recognise it. That's why it shows you a warning that this app is from an untrusted developer. Thus, you can safely ignore the warning.
-
-## Duckduckgo anti tracker / Other anti tracker says Aliucord contains trackers even though its supposed to block them
-Most of these apps simply check for the existence of tracking libraries inside the app. Aliucord still contains discords tracking libraries, removing them entirely would be virtually impossible. Instead, we simply disable them or patch them to do nothing. So while anti tracking apps still flag Aliucord, tracking is disabled as much as possible. The only tracking that is still enabled is essential for basic functionality, for instance Google firebase is required for notifications to work as that is how discord sends them to your phone.
-
-## Why is Aliucord starting so slowly?
-First reason is most likely MessageLogger plugin, this plugin has a database which can make your app slower if it gets big. To clear it go to the plugin settings and click both clear edited messages and deleted messages. If this didn't solve it or you don't even have the plugin installed, try clearing cache, app data or reinstalling Aliucord through the manager.
-
-## I got the new experimental status notifications for when friends change their status, how do i turn it off?
-Go into the notification settings for Aliucord (Settings app, not inside Aliucord) and go into notification categories. There you should find a setting called "other". Turn it off. If you don't see notification categories, go into advanced settings first and turn on "Manage notification categories for each app".
-
-## I can't login because of 2FA
-If you have logging issues due to 2FA you most likely have security keys added. You will need to remove them from an official Discord client. After that, you will be able to log in normally. Note that backup codes do not work either.
-
-## Manager is failing on downloading step
-Use a VPN (if you don't have one, ProtonVPN is free) or use another network. Some ISPs, such as all the ones in Turkey, block either our backend and/or GitHub.
-
-## Manager is failing or is stuck on installing step
-Your OS doesn't properly show install prompts. Cancel the install, enable "Keep Patched APKs" in settings, try to re-install, and once you get stuck again, then go back to settings to export the apk. You can then manually install the APK yourself.
+1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
+2. Make sure you are using the Aliucord app
+3. Install `Themer` plugin
+4. Go to `#themes` channel and hold any message (NOT THE LINK)
+5. Click on the first option `Install [Theme name]`
+6. Go to Themer plugin settings and enable the theme
 
 ---
 
 # Backports
 
-- 💣: Broken or partially broken
-- 🚧: Still in development or beta
-- ⚠️: Maintenance mode (unusable/broken or can compromise your account)
+<details class="status-legend">
+<summary>Status legend</summary>
+<ul class="status-list">
+  <li><span class="status-badge status-broken"><span aria-hidden="true">💣</span> Broken</span><span>Broken or partially broken.</span></li>
+  <li><span class="status-badge status-beta"><span aria-hidden="true">🚧</span> Beta</span><span>Still in development or beta.</span></li>
+  <li><span class="status-badge status-maintenance"><span aria-hidden="true">⚠️</span> Maintenance</span><span>Unusable, broken, or may compromise your account.</span></li>
+</ul>
+</details>
 
-**Note:** To install the plugins from here you need to click the plugin name, it will download the plugin `.zip`, now just move it to the `Aliucord/plugins` folder using a file manager & restart Aliucord in case it was open.
+These plugins are recommended to get and fix features from new Discord. To install the plugins from here you need to click the plugin name, it will download the plugin `.zip`, now just move it to the `Aliucord/plugins` folder using a file manager & restart Aliucord in case it was open.
 
 ## Plugins
 
@@ -102,7 +96,7 @@ Your OS doesn't properly show install prompts. Cancel the install, enable "Keep 
 |Bot embeds|[ComponentsV2](https://github.com/LavaDesu/Awoocord/raw/builds/ComponentsV2Beta.zip) 🚧|
 |Quests|[ViewQuests](https://github.com/nyxiereal/AliucordPlugins/raw/builds/ViewQuests.zip) 🚧|
 |Summaries|[Summaries](https://github.com/MCausc78/RNSucks/raw/builds/Summaries.zip) 🚧|
-|Embed playing|[Fluff](https://github.com/yutaplug/Aliucord/raw/builds/Fluff.zip)|
+|Embed playing|[PlayEmbeds](https://github.com/yutaplug/yutaplugins/raw/builds/PlayEmbeds.zip)|
 |Swiping to reply|[SwipeToReply](https://github.com/RazerTexz/My-plugins/raw/builds/SwipeToReply.zip) ([TapTap](https://github.com/Vendicated/AliucordPlugins/raw/builds/TapTap.zip) is recommended instead)|
 |Nick command|[SlashNick](https://github.com/rushiiMachine/aliucord-plugins/raw/builds/SlashNick.zip)|
 |Changing pronouns & display name|[MoreProfile](https://github.com/Halkiion/aliucord-plugins/raw/builds/MoreProfile.zip) ⚠️|
@@ -123,12 +117,12 @@ Your OS doesn't properly show install prompts. Cancel the install, enable "Keep 
 |Remove attachments individually|[AttachmentRemover](https://github.com/RazerTexz/My-plugins/raw/builds/AttachmentRemover.zip)|
 |Silent messages|[SilentMessages](https://github.com/RazerTexz/My-plugins/raw/builds/SilentMessages.zip)|
 |Channel browser|[ChannelBrowser](https://github.com/LampDelivery/AliucordPlugins/raw/builds/ChannelBrowser.zip)|
-|Compact links|[CompactLinks](https://github.com/LampDelivery/AliucordPlugins/raw/builds/CompactLinks.zip)|
+|New Discord link style|[NewLinks](https://github.com/yutaplug/yutaplugins/raw/builds/NewLinks.zip)|
 |Copy channel link|[CopyLinks](https://github.com/LampDelivery/AliucordPlugins/raw/builds/CopyLinks.zip)|
 |Message grouping|[Clump](https://github.com/LavaDesu/Awoocord/raw/builds/Clump.zip)|
 |DM previews|[Glance](https://github.com/cillynder/Awoocord/raw/builds/Glance.zip)|
 |Profile colors|[ModernProfiles](https://github.com/l6t9/AliucordPlugins/raw/builds/ModernProfiles.zip)|
-|Evolving Nitro badges|[ModernNitroIcons](https://github.com/Ushie/Aliucord-Plugins/raw/builds/ModernNitroIcons.zip)|
+|New Discord badges|[NewDiscordBadges](https://github.com/yutaplug/yutaplugins/raw/builds/NewDiscordBadges.zip)|
 |New member badge|[NewMemberBadge](https://github.com/Ushie/Aliucord-Plugins/raw/builds/NewMemberBadge.zip)|
 |Friend nicknames|[NativeFriendNicknames](https://github.com/miaaaa0a/aliucord-plugins/raw/builds/NativeFriendNicknames.zip)|
 |Muting voice channels|[MuteVoiceAndStageChannels](https://github.com/Ushie/Aliucord-Plugins/raw/builds/MuteVoiceAndStageChannels.zip)|
@@ -157,6 +151,7 @@ Your OS doesn't properly show install prompts. Cancel the install, enable "Keep 
 |Six most recent profile pictures|[RecentProfilePictures](https://github.com/yutaplug/yutaplugins/raw/builds/RecentProfilePictures.zip)|
 |Super reactions|[SuperReactions](https://github.com/yutaplug/yutaplugins/raw/builds/SuperReactions.zip)|
 |Profile effects and frames|[ProfileEffects](https://github.com/yutaplug/yutaplugins/raw/builds/ProfileEffects.zip)|
+|Opening Discord links in app|[OpenLinksInApp](https://github.com/Canny1913/AliucordPlugins/blob/builds/OpenLinksInApp.zip)|
 
 ## Built-in to Aliucord
 
@@ -174,7 +169,6 @@ Your OS doesn't properly show install prompts. Cancel the install, enable "Keep 
 - `Larger File Uploads` guild perk
 - New spoilered attachments
 - 20MB file size limit
-
 
 ---
 
@@ -539,3 +533,40 @@ In case it didnt work you may want to try to do the following:
 7. Go back and disable Force Disable Module.
 8. Disable Advanced Settings and re-enable it.
 9. Restart Aliucord.
+
+# FAQ
+
+## Can Aliucord be used with the new Discord UI?
+No. Aliucord can only be used with 126.21 Discord version and the devs won't update the base version to a newer one due to several reasons (a list can be found [here](/documentation#old-ui)). This doesn't mean Aliucord is abandoned, it is still actively maintained and plugins are still being created and worked on, along with backports of features from new Discord. You can use [another client](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties) that uses the new version if you prefer it.
+
+Note: To make Aliucord the closest possible to new Discord, you can use [DiscordRN Dark](https://discord.com/channels/811255666990907402/824357609778708580/1396601756187885659) or [Discord Midnight theme](https://discord.com/channels/811255666990907402/824357609778708580/1400698799600570398) themes that replicate the color & font (the UI itself is not possible to replicate). You can also use NewIcons plugin and BetterFontScale with 16.5 size.
+
+## What features from new Discord have been backported? and which ones are missing?
+See [this list](/Aliucord/#backports) for backported features and [this one](/Aliucord/#missing-features) for missing features.
+
+## Is tracking & telemetry disabled / is there a no track plugin?
+Yes, NoTrack is part of the CorePlugins. Crashlytics, Adjust, Discord analytics and Spotify analytics are all disabled.
+
+## Is Aliucord safe? does it have any virus or can i get banned for using it?
+Aliucord is completely safe & open source. It has been the most popular Discord client mod for many years already, and there's no case of someone being banned for using it nor getting hacked. Just don't install unofficial plugins that might abuse the API or steal your credentials (and don't share your token).
+
+## Google Play Protect says Aliucord is potentially harmful
+Every Android app is signed with a signature by its developer. This way Android can confirm an apk comes from a credible source and wasn't tampered with. Because Aliucord is built locally on your device, that also means it is signed locally on your device, with a signature created just for you (can be found at Aliucord/ks.keystore). This means that the signature of your Aliucord app is unique and Google doesn't recognise it. That's why it shows you a warning that this app is from an untrusted developer. Thus, you can safely ignore the warning.
+
+## Duckduckgo anti tracker / Other anti tracker says Aliucord contains trackers even though its supposed to block them
+Most of these apps simply check for the existence of tracking libraries inside the app. Aliucord still contains discords tracking libraries, removing them entirely would be virtually impossible. Instead, we simply disable them or patch them to do nothing. So while anti tracking apps still flag Aliucord, tracking is disabled as much as possible. The only tracking that is still enabled is essential for basic functionality, for instance Google firebase is required for notifications to work as that is how discord sends them to your phone.
+
+## Why is Aliucord starting so slowly?
+First reason is most likely MessageLogger plugin, this plugin has a database which can make your app slower if it gets big. To clear it go to the plugin settings and click both clear edited messages and deleted messages. If this didn't solve it or you don't even have the plugin installed, try clearing cache, app data or reinstalling Aliucord through the manager.
+
+## I got the new experimental status notifications for when friends change their status, how do i turn it off?
+Go into the notification settings for Aliucord (Settings app, not inside Aliucord) and go into notification categories. There you should find a setting called "other". Turn it off. If you don't see notification categories, go into advanced settings first and turn on "Manage notification categories for each app".
+
+## I can't login because of 2FA
+If you have logging issues due to 2FA you most likely have security keys added. You will need to remove them from an official Discord client. After that, you will be able to log in normally. Note that backup codes do not work either.
+
+## Manager is failing on downloading step
+Use a VPN (if you don't have one, ProtonVPN is free) or use another network. Some ISPs, such as all the ones in Turkey, block either our backend and/or GitHub.
+
+## Manager is failing or is stuck on installing step
+Your OS doesn't properly show install prompts. Cancel the install, enable "Keep Patched APKs" in settings, try to re-install, and once you get stuck again, then go back to settings to export the apk. You can then manually install the APK yourself.
