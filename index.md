@@ -295,10 +295,8 @@ To install them, download the plugin `.zip` and move it to the `Aliucord/plugins
 |CheckLinks fork by Serinova fixes the majority of the urls not being checked (VirusTotal changed its link structure).|[Download CheckLinks fork](https://github.com/OasisVee/AliucordPlugins2/raw/builds/CheckLinks.zip)|
 |Ip fork by Serinova fixes the `/ip` command.|[Download Ip fork](https://github.com/OasisVee/AliucordPluginsSc/raw/builds/Ip.zip)|
 |SendEmbeds fork by Serinova makes the `/embed` command work again by using directwebhook (original API died).|[Download SendEmbeds fork](https://github.com/OasisVee/aliucord-pluginsC/raw/builds/SendEmbeds.zip)|
-|PlayableEmbeds fork by Enovale and Omar (renamed to Fluff) makes the embeds work for every site and fixes YouTube embeds.|[Download Fluff](https://github.com/yutaplug/Aliucord/raw/builds/Fluff.zip)|
 |TapTap fork by Rushii adds option to delete messages.|[Download TapTap fork](https://github.com/yutaplug/Aliucord/raw/builds/TapTap.zip)|
 |TextReplace fork by DeafThing removes the character limit.|[Download TextReplace fork](https://github.com/DeafThing/aliucord-pluginsC/raw/builds/TextReplace.zip)|
-|MoreHighlight fork by yuta (renamed to MarkdownFix) fixes empty lines not showing when theres several headers in a row, and link not being blue in subtext.|[Download MarkdownFix](https://github.com/yutaplug/yutaplugins/blob/builds/MarkdownFix.zip)|
 
 ---
 
@@ -306,7 +304,7 @@ To install them, download the plugin `.zip` and move it to the `Aliucord/plugins
 
 Compared to the React Native client.
 
-If a feature isn't here, see the [Backports](/documentation/#backports) page in case it already exists as a plugin or it's already built-in.
+If a feature isn't here, see the [Backports](/Aliucord/#backports) page in case it already exists as a plugin or it's already built-in.
 
 |Feature|Notes|
 |-|-|
@@ -319,6 +317,7 @@ If a feature isn't here, see the [Backports](/documentation/#backports) page in 
 |In-game friends|In-game friends|
 |Soundboard|Soundboard in VCs|
 |Security keys|Security key to login|
+|Custom typing indicators|Yes|
 
 ---
 
