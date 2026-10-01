@@ -18,20 +18,19 @@
     <a href="#userpfp-and-bg">UserPFP and BG</a>
     <a href="#how-to-logcat">How to logcat</a>
     <a href="#themer-fixer">Themer Fixer</a>
+    <a href="#customrpc">CustomRPC</a>
     <a href="#faq">FAQ</a>
   </div>
 </nav>
 
----
-
 # Beginner guide
 
-**READING [FAQ](/Aliucord/#faq) IS HIGHLY RECOMMENDED**
+### READING [FAQ](/Aliucord/#faq) IS HIGHLY RECOMMENDED
 
-## How to install Aliucord
+### How to install Aliucord
 Download the latest [Manager APK](https://github.com/Aliucord/Manager/releases/download/v1.3.0/aliucord-manager-v1.3.0.apk) and install it. Once installed, open it and grant all perms, then press "New install" and proceed with the installation.
 
-## How to install plugins
+### How to install plugins
 1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
 2. Make sure you are using the Aliucord app
 3. Go to `#plugins-list` or `#new-plugins` channels and hold any message
@@ -47,7 +46,9 @@ Download the latest [Manager APK](https://github.com/Aliucord/Manager/releases/d
 </ul>
 </details>
 
-## How to install plugins manually
+<details id="how-to-install-plugins-manually" markdown="1">
+<summary>How to install plugins manually</summary>
+
 Required for [#unmaintained-plugins](https://discord.com/channels/811255666990907402/861935147272110100) channel
 
 If you already have the plugin `.zip`, just follow two last steps.
@@ -59,7 +60,9 @@ If you already have the plugin `.zip`, just follow two last steps.
 5. Using a file manager ([we recommend Material Files](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) ([F-Droid](https://f-droid.org/packages/me.zhanghai.android.files/))) move the downloaded `.zip` to the `Aliucord/plugins` folder
 6. Restart Aliucord
 
-## How to install themes
+</details>
+
+### How to install themes
 **If the theme you are using doesn't work for you, either you are not using the right transparency mode, you are not using theme mirror from `#theme-support` pins (this only affects image background), or Themer is broken on your end (can happen depending on Android version/OS)**
 
 1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
@@ -68,8 +71,6 @@ If you already have the plugin `.zip`, just follow two last steps.
 4. Go to `#themes` channel and hold any message (NOT THE LINK)
 5. Click on the first option `Install [Theme name]`
 6. Go to Themer plugin settings and enable the theme
-
----
 
 # Backports
 
@@ -84,7 +85,7 @@ If you already have the plugin `.zip`, just follow two last steps.
 
 These plugins are recommended to get and fix features from new Discord. To install the plugins from here you need to click the plugin name, it will download the plugin `.zip`, now just move it to the `Aliucord/plugins` folder using a file manager & restart Aliucord in case it was open.
 
-## Plugins
+### Plugins
 
 |Feature|Plugin Name|
 |-|-|
@@ -153,7 +154,7 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Profile effects and frames|[ProfileEffects](https://github.com/yutaplug/yutaplugins/raw/builds/ProfileEffects.zip)|
 |Opening Discord links in app|[OpenLinksInApp](https://github.com/Canny1913/AliucordPlugins/blob/builds/OpenLinksInApp.zip)|
 
-## Built-in to Aliucord
+### Built-in to Aliucord
 
 - Viewing forwarded messages
 - Upload size (new 10mb limit for non-nitro users)
@@ -170,13 +171,11 @@ These plugins are recommended to get and fix features from new Discord. To insta
 - New spoilered attachments
 - 20MB file size limit
 
----
-
 # Changelog
 
 This page only shows the most relevant/important changes for most Aliucord users, if you want to see more internal changes that are not that relevant for normal Aliucord users, see the [commits page](https://github.com/Aliucord/Aliucord/commits/main).
 
-## 2.10.0 (CURRENT VERSION)
+### 2.10.0 (CURRENT VERSION)
 - Support new 20MB file size limit
 - Fix spoilered attachments
 - Fix server icon long press
@@ -188,27 +187,27 @@ This page only shows the most relevant/important changes for most Aliucord users
 - Add UI feedback to Token login
 - Fix navbar in Plugin Settings Page
 
-## 2.9.7 
+### 2.9.7 
 - Fix avatars not loading
 - Fix crash when clicking on safe mode status
 
-## 2.9.6
+### 2.9.6
 - Display avatars at correct resolution
 
-## 2.9.5
+### 2.9.5
 - Enable reply button in message actions for poll result messages
 - Fix some memory leak issues caused by faulty base app code
 - Fix animated webp rendering in various places
 - Fix absence of create thread button in guilds that have community enabled
 - Fix ViewProfileImages not working with avatar decorations
 
-## 2.9.4
+### 2.9.4
 - Fix crash when opening update notification and fix duplicate plugin entries
 
-## 2.9.3
+### 2.9.3
 - Revert "Support autocomplete entries with the same name" due to it causing app to be slow
 
-## 2.9.2
+### 2.9.2
 - Disable sticker suggestions by default
 - Treat invalid local plugin versions as outdated
 - Fix ghost unread indicator in guilds with forum channels
@@ -216,26 +215,26 @@ This page only shows the most relevant/important changes for most Aliucord users
 - Support autocomplete entries with the same name
 - Fix mismatching clock data (e.g date formatters breaking, old timeouts suddenly being reapplied)
 
-## 2.9.1
+### 2.9.1
 - Fix scrolling bug in dm list
 
-## 2.9.0
+### 2.9.0
 - Fix CoreUpdater and PluginUpdater
 - Allow muted DM's (including Group Channels) with unread mentions to appear in side bar
 
-## 2.8.0
+### 2.8.0
 - Load settings properly
 - Fix Aliucord dir not being created
 - Fix various PluginDownloader bugs
 - Allow disabling updater
 
-## 2.7.1
+### 2.7.1
 - Support slowmode permission
 - Fix collapsing bug
 - Fix admin/owner perms to include new pins perm
 - Scan for repo links only in plugin channels
 
-## 2.7.0
+### 2.7.0
 - Allow installing plugins from link context menu
 - Fix token login
 - Fix "Hide Muted Channels" option accidentally hiding muted threads with unread mentions from channel list
@@ -247,7 +246,7 @@ This page only shows the most relevant/important changes for most Aliucord users
 - Allow installing plugins from #bot-spam channel
 - Fix avatar decorations alignment in DMs list
 
-## 2.6.0
+### 2.6.0
 - Temporarily fix Voice Chat until March
 - Implement avatar decorations
 - Fix animated webp emojis not rendering
@@ -258,12 +257,12 @@ This page only shows the most relevant/important changes for most Aliucord users
 - Disallow creating polls without permission
 - Remove more billing upsells
 
-## 2.5.0
+### 2.5.0
 - Remove old voice workaround
 - Don't remove billing if user has nitro (the "billing settings" section from settings is now also removed for non-nitro users)
 - Fix links opening in aliucord's window instead of the link's app window (such as youtube)
 
-## 2.4.0
+### 2.4.0
 - User decorations coming soon
 - Add Google sideloading block warning
 - Rich video embed fix (such as fxtwitter)
@@ -276,13 +275,11 @@ This page only shows the most relevant/important changes for most Aliucord users
 - Support new pin features
 - Fix duplicate install buttons in #plugin-development channel
 
-## 2.3.1
+### 2.3.1
 - Fix various poll bugs
 - Fix a crash when leaving a server with a forwarded message loaded
 - Fix reply previews
 - Add AlignThreads fix as a CorePlugin
-
----
 
 # Forks
 
@@ -297,8 +294,6 @@ To install them, download the plugin `.zip` and move it to the `Aliucord/plugins
 |SendEmbeds fork by Serinova makes the `/embed` command work again by using directwebhook (original API died).|[Download SendEmbeds fork](https://github.com/OasisVee/aliucord-pluginsC/raw/builds/SendEmbeds.zip)|
 |TapTap fork by Rushii adds option to delete messages.|[Download TapTap fork](https://github.com/yutaplug/Aliucord/raw/builds/TapTap.zip)|
 |TextReplace fork by DeafThing removes the character limit.|[Download TextReplace fork](https://github.com/DeafThing/aliucord-pluginsC/raw/builds/TextReplace.zip)|
-
----
 
 # Missing Features
 
@@ -319,8 +314,6 @@ If a feature isn't here, see the [Backports](/Aliucord/#backports) page in case 
 |Security keys|Security key to login|
 |Custom typing indicators|Yes|
 
----
-
 # New UI
 
 **How to get modern Discord interface (UI) in Aliucord**
@@ -328,8 +321,6 @@ If a feature isn't here, see the [Backports](/Aliucord/#backports) page in case 
 This is not really possible due to Aliucord using an old Discord version. However, there are two themes ([DiscordRN Dark](https://discord.com/channels/811255666990907402/824357609778708580/1396601756187885659) or [Discord Midnight theme](https://discord.com/channels/811255666990907402/824357609778708580/1400698799600570398)) that replicate the color & font of it (the UI itself is not possible to replicate). You can also use NewIcons plugin and BetterFontScale with 16.5 size.
 
 Alternatively, you can search for another modified Discord client that uses the new version instead of the old one [here](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties).
-
----
 
 # Old UI
 
@@ -346,8 +337,6 @@ Alternatively, you can search for another modified Discord client that uses the 
 5. Features from new Discord versions can be backported to the old one, and [many already have been](https://yutaplug.github.io/Aliucord/#backports). [What does backporting mean?](https://en.wikipedia.org/wiki/Backporting)
 
 6. Modded clients for the new Discord version already exist, such as [Kettu/Rain](https://raincord.dev).
-
----
 
 # Sounds
 
@@ -369,15 +358,13 @@ Alternatively, you can search for another modified Discord client that uses the 
   - Add `file://` at the start
   - Final result should be `file:///storage/emulated/0/Example/Example.mp3`
 
----
-
 # Themer
 
 **Note:** Reading the [Documentation](https://github.com/Aliucord/documentation/blob/main/theme-dev) and using the [Theme maker site](https://aliucord.com/theme-maker) can help you make your own theme.
 
 **If the theme you are using doesn't work for you, either you are not using the right transparency mode, you are not using theme mirror from `#theme-support` pins (this only affects image background), or Themer is broken on your end (can happen depending on Android version/OS)**
 
-## How to set a custom background
+### How to set a custom background
 
 First of all, you need to enable transparency in Themer settings (chat, chat & settings). If you want full transparency, you need to use the [template](#how-to-make-the-background-work-with-full-transparency).
 
@@ -399,7 +386,7 @@ First of all, you need to enable transparency in Themer settings (chat, chat & s
   - Add `file://` at the start
   - Final result should be `file:///storage/emulated/0/Example/Example.jpg`
 
-## How to set a custom font
+### How to set a custom font
 
 First of all, you need to enable the `Enable Custom Fonts` option in Themer settings.
 
@@ -421,14 +408,14 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
   - Add `file://` at the start
   - Final result should be `file:///storage/emulated/0/Example/Example.ttf`
 
-## Why does my background image not work
+### Why does my background image not work
 
 - You didn't enable transparency
 - You enabled full transparency which doesn't work without the template
 - You are using `cdn.discordapp.com` or `media.discordapp.net` which don't work as a valid URL anymore
 - The URL is incorrect
 
-## How to make the background work with full transparency
+### How to make the background work with full transparency
 
 - Open the [template](https://github.com/OasisVee/theme-templates/blob/main/full-transparency-background-template.json)
 - Press the 3 dots and download
@@ -437,11 +424,9 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
 - Go inside the theme settings → `Background` & paste the image/gif url
 - Press back, press the save button & restart Aliucord
 
----
-
 # UserPFP and BG
 
-## UserPFP
+### UserPFP
 - Make sure you have the plugin installed
 - Join the [UserPFP server](https://discord.gg/userpfp-1129784704267210844)
 - Read `#avatar-rules` before proceeding
@@ -450,7 +435,7 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
 - When it's accepted go to the plugin settings and click "Redownload databases"
 - Restart Aliucord to see the changes
 
-## UserBG
+### UserBG
 - Make sure you have the plugin installed
 - Join the [UserBG server](https://discord.gg/ECg96KZ3Fh)
 - Read `#usrbg-guide` before proceeding
@@ -459,8 +444,6 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
 - Check `#userbg-log` to see if it has been accepted or not
 - When it's accepted go to the plugin settings and click "Redownload databases"
 - Restart Aliucord to see the changes
-
----
 
 # How to logcat
 
@@ -484,14 +467,14 @@ You will need:
 
 If you are on an AOSP-based ROM / Custom ROM and you have issues with Themer not theming some components properly, and you have root access, you can try this method. It works for full transparency and no transparency.
 
-## Requirements
+### Requirements
 
 - [LSPosed/Vector](https://github.com/JingMatrix/Vector/releases)
     - Vector needs a Zygisk implementation to work
 - [Discord Themer](https://github.com/Aliucord/DiscordThemer/releases)
 - Aliucord Themer plugin
 
-## Steps
+### Steps
 
 1. Install the Themer plugin in Aliucord and install and enable a theme.
 2. Install Discord Themer. You need LSPosed for it to work, so install it too.
@@ -501,7 +484,7 @@ If you are on an AOSP-based ROM / Custom ROM and you have issues with Themer not
 6. Go to Discord Themer and enable Advanced Settings, then press Load Settings and select the json file you downloaded.
 7. Restart Aliucord
 
-## It doesn't work!
+### It doesn't work!
 
 In case it didnt work you may want to try to do the following:
 
@@ -533,39 +516,76 @@ In case it didnt work you may want to try to do the following:
 8. Disable Advanced Settings and re-enable it.
 9. Restart Aliucord.
 
+# CustomRPC
+
+### How to make images show up to others
+
+Create a Discord application and enter its **Application ID** in CustomRPC, even when using an image URL. Without it, a URL image may appear for you because CustomRPC displays it locally, but other Discord clients may not show it. The application ID lets CustomRPC send image URLs through Discord's image proxy and use uploaded assets.
+
+1. Open CustomRPC settings and press **Developer Portal**, or open the [Discord Developer Portal](https://discord.com/developers/applications).
+2. Log in, press **New Application**, enter a name, accept the required terms, and press **Create**. If you already have an application, you can use it instead.
+3. In the application's **General Information**, copy the **Application ID**.
+4. Return to CustomRPC and paste it into **Application ID** under **Images**.
+5. Choose your **Activity type** and fill in **Activity name**, **Details**, and **State**.
+6. Set your **Large image** and optionally **Small image** using either method below.
+7. Press **Save and enable**, or **Save changes** if the activity is already enabled. Enabling CustomRPC automatically turns on Discord activity sharing.
+
+URL images may take a moment to appear while Discord processes them. If others still cannot see an image, check that the application ID is correct and that the image URL opens without logging in, or use an uploaded asset from that same application.
+
+### Use an image URL
+
+- Under **Large image**, paste a public HTTPS link directly to an image into **Image URL**. The link must work without logging in.
+- Optionally, repeat this under **Small image**.
+- Add **Hover text** if you want text to appear when someone hovers over the image.
+- Press **Save changes** if the activity is already enabled.
+
+### Use an uploaded asset
+
+An asset is an image uploaded to your Discord application. You use its name, called an **asset key**, instead of an image URL.
+
+1. In the Developer Portal, open the application whose ID you entered in CustomRPC.
+2. Open **Rich Presence → Art Assets**.
+3. Upload your image and give it a simple name, such as `my_image`. Save your changes. Discord references uploaded assets using lowercase keys. [Discord’s asset guide](https://github.com/discord/discord-api-docs/blob/main/developers/rich-presence/using-with-the-embedded-app-sdk.mdx)
+4. Return to CustomRPC.
+5. Under **Large image**, clear **Image URL** and enter `my_image` into **Asset key**.
+6. Optionally, repeat this under **Small image** using another uploaded asset.
+7. Press **Save and enable**, or **Save changes** if already enabled.
+
+**Image URLs override asset keys**, so leave the corresponding **Image URL** empty when using an uploaded asset.
+
 # FAQ
 
-## Can Aliucord be used with the new Discord UI?
+### Can Aliucord be used with the new Discord UI?
 No. Aliucord can only be used with 126.21 Discord version and the devs won't update the base version to a newer one due to several reasons (a list can be found [here](/documentation#old-ui)). This doesn't mean Aliucord is abandoned, it is still actively maintained and plugins are still being created and worked on, along with backports of features from new Discord. You can use [another client](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties) that uses the new version if you prefer it.
 
 Note: To make Aliucord the closest possible to new Discord, you can use [DiscordRN Dark](https://discord.com/channels/811255666990907402/824357609778708580/1396601756187885659) or [Discord Midnight theme](https://discord.com/channels/811255666990907402/824357609778708580/1400698799600570398) themes that replicate the color & font (the UI itself is not possible to replicate). You can also use NewIcons plugin and BetterFontScale with 16.5 size.
 
-## What features from new Discord have been backported? and which ones are missing?
+### What features from new Discord have been backported? and which ones are missing?
 See [this list](/Aliucord/#backports) for backported features and [this one](/Aliucord/#missing-features) for missing features.
 
-## Is tracking & telemetry disabled / is there a no track plugin?
+### Is tracking & telemetry disabled / is there a no track plugin?
 Yes, NoTrack is part of the CorePlugins. Crashlytics, Adjust, Discord analytics and Spotify analytics are all disabled.
 
-## Is Aliucord safe? does it have any virus or can i get banned for using it?
+### Is Aliucord safe? does it have any virus or can i get banned for using it?
 Aliucord is completely safe & open source. It has been the most popular Discord client mod for many years already, and there's no case of someone being banned for using it nor getting hacked. Just don't install unofficial plugins that might abuse the API or steal your credentials (and don't share your token).
 
-## Google Play Protect says Aliucord is potentially harmful
+### Google Play Protect says Aliucord is potentially harmful
 Every Android app is signed with a signature by its developer. This way Android can confirm an apk comes from a credible source and wasn't tampered with. Because Aliucord is built locally on your device, that also means it is signed locally on your device, with a signature created just for you (can be found at Aliucord/ks.keystore). This means that the signature of your Aliucord app is unique and Google doesn't recognise it. That's why it shows you a warning that this app is from an untrusted developer. Thus, you can safely ignore the warning.
 
-## Duckduckgo anti tracker / Other anti tracker says Aliucord contains trackers even though its supposed to block them
+### Duckduckgo anti tracker / Other anti tracker says Aliucord contains trackers even though its supposed to block them
 Most of these apps simply check for the existence of tracking libraries inside the app. Aliucord still contains discords tracking libraries, removing them entirely would be virtually impossible. Instead, we simply disable them or patch them to do nothing. So while anti tracking apps still flag Aliucord, tracking is disabled as much as possible. The only tracking that is still enabled is essential for basic functionality, for instance Google firebase is required for notifications to work as that is how discord sends them to your phone.
 
-## Why is Aliucord starting so slowly?
+### Why is Aliucord starting so slowly?
 First reason is most likely MessageLogger plugin, this plugin has a database which can make your app slower if it gets big. To clear it go to the plugin settings and click both clear edited messages and deleted messages. If this didn't solve it or you don't even have the plugin installed, try clearing cache, app data or reinstalling Aliucord through the manager.
 
-## I got the new experimental status notifications for when friends change their status, how do i turn it off?
+### I got the new experimental status notifications for when friends change their status, how do i turn it off?
 Go into the notification settings for Aliucord (Settings app, not inside Aliucord) and go into notification categories. There you should find a setting called "other". Turn it off. If you don't see notification categories, go into advanced settings first and turn on "Manage notification categories for each app".
 
-## I can't login because of 2FA
+### I can't login because of 2FA
 If you have logging issues due to 2FA you most likely have security keys added. You will need to remove them from an official Discord client. After that, you will be able to log in normally. Note that backup codes do not work either.
 
-## Manager is failing on downloading step
+### Manager is failing on downloading step
 Use a VPN (if you don't have one, ProtonVPN is free) or use another network. Some ISPs, such as all the ones in Turkey, block either our backend and/or GitHub.
 
-## Manager is failing or is stuck on installing step
+### Manager is failing or is stuck on installing step
 Your OS doesn't properly show install prompts. Cancel the install, enable "Keep Patched APKs" in settings, try to re-install, and once you get stuck again, then go back to settings to export the apk. You can then manually install the APK yourself.
