@@ -102,8 +102,8 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Nick command|[SlashNick](https://github.com/rushiiMachine/aliucord-plugins/raw/builds/SlashNick.zip)|
 |Changing pronouns & display name|[MoreProfile](https://github.com/Halkiion/aliucord-plugins/raw/builds/MoreProfile.zip) ⚠️|
 |Duplicate channel|[CloneChannels](https://github.com/DiamondMiner88/aliucord-plugins/raw/builds/CloneChannels.zip)|
-|Discovery|[Discovery](https://github.com/wingio/plugins/raw/builds/Discovery.zip) 💣|
-|Devices page|[Sessions](https://github.com/wingio/plugins/raw/builds/Sessions.zip) 💣|
+|Discovery|[ServerDiscovery](https://github.com/yutaplug/yutaplugins/raw/builds/ServerDiscovery.zip)|
+|Devices page|[Devices](https://github.com/yutaplug/yutaplugins/raw/builds/Devices.zip)|
 |Webhooks|[EditWebhooks](https://github.com/c10udburst-discord/aliucord-plugins/raw/builds/EditWebhooks.zip)|
 |Sorted searching|[Scout](https://github.com/LavaDesu/Awoocord/raw/builds/Scout.zip)|
 |New Discord markdown|[MarkdownFix](https://github.com/yutaplug/yutaplugins/raw/builds/MarkdownFix.zip)|
@@ -152,7 +152,22 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Six most recent profile pictures|[RecentProfilePictures](https://github.com/yutaplug/yutaplugins/raw/builds/RecentProfilePictures.zip)|
 |Super reactions|[SuperReactions](https://github.com/yutaplug/yutaplugins/raw/builds/SuperReactions.zip)|
 |Profile effects and frames|[ProfileEffects](https://github.com/yutaplug/yutaplugins/raw/builds/ProfileEffects.zip)|
-|Opening Discord links in app|[OpenLinksInApp](https://github.com/Canny1913/AliucordPlugins/blob/builds/OpenLinksInApp.zip)|
+|Opening Discord links in app|[MessageLinkFix](https://github.com/yutaplug/yutaplugins/raw/builds/MessageLinkFix.zip)|
+|Onboarding|[Onboarding](https://github.com/yutaplug/yutaplugins/raw/builds/Onboarding.zip)|
+|Profile board and wishlist|[ProfileBoard](https://github.com/yutaplug/yutaplugins/raw/builds/ProfileBoard.zip)|
+|Friend request codes|[FriendCodes](https://github.com/secp192k1/Aliucord-Plugins/raw/builds/FriendCodes.zip)|
+|Report Raid button|[ReportRaid](https://github.com/yutaplug/yutaplugins/raw/builds/ReportRaid.zip)|
+|Dark and onyx themes|[NewThemes](https://github.com/yutaplug/yutaplugins/raw/builds/NewThemes.zip)|
+|300 bio character limit|[Bio300](https://github.com/yutaplug/yutaplugins/raw/builds/Bio300.zip)|
+|New notification types|[Notifications](https://github.com/yutaplug/yutaplugins/raw/builds/Notifications.zip)|
+|New report form|[ReportForm](https://github.com/yutaplug/yutaplugins/raw/builds/ReportForm.zip)|
+|Apps button|[MessageApps](https://github.com/yutaplug/yutaplugins/raw/builds/MessageApps.zip)|
+|Shop|[Shop](https://github.com/yutaplug/yutaplugins/raw/builds/Shop.zip)|
+|Connection info|[ConnectionInfo](https://github.com/yutaplug/yutaplugins/raw/builds/ConnectionInfo.zip)|
+|Image descriptions|[ImageDescriptions](https://github.com/yutaplug/yutaplugins/raw/builds/ImageDescriptions.zip)|
+|`@time` command|[Time](https://github.com/yutaplug/yutaplugins/raw/builds/Time.zip)|
+|`@game` command|[GameMentions](https://github.com/yutaplug/yutaplugins/raw/builds/GameMentions.zip)|
+|DM activities|[DMActivities](https://github.com/yutaplug/yutaplugins/raw/builds/DMActivities.zip)|
 
 ### Built-in to Aliucord
 
@@ -175,7 +190,18 @@ These plugins are recommended to get and fix features from new Discord. To insta
 
 This page only shows the most relevant/important changes for most Aliucord users, if you want to see more internal changes that are not that relevant for normal Aliucord users, see the [commits page](https://github.com/Aliucord/Aliucord/commits/main).
 
-### 2.10.0 (CURRENT VERSION)
+### 2.11.0 (CURRENT VERSION)
+- Fix some images and videos showing as files
+- No longer detect Aliucord as an old client in plugins like MessageLatency (incorrect date caused this)
+- Fix opening threads by tapping them in a chat message
+- Animated AVIF support
+- More new Discord badges
+- Add indicator for private profiles
+- More detailed plugin update notifications
+- Show unknown permissions when authorizing apps and fix Authorized Apps crash
+- Add JFIF support
+
+### 2.10.0
 - Support new 20MB file size limit
 - Fix spoilered attachments
 - Fix server icon long press
@@ -303,10 +329,7 @@ If a feature isn't here, see the [Backports](/Aliucord/#backports) page in case 
 
 |Feature|Notes|
 |-|-|
-|Apps|Context menu for bots|
-|Shop|Discord decoration/orbs store|
 |E2EE VC|End-to-end encryption in voice chats|
-|Connection info|Steam games count, reddit karma count, etc.|
 |Managing join requests|Managing join requests|
 |Family center|Family center|
 |In-game friends|In-game friends|
