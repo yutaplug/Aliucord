@@ -731,6 +731,9 @@ Allows you to change the DM icon to any Discord icon through plugin settings.
 ### SquareServers
 Make server icons square like the new Discord app.
 
+### ProfileIdentity
+Allows changing your display name and pronouns from "User Profile" settings. Replaces MoreProfile.
+
 # FAQ
 
 ### Can Aliucord be used with the new Discord UI?
