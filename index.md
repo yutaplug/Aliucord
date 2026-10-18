@@ -733,6 +733,12 @@ Allows changing your display name and pronouns from "User Profile" settings. Rep
 ### Themes
 Better version of Themer.
 
+### LocalMute
+Adds a button in channel context menu to block yourself from typing in that channel. This is useful to prevent accidentally typing in honeypot channels.
+
+### QuickDownload
+Adds a button in media preview (images/videos) to easily download without having to enter fullscreen.
+
 # FAQ
 
 ### Can Aliucord be used with the new Discord UI?
