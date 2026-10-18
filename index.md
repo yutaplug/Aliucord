@@ -14,7 +14,7 @@
     <a href="#new-ui">New UI</a>
     <a href="#old-ui">Old UI</a>
     <a href="#sounds">Sounds</a>
-    <a href="#themer">Themer</a>
+    <a href="#theming">Themeing</a>
     <a href="#userpfp-and-bg">UserPFP and BG</a>
     <a href="#how-to-logcat">How to logcat</a>
     <a href="#themer-fixer">Themer Fixer</a>
@@ -64,14 +64,14 @@ If you already have the plugin `.zip`, just follow two last steps.
 </details>
 
 ### How to install themes
-**If the theme you are using doesn't work for you, either you are not using the right transparency mode, you are not using theme mirror from `#theme-support` pins (this only affects image background), or Themer is broken on your end (can happen depending on Android version/OS)**
+**If the theme you are using doesn't work for you, you are likely not using the right transparency mode**
 
 1. Join the [Aliucord Discord server](https://discord.gg/EsNDvBaHVU)
 2. Make sure you are using the Aliucord app
-3. Install `Themer` plugin
+3. Install [Themes](https://github.com/yutaplug/yutaplugins/raw/builds/Themes.zip) plugin
 4. Go to `#themes` channel and hold any message (NOT THE LINK)
 5. Click on the first option `Install [Theme name]`
-6. Go to Themer plugin settings and enable the theme
+6. Go to Themes plugin settings and enable the theme along with the required transparency
 
 # Backports
 
@@ -124,7 +124,6 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Message grouping|[Clump](https://github.com/LavaDesu/Awoocord/raw/builds/Clump.zip)|
 |DM previews|[Glance](https://github.com/cillynder/Awoocord/raw/builds/Glance.zip)|
 |Profile colors|[ModernProfiles](https://github.com/l6t9/AliucordPlugins/raw/builds/ModernProfiles.zip)|
-|New Discord badges|[NewDiscordBadges](https://github.com/yutaplug/yutaplugins/raw/builds/NewDiscordBadges.zip)|
 |New member badge|[NewMemberBadge](https://github.com/Ushie/Aliucord-Plugins/raw/builds/NewMemberBadge.zip)|
 |Friend nicknames|[NativeFriendNicknames](https://github.com/miaaaa0a/aliucord-plugins/raw/builds/NativeFriendNicknames.zip)|
 |Muting voice channels|[MuteVoiceAndStageChannels](https://github.com/Ushie/Aliucord-Plugins/raw/builds/MuteVoiceAndStageChannels.zip)|
@@ -178,7 +177,7 @@ These plugins are recommended to get and fix features from new Discord. To insta
 - Pomelo usernames (`@username` instead of `username#1234`)
 - Polls
 - Pronouns
-- New profile badges (quests, developer, etc.)
+- New profile badges
 - Avatar decorations
 - Guild tags
 - Nameplates
@@ -382,15 +381,15 @@ Alternatively, you can search for another modified Discord client that uses the 
   - Add `file://` at the start
   - Final result should be `file:///storage/emulated/0/Example/Example.mp3`
 
-# Themer
+# Theming
 
 **Note:** Reading the [Documentation](https://github.com/Aliucord/documentation/blob/main/theme-dev) and using the [Theme maker site](https://aliucord.com/theme-maker) can help you make your own theme.
 
-**If the theme you are using doesn't work for you, either you are not using the right transparency mode, you are not using theme mirror from `#theme-support` pins (this only affects image background), or Themer is broken on your end (can happen depending on Android version/OS)**
+**If the theme you are using doesn't work for you, you are likely not using the right transparency mode**
 
 ### How to set a custom background
 
-First of all, you need to enable transparency in Themer settings (chat, chat & settings). If you want full transparency, you need to use the [template](#how-to-make-the-background-work-with-full-transparency).
+First of all, you need to enable transparency in Themes plugin settings (chat, chat & settings). If you want full transparency, you need to use the [template](#how-to-make-the-background-work-with-full-transparency).
 
 **ALLOWED HOSTS:** GitHub, GitLab, Imgbb, Imgur, Locally (this one is not a website but your local files).
 
@@ -400,13 +399,13 @@ First of all, you need to enable transparency in Themer settings (chat, chat & s
   - Click `Add file` and upload the image/gif
   - Once uploaded, click its name
   - Hold the image and copy the address
-  - Go to Themer settings → your theme → `Background` & paste it
+  - Go to Themes plugin settings → your theme → `Background` & paste it
 
 **Locally:**
   - Install [this file manager](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) & open it (or any file manager that lets you copy file paths)
   - Find the image/gif file
   - Click the 3 dots next to it & press `Copy path`
-  - Go to Themer settings → your theme → `Background` & paste it
+  - Go to Themes plugin settings → your theme → `Background` & paste it
   - Add `file://` at the start
   - Final result should be `file:///storage/emulated/0/Example/Example.jpg`
 
@@ -420,7 +419,7 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
   - Click `Add file` and upload the font
   - Once uploaded, click its name
   - Hold `View raw` and copy the address
-  - Go to Themer settings → your theme → `Fonts` & paste it where the asterisk is
+  - Go to Themes plugin settings → your theme → `Fonts` & paste it where the asterisk is
 
 **Note:** If the font you want is already uploaded in some repo, you can just copy the raw link, no need to make your own repo.
 
@@ -428,7 +427,7 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
   - Install [this file manager](https://play.google.com/store/apps/details?id=me.zhanghai.android.files) & open it (or any file manager that lets you copy file paths)
   - Find the font file
   - Click the 3 dots next to it & press `Copy path`
-  - Go to Themer settings → your theme → `Fonts` & paste it where the asterisk is
+  - Go to Themes plugin settings → your theme → `Fonts` & paste it where the asterisk is
   - Add `file://` at the start
   - Final result should be `file:///storage/emulated/0/Example/Example.ttf`
 
@@ -444,7 +443,7 @@ First of all, you need to enable the `Enable Custom Fonts` option in Themer sett
 - Open the [template](https://github.com/OasisVee/theme-templates/blob/main/full-transparency-background-template.json)
 - Press the 3 dots and download
 - Move the downloaded `.json` to your `Aliucord/themes` folder using a file manager & restart Aliucord if it was open
-- Go to Themer settings, enable full transparency & enable the theme
+- Go to Themes plugin settings, enable full transparency & enable the theme
 - Go inside the theme settings → `Background` & paste the image/gif url
 - Press back, press the save button & restart Aliucord
 
@@ -610,9 +609,6 @@ Backports viewing Discord Nitro profile effects and profile frames.
 ### CustomRPC
 Allows you to set a custom rich presence through plugin settings. Thanks to &lt;@477497542205243392&gt; for helping!
 
-### NewDiscordBadges
-Backports displaying newer Discord badges such as evolving Nitro and gifting. More new badges are also planned, such as Account Age, Streaming, Game Time, and Game Variety.
-
 ### VoiceMessages
 Fixed fork of VoiceMessages by Mantikafasi with redesigned voice button and added compatibility with Android 7. Also adds ability to send audio files as voice messages.
 
@@ -733,6 +729,9 @@ Make server icons square like the new Discord app.
 
 ### ProfileIdentity
 Allows changing your display name and pronouns from "User Profile" settings. Replaces MoreProfile.
+
+### Themes
+Better version of Themer.
 
 # FAQ
 
