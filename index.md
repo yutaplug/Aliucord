@@ -14,7 +14,7 @@
     <a href="#new-ui">New UI</a>
     <a href="#old-ui">Old UI</a>
     <a href="#sounds">Sounds</a>
-    <a href="#theming">Themeing</a>
+    <a href="#theming">Theming</a>
     <a href="#userpfp-and-bg">UserPFP and BG</a>
     <a href="#how-to-logcat">How to logcat</a>
     <a href="#themer-fixer">Themer Fixer</a>
