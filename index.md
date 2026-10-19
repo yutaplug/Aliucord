@@ -436,7 +436,7 @@ First of all, you need to enable the `Custom fonts` option in Themes plugin sett
 
 ### How to make the background work with full transparency
 
-- Download the [template](https://github.com/OasisVee/theme-templates/raw/main/full-transparency-background-template.json)
+- Download the <a href="/Aliucord/assets/full-transparency-background-template.json" download>template</a> ([source](https://github.com/OasisVee/theme-templates/blob/main/full-transparency-background-template.json))
 - Move the downloaded `.json` to your `Aliucord/themes` folder using a file manager & restart Aliucord if it was open
 - Go to Themes plugin settings, enable full transparency & enable the theme
 - Go inside the theme settings → `Background` & pick the image/gif with the folder icon (or paste its url)
