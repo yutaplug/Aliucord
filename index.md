@@ -94,14 +94,14 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Playing Audio files|[AudioPlayer](https://github.com/mantikafasi/AliucordPlugins/raw/builds/AudioPlayer.zip)|
 |Forwarding messages|[ForwardMessages](https://github.com/yutaplug/yutaplugins/raw/builds/ForwardMessages.zip)|
 |Closing DMs from bottomsheet|[CloseDMs](https://github.com/DiamondMiner88/aliucord-plugins/raw/builds/CloseDMs.zip)|
-|Bot commands|[SlashCommandsFix](https://github.com/LavaDesu/Awoocord/raw/builds/SlashCommandsFixBeta.zip) 🚧|
-|Bot embeds|[ComponentsV2](https://github.com/LavaDesu/Awoocord/raw/builds/ComponentsV2Beta.zip) 🚧|
+|Bot commands|[SlashCommandsFixBeta](https://github.com/LavaDesu/Awoocord/raw/builds/SlashCommandsFixBeta.zip) 🚧|
+|Bot embeds|[ComponentsV2Beta](https://github.com/LavaDesu/Awoocord/raw/builds/ComponentsV2Beta.zip) 🚧|
 |Quests|[ViewQuests](https://github.com/nyxiereal/AliucordPlugins/raw/builds/ViewQuests.zip) 🚧|
 |Summaries|[Summaries](https://github.com/MCausc78/RNSucks/raw/builds/Summaries.zip) 🚧|
 |Embed playing|[PlayEmbeds](https://github.com/yutaplug/yutaplugins/raw/builds/PlayEmbeds.zip)|
 |Swiping to reply|[SwipeToReply](https://github.com/RazerTexz/My-plugins/raw/builds/SwipeToReply.zip) ([TapTap](https://github.com/Vendicated/AliucordPlugins/raw/builds/TapTap.zip) is recommended instead)|
 |Nick command|[SlashNick](https://github.com/rushiiMachine/aliucord-plugins/raw/builds/SlashNick.zip)|
-|Changing pronouns & display name|[MoreProfile](https://github.com/Halkiion/aliucord-plugins/raw/builds/MoreProfile.zip) ⚠️|
+|Changing pronouns & display name|[ProfileIdentity](https://github.com/yutaplug/yutaplugins/raw/builds/ProfileIdentity.zip)|
 |Duplicate channel|[CloneChannels](https://github.com/DiamondMiner88/aliucord-plugins/raw/builds/CloneChannels.zip)|
 |Discovery|[ServerDiscovery](https://github.com/yutaplug/yutaplugins/raw/builds/ServerDiscovery.zip)|
 |Devices page|[Devices](https://github.com/yutaplug/yutaplugins/raw/builds/Devices.zip)|
