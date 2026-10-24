@@ -94,21 +94,21 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Playing Audio files|[AudioPlayer](https://github.com/mantikafasi/AliucordPlugins/raw/builds/AudioPlayer.zip)|
 |Forwarding messages|[ForwardMessages](https://github.com/yutaplug/yutaplugins/raw/builds/ForwardMessages.zip)|
 |Closing DMs from bottomsheet|[CloseDMs](https://github.com/DiamondMiner88/aliucord-plugins/raw/builds/CloseDMs.zip)|
-|Bot commands|[SlashCommandsFix](https://github.com/LavaDesu/Awoocord/raw/builds/SlashCommandsFixBeta.zip) 🚧|
-|Bot embeds|[ComponentsV2](https://github.com/LavaDesu/Awoocord/raw/builds/ComponentsV2Beta.zip) 🚧|
+|Bot commands|[SlashCommandsFixBeta](https://github.com/LavaDesu/Awoocord/raw/builds/SlashCommandsFixBeta.zip) 🚧|
+|Bot embeds|[ComponentsV2Beta](https://github.com/LavaDesu/Awoocord/raw/builds/ComponentsV2Beta.zip) 🚧|
 |Quests|[ViewQuests](https://github.com/nyxiereal/AliucordPlugins/raw/builds/ViewQuests.zip) 🚧|
 |Summaries|[Summaries](https://github.com/MCausc78/RNSucks/raw/builds/Summaries.zip) 🚧|
 |Embed playing|[PlayEmbeds](https://github.com/yutaplug/yutaplugins/raw/builds/PlayEmbeds.zip)|
-|Swiping to reply|[SwipeToReply](https://github.com/RazerTexz/My-plugins/raw/builds/SwipeToReply.zip) ([TapTap](https://github.com/Vendicated/AliucordPlugins/raw/builds/TapTap.zip) is recommended instead)|
+|Swiping to reply and edit|[SwipeToReplyAndEdit](https://github.com/yutaplug/yutaplugins/raw/builds/SwipeToReplyAndEdit.zip) ([TapTap](https://github.com/Vendicated/AliucordPlugins/raw/builds/TapTap.zip) is recommended instead)|
 |Nick command|[SlashNick](https://github.com/rushiiMachine/aliucord-plugins/raw/builds/SlashNick.zip)|
-|Changing pronouns & display name|[MoreProfile](https://github.com/Halkiion/aliucord-plugins/raw/builds/MoreProfile.zip) ⚠️|
+|Changing pronouns & display name|[ProfileIdentity](https://github.com/yutaplug/yutaplugins/raw/builds/ProfileIdentity.zip)|
 |Duplicate channel|[CloneChannels](https://github.com/DiamondMiner88/aliucord-plugins/raw/builds/CloneChannels.zip)|
 |Discovery|[ServerDiscovery](https://github.com/yutaplug/yutaplugins/raw/builds/ServerDiscovery.zip)|
 |Devices page|[Devices](https://github.com/yutaplug/yutaplugins/raw/builds/Devices.zip)|
 |Webhooks|[EditWebhooks](https://github.com/c10udburst-discord/aliucord-plugins/raw/builds/EditWebhooks.zip)|
 |Sorted searching|[Scout](https://github.com/LavaDesu/Awoocord/raw/builds/Scout.zip)|
 |New Discord markdown|[MarkdownFix](https://github.com/yutaplug/yutaplugins/raw/builds/MarkdownFix.zip)|
-|Connection icons|[UnknownConnectionIcons](https://github.com/nyakowint/AliuPlugins/raw/builds/UnknownConnectionIcons.zip)|
+|More connections and info|[ConnectionInfo](https://github.com/yutaplug/yutaplugins/raw/builds/ConnectionInfo.zip)|
 |Copy message link|[MessageLinkContext](https://github.com/wingio/plugins/raw/builds/MessageLinkContext.zip)|
 |Delete embed|[DeleteEmbeds](https://github.com/c10udburst-discord/aliucord-plugins/raw/builds/DeleteEmbeds.zip)|
 |Favorite channels|[FavoriteChannels](https://github.com/zt64/aliucord-plugins/raw/builds/FavoriteChannels.zip)|
@@ -168,11 +168,13 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |`@time` command|[Time](https://github.com/yutaplug/yutaplugins/raw/builds/Time.zip)|
 |`@game` command|[GameMentions](https://github.com/yutaplug/yutaplugins/raw/builds/GameMentions.zip)|
 |DM activities|[DMActivities](https://github.com/yutaplug/yutaplugins/raw/builds/DMActivities.zip)|
+|Square server icons|[SquareServers](https://github.com/yutaplug/yutaplugins/raw/builds/SquareServers.zip)|
+|Custom typing indicators|[CustomTypingIndicator](https://github.com/yutaplug/yutaplugins/raw/builds/CustomTypingIndicator.zip)|
 
 ### Built-in to Aliucord
 
 - Viewing forwarded messages
-- Upload size (new 10mb limit for non-nitro users)
+- Upload size (20MB)
 - Display names
 - Pomelo usernames (`@username` instead of `username#1234`)
 - Polls
@@ -184,7 +186,6 @@ These plugins are recommended to get and fix features from new Discord. To insta
 - Account standing
 - `Larger File Uploads` guild perk
 - New spoilered attachments
-- 20MB file size limit
 
 # Changelog
 
@@ -335,7 +336,6 @@ If a feature isn't here, see the [Backports](/Aliucord/#backports) page in case 
 |In-game friends|In-game friends|
 |Soundboard|Soundboard in VCs|
 |Security keys|Security key to login|
-|Custom typing indicators|Yes|
 
 # New UI
 
@@ -732,12 +732,21 @@ Better version of Themer.
 Adds a button in channel context menu to block yourself from typing in that channel. This is useful to prevent accidentally typing in honeypot channels.
 
 ### QuickDownload
-Adds a button in media preview (images/videos) to easily download without having to enter fullscreen.
+Adds a button in media previews (images/videos) and gifs to easily download without having to enter fullscreen.
+
+### CustomTypingIndicator
+Allows seeing and setting a custom typing indicator. This feature is beta and nitro-only.
+
+### SwipeToReplyAndEdit
+Replaces SwipeToReply/SwipeActions. Hold your swipe in your own message to edit it like in React Native. Toggle option to instantly edit in plugin settings.
+
+### CopyUserInfo
+Adds several options to copy user info when pressing the three dots inside a profile. Replaces CopyPlease.
 
 # FAQ
 
 ### Can Aliucord be used with the new Discord UI?
-No. Aliucord can only be used with 126.21 Discord version and the devs won't update the base version to a newer one due to several reasons (a list can be found [here](/documentation#old-ui)). This doesn't mean Aliucord is abandoned, it is still actively maintained and plugins are still being created and worked on, along with backports of features from new Discord. You can use [another client](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties) that uses the new version if you prefer it.
+No. Aliucord can only be used with 126.21 Discord version and the devs won't update the base version to a newer one due to several reasons (a list can be found [here](/Aliucord/#old-ui)). This doesn't mean Aliucord is abandoned, it is still actively maintained and plugins are still being created and worked on, along with backports of features from new Discord. You can use [another client](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties) that uses the new version if you prefer it.
 
 Note: To make Aliucord the closest possible to new Discord, you can use [DiscordRN Dark](https://discord.com/channels/811255666990907402/824357609778708580/1396601756187885659) or [Discord Midnight theme](https://discord.com/channels/811255666990907402/824357609778708580/1400698799600570398) themes that replicate the color & font (the UI itself is not possible to replicate). You can also use NewIcons plugin and BetterFontScale with 16.5 size.
 
