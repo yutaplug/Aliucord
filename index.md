@@ -108,7 +108,7 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Webhooks|[EditWebhooks](https://github.com/c10udburst-discord/aliucord-plugins/raw/builds/EditWebhooks.zip)|
 |Sorted searching|[Scout](https://github.com/LavaDesu/Awoocord/raw/builds/Scout.zip)|
 |New Discord markdown|[MarkdownFix](https://github.com/yutaplug/yutaplugins/raw/builds/MarkdownFix.zip)|
-|Connection icons|[UnknownConnectionIcons](https://github.com/nyakowint/AliuPlugins/raw/builds/UnknownConnectionIcons.zip)|
+|More connections and info|[ConnectionInfo](https://github.com/yutaplug/yutaplugins/raw/builds/ConnectionInfo.zip)|
 |Copy message link|[MessageLinkContext](https://github.com/wingio/plugins/raw/builds/MessageLinkContext.zip)|
 |Delete embed|[DeleteEmbeds](https://github.com/c10udburst-discord/aliucord-plugins/raw/builds/DeleteEmbeds.zip)|
 |Favorite channels|[FavoriteChannels](https://github.com/zt64/aliucord-plugins/raw/builds/FavoriteChannels.zip)|
@@ -168,6 +168,7 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |`@time` command|[Time](https://github.com/yutaplug/yutaplugins/raw/builds/Time.zip)|
 |`@game` command|[GameMentions](https://github.com/yutaplug/yutaplugins/raw/builds/GameMentions.zip)|
 |DM activities|[DMActivities](https://github.com/yutaplug/yutaplugins/raw/builds/DMActivities.zip)|
+|Square server icons|[SquareServers](https://github.com/yutaplug/yutaplugins/raw/builds/SquareServers.zip)|
 
 ### Built-in to Aliucord
 
