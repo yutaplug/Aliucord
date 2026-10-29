@@ -173,7 +173,7 @@ These plugins are recommended to get and fix features from new Discord. To insta
 ### Built-in to Aliucord
 
 - Viewing forwarded messages
-- Upload size (new 10mb limit for non-nitro users)
+- Upload size (20MB)
 - Display names
 - Pomelo usernames (`@username` instead of `username#1234`)
 - Polls
@@ -185,7 +185,6 @@ These plugins are recommended to get and fix features from new Discord. To insta
 - Account standing
 - `Larger File Uploads` guild perk
 - New spoilered attachments
-- 20MB file size limit
 
 # Changelog
 
