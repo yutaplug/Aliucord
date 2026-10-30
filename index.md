@@ -739,8 +739,6 @@ Adds a button in media previews (images/videos) and gifs to easily download with
 Allows seeing and setting a custom typing indicator. This feature is beta and nitro-only.
 https://support.discord.com/hc/en-us/articles/42962943077271-Custom-Typing-Indicator-FAQ
 
-https://github.com/yutaplug/yutaplugins/raw/builds/CustomTypingIndicator.zip
-
 # FAQ
 
 ### Can Aliucord be used with the new Discord UI?
