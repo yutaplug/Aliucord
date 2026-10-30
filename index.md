@@ -733,7 +733,13 @@ Better version of Themer.
 Adds a button in channel context menu to block yourself from typing in that channel. This is useful to prevent accidentally typing in honeypot channels.
 
 ### QuickDownload
-Adds a button in media preview (images/videos) to easily download without having to enter fullscreen.
+Adds a button in media previews (images/videos) and gifs to easily download without having to enter fullscreen.
+
+### CustomTypingIndicator
+Allows seeing and setting a custom typing indicator. This feature is beta and nitro-only.
+https://support.discord.com/hc/en-us/articles/42962943077271-Custom-Typing-Indicator-FAQ
+
+https://github.com/yutaplug/yutaplugins/raw/builds/CustomTypingIndicator.zip
 
 # FAQ
 
