@@ -169,6 +169,7 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |`@game` command|[GameMentions](https://github.com/yutaplug/yutaplugins/raw/builds/GameMentions.zip)|
 |DM activities|[DMActivities](https://github.com/yutaplug/yutaplugins/raw/builds/DMActivities.zip)|
 |Square server icons|[SquareServers](https://github.com/yutaplug/yutaplugins/raw/builds/SquareServers.zip)|
+|Custom typing indicators|[CustomTypingIndicator](https://github.com/yutaplug/yutaplugins/raw/builds/CustomTypingIndicator.zip)|
 
 ### Built-in to Aliucord
 
