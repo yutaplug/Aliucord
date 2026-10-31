@@ -99,7 +99,7 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Quests|[ViewQuests](https://github.com/nyxiereal/AliucordPlugins/raw/builds/ViewQuests.zip) 🚧|
 |Summaries|[Summaries](https://github.com/MCausc78/RNSucks/raw/builds/Summaries.zip) 🚧|
 |Embed playing|[PlayEmbeds](https://github.com/yutaplug/yutaplugins/raw/builds/PlayEmbeds.zip)|
-|Swiping to reply|[SwipeToReply](https://github.com/RazerTexz/My-plugins/raw/builds/SwipeToReply.zip) ([TapTap](https://github.com/Vendicated/AliucordPlugins/raw/builds/TapTap.zip) is recommended instead)|
+|Swiping to reply and edit|[SwipeToReplyAndEdit](https://github.com/yutaplug/yutaplugins/raw/builds/SwipeToReplyAndEdit.zip) ([TapTap](https://github.com/Vendicated/AliucordPlugins/raw/builds/TapTap.zip) is recommended instead)|
 |Nick command|[SlashNick](https://github.com/rushiiMachine/aliucord-plugins/raw/builds/SlashNick.zip)|
 |Changing pronouns & display name|[ProfileIdentity](https://github.com/yutaplug/yutaplugins/raw/builds/ProfileIdentity.zip)|
 |Duplicate channel|[CloneChannels](https://github.com/DiamondMiner88/aliucord-plugins/raw/builds/CloneChannels.zip)|
@@ -738,6 +738,9 @@ Adds a button in media previews (images/videos) and gifs to easily download with
 ### CustomTypingIndicator
 Allows seeing and setting a custom typing indicator. This feature is beta and nitro-only.
 https://support.discord.com/hc/en-us/articles/42962943077271-Custom-Typing-Indicator-FAQ
+
+### SwipeToReplyAndEdit
+Replaces SwipeToReply/SwipeActions. Hold your swipe in your own message to edit it like in React Native. Toggle option to instantly edit in plugin settings.
 
 # FAQ
 
