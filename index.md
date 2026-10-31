@@ -737,7 +737,6 @@ Adds a button in media previews (images/videos) and gifs to easily download with
 
 ### CustomTypingIndicator
 Allows seeing and setting a custom typing indicator. This feature is beta and nitro-only.
-https://support.discord.com/hc/en-us/articles/42962943077271-Custom-Typing-Indicator-FAQ
 
 ### SwipeToReplyAndEdit
 Replaces SwipeToReply/SwipeActions. Hold your swipe in your own message to edit it like in React Native. Toggle option to instantly edit in plugin settings.
