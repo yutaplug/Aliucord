@@ -743,6 +743,12 @@ Replaces SwipeToReply/SwipeActions. Hold your swipe in your own message to edit 
 ### CopyUserInfo
 Adds several options to copy user info when pressing the three dots inside a profile. Replaces CopyPlease.
 
+### LargeUploads
+Uploads files to https://pomf.lain.la if it exceeds Discord limit. Catbox is also an option but it's currently down. Let me know if you want any other service added.
+
+### RawGitHubUpdater
+Makes the Aliucord updater fetch plugin updates from raw.githubusercontent.com instead of jsDelivr, avoiding stale or failed updates.
+
 # FAQ
 
 ### Can Aliucord be used with the new Discord UI?
