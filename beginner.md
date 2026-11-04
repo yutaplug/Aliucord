@@ -14,7 +14,7 @@ Download [Aliucord Manager](https://github.com/Aliucord/Manager/releases/downloa
 3. Restart Aliucord
 
 ## Installing themes
-1. Install the `Themer` plugin
-2. In #themes, hold any message (**not the link**) and tap `Install [Theme name]`
-3. Enable the theme in Themer settings
--# Theme not working? Check the transparency mode, use the theme mirror from <#875213883776847873> pins for image backgrounds, or Themer may be broken on your Android version.
+1. Install [Themes](https://github.com/yutaplug/yutaplugins/raw/builds/Themes.zip) plugin by holding this message
+2. In <#824357609778708580>, hold any message (**not the link**) and tap `Install [Theme name]`
+3. Enable the theme in Themes plugin settings
+-# Theme not working? Check the transparency mode, force stop app and clear cache or try the old Themer plugin instead.
