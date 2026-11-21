@@ -92,7 +92,7 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |-|-|
 |Voice messages|[VoiceMessages](https://github.com/yutaplug/yutaplugins/raw/builds/VoiceMessages.zip)|
 |Playing Audio files|[AudioPlayer](https://github.com/mantikafasi/AliucordPlugins/raw/builds/AudioPlayer.zip)|
-|Forwarding messages|[ForwardMessages](https://github.com/yutaplug/yutaplugins/raw/builds/ForwardMessages.zip)|
+|Forwarding messages|[ForwardMessages](https://github.com/Ushie/Aliucord-Plugins/raw/builds/ForwardMessages.zip)|
 |Closing DMs from bottomsheet|[CloseDMs](https://github.com/DiamondMiner88/aliucord-plugins/raw/builds/CloseDMs.zip)|
 |Bot commands|[SlashCommandsFixBeta](https://github.com/LavaDesu/Awoocord/raw/builds/SlashCommandsFixBeta.zip) 🚧|
 |Bot embeds|[ComponentsV2Beta](https://github.com/LavaDesu/Awoocord/raw/builds/ComponentsV2Beta.zip) 🚧|
@@ -606,9 +606,6 @@ Allows you to set a custom rich presence through plugin settings. Thanks to &lt;
 
 ### VoiceMessages
 Fixed fork of VoiceMessages by Mantikafasi with redesigned voice button and added compatibility with Android 7. Also adds ability to send audio files as voice messages.
-
-### ForwardMessages
-Fork of ForwardMessages by Reis with favoriting support. Hold a channel/dm in the forward menu to favorite/unfavorite.
 
 ### SearchHistoryFix
 Fixes cleared search history being restored after an app restart.
