@@ -107,7 +107,7 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Devices page|[Devices](https://github.com/yutaplug/yutaplugins/raw/builds/Devices.zip)|
 |Webhooks|[EditWebhooks](https://github.com/c10udburst-discord/aliucord-plugins/raw/builds/EditWebhooks.zip)|
 |Sorted searching|[Scout](https://github.com/LavaDesu/Awoocord/raw/builds/Scout.zip)|
-|New Discord markdown|[MarkdownFix](https://github.com/yutaplug/yutaplugins/raw/builds/MarkdownFix.zip)|
+|New Discord markdown|[Fixes](https://github.com/yutaplug/yutaplugins/raw/builds/Fixes.zip)|
 |More connections and info|[ConnectionInfo](https://github.com/yutaplug/yutaplugins/raw/builds/ConnectionInfo.zip)|
 |Copy message link|[MessageLinkContext](https://github.com/wingio/plugins/raw/builds/MessageLinkContext.zip)|
 |Delete embed|[DeleteEmbeds](https://github.com/c10udburst-discord/aliucord-plugins/raw/builds/DeleteEmbeds.zip)|
@@ -131,8 +131,8 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Persist message drafts|[PersistMessageDrafts](https://github.com/Ushie/Aliucord-Plugins/raw/builds/PersistMessageDrafts.zip)|
 |Fix attachment limit|[AttachmentLimitFix](https://github.com/Ushie/Aliucord-Plugins/raw/builds/AttachmentLimitFix.zip)|
 |Showing mentions inside muted-hidden channels|[ShowHiddenMutedChannelsWithMentions](https://github.com/Ushie/Aliucord-Plugins/raw/builds/ShowHiddenMutedChannelsWithMentions.zip)|
-|Adding friends by username|[FriendFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/FriendFix.zip)|
-|Adding tags to forums|[ForumTagFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/ForumTagFix.zip)|
+|Adding friends by username|[Fixes](https://github.com/yutaplug/yutaplugins/raw/builds/Fixes.zip)|
+|Adding tags to forums|[Fixes](https://github.com/yutaplug/yutaplugins/raw/builds/Fixes.zip)|
 |Media channels|[MediaChannelFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/MediaChannelFix.zip)|
 |Media remix|[PhotoEditor](https://github.com/mantikafasi/AliucordPlugins/raw/builds/PhotoEditor.zip)|
 |Onboarding|[FixOnboardingFork](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/FixOnboardingFork.zip)|
@@ -146,13 +146,13 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Auto idle status|[AutoIdle](https://github.com/autodistries/aliucord-plugins/raw/builds/AutoIdle.zip)|
 |Managing stickers in server settings|[ManageStickers](https://github.com/pilotbellyt-spec/AliucordPlugins/raw/builds/ManageStickers.zip)|
 |Activities V2|[ActivitiesV2](https://github.com/secp192k1/Aliucord-Plugins/raw/builds/ActivitiesV2.zip)|
-|QR login|[QRCodeLogin](https://github.com/secp192k1/Aliucord-Plugins/raw/21770595a84b0961253155f0806e17d0f97db609/QRCodeLogin.zip)|
+|QR login|[Fixes](https://github.com/yutaplug/yutaplugins/raw/builds/Fixes.zip)|
 |Keep video playing when scrolling|[KeepVideoPlaying](https://github.com/secp192k1/Aliucord-Plugins/raw/builds/KeepVideoPlaying.zip)|
 |DM pins|[DMPins](https://github.com/bappitybup/aliucord-plugins/raw/builds/DMPins.zip)|
 |Six most recent profile pictures|[RecentProfilePictures](https://github.com/yutaplug/yutaplugins/raw/builds/RecentProfilePictures.zip)|
 |Super reactions|[SuperReactions](https://github.com/yutaplug/yutaplugins/raw/builds/SuperReactions.zip)|
 |Profile effects and frames|[ProfileEffects](https://github.com/yutaplug/yutaplugins/raw/builds/ProfileEffects.zip)|
-|Opening Discord links in app|[MessageLinkFix](https://github.com/yutaplug/yutaplugins/raw/builds/MessageLinkFix.zip)|
+|Opening Discord links in app|[Fixes](https://github.com/yutaplug/yutaplugins/raw/builds/Fixes.zip)|
 |Onboarding|[Onboarding](https://github.com/yutaplug/yutaplugins/raw/builds/Onboarding.zip)|
 |Profile board and wishlist|[ProfileBoard](https://github.com/yutaplug/yutaplugins/raw/builds/ProfileBoard.zip)|
 |Friend request codes|[FriendCodes](https://github.com/secp192k1/Aliucord-Plugins/raw/builds/FriendCodes.zip)|
@@ -583,8 +583,21 @@ Allow users to upload custom avatar decorations locally and through Decor API. S
 ### HideCallButtons
 Improved and updated version of HideCallButtons by Wing. Hides them in more places than profile sheet and adds a DM-only /call command.
 
-### MarkdownFix
-Backports newer Discord markdown: #, ##, ### headers, -# subtext, hyperlinks, bullet points and nested lists. Also fixes broken posts in forums.
+### Fixes
+Fixes essential features that are broken in Discord 126.21. Every fix can be turned on or off in the plugin settings. Automatically uninstalls the separate plugins it replaces.
+- **Font scaling:** fixes the font scaling option not working. Replaces FontScaleFix.
+- **Sending friend requests:** fixes sending friend requests (by TsyQax). Replaces FriendFix.
+- **Accepting friend requests:** fixes accepting friend requests. Replaces FriendRequestFix.
+- **GIF downloads:** fixes downloading GIFs from Tenor, Klipy and Giphy. Replaces GifDownloadFix.
+- **Markdown:** backports newer Discord markdown: #, ##, ### headers, -# subtext, hyperlinks, bullet points and nested lists. Also fixes broken posts in forums. Replaces MarkdownFix.
+- **Message links:** opens message links in Aliucord instead of the Discord app/web, and fixes sometimes being redirected to the end of the chat. Replaces MessageLinkFix.
+- **Search history:** fixes cleared search history being restored after an app restart. Replaces SearchHistoryFix.
+- **Server sheet:** fixes weird behavior that sometimes happens when opening the server sheet. Replaces ServerSheetFix.
+- **Settings:** fixes settings such as who can send you friend requests and accessibility options not applying correctly. Replaces SettingsFix.
+- **Raw GitHub updater:** fetches plugin updates from raw.githubusercontent.com instead of jsDelivr, which might fix stale or failed updates. Replaces RawGitHubUpdater.
+- **Forum tags:** fixes not being able to select a tag in a forum (by TsyQax). Replaces ForumTagFix.
+- **Server nickname:** fixes not being able to change your server nickname (by TsyQax). Replaces ServerNicknameFix.
+- **QR code login:** fixes QR code scanning to log in on other devices (by secp192k1). Replaces QRCodeLogin.
 
 ### ReadAll
 Read all notifications.
@@ -607,9 +620,6 @@ Allows you to set a custom rich presence through plugin settings. Thanks to &lt;
 ### VoiceMessages
 Fixed fork of VoiceMessages by Mantikafasi with redesigned voice button and added compatibility with Android 7. Also adds ability to send audio files as voice messages.
 
-### SearchHistoryFix
-Fixes cleared search history being restored after an app restart.
-
 ### InstantMessages
 Send messages instantly, without any animation. Also fixes flickering bug when sending a new message.
 
@@ -619,13 +629,6 @@ IRC Layout.
 ### PlayEmbeds
 Plays video and audio embeds from anywhere (youtube, soundcloud, spotify, fxtwitter, etc.)
 Replaces PlayableEmbeds/Fluff.
-
-### GifDownloadFix
-Fixes downloading gifs from tenor, klipy and giphy.
-Replaces TenorGifFix.
-
-### SettingsFix
-Fixes accessibility and friend request settings persistance.
 
 ### NewLinks
 Compacts Discord links like new Discord does.
@@ -637,17 +640,11 @@ Replaces old Discovery plugin.
 ### Devices
 Manage devices from Aliucord. Replaces old Sessions plugin.
 
-### ServerSheetFix
-Fixes layout issues in server sheets.
-
 ### Onboarding
 Backports Onboarding & "Channels & Roles" button.
 
 ### ProfileBoard
 Backports "Board" and "Wishlist" sections in profiles.
-
-### MessageLinkFix
-Forces opening message links in Aliucord instead of browser/official Discord and fixes an issue where sometimes it redirected you to the bottom of the chat.
 
 ### ReportRaid
 Backports "Report Raid" button in guild sheets.
@@ -661,9 +658,6 @@ Backports the new 300 character limit when editing your bio.
 ### Notifications
 Backports new notification types.
 
-### FontScaleFix
-Fixes "chat font scaling" option not working.
-
 ### ReportForm
 Backports new report message categories.
 
@@ -676,9 +670,6 @@ Backports browsing Discord Shop collections and collectibles from User Settings.
 ### ConnectionInfo
 Backports connection info such as Steam games count, Reddit karma count, etc. Replaces UnknownConnectionIcons
 
-### FriendRequestFix
-Fixes **accepting** friend requests. For sending, install FriendFix.
-
 ### ImageDescriptions
 Backports seeing and setting image descriptions (alt text).
 
@@ -689,7 +680,7 @@ Backports `@time` from desktop.
 Allows editing which emojis appear in reaction row from plugin settings.
 
 ### GameMentions
-Backports `@game` from desktop. Requires MarkdownFix to display and open the mentions.
+Backports `@game` from desktop. Requires the Markdown fix in Fixes to display and open the mentions.
 
 ### VoiceChannelMenu
 Adds context menu for vcs in channel list with options to edit channel (if you have the perm), copy link and copy id. Interferes with MuteStageAndVoiceChannels.
@@ -742,10 +733,6 @@ Adds several options to copy user info when pressing the three dots inside a pro
 
 ### LargeUploads
 Uploads files to https://pomf.lain.la if it exceeds Discord limit. Catbox is also an option but it's currently down. Let me know if you want any other service added.
-
-### RawGitHubUpdater
-Makes the Aliucord updater fetch plugin updates from raw.githubusercontent.com instead of jsDelivr, avoiding stale or failed updates.
-
 # FAQ
 
 ### Can Aliucord be used with the new Discord UI?
