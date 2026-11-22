@@ -589,6 +589,7 @@ Fixes essential features that are broken in Discord 126.21. Every fix can be tur
 - **Sending friend requests:** fixes sending friend requests (by TsyQax). Replaces FriendFix.
 - **Accepting friend requests:** fixes accepting friend requests. Replaces FriendRequestFix.
 - **GIF downloads:** fixes downloading GIFs from Tenor, Klipy and Giphy. Replaces GifDownloadFix.
+- **GIF sticker animation:** makes GIF stickers follow the sticker animation setting in Text & Images instead of always animating.
 - **Markdown:** backports newer Discord markdown: #, ##, ### headers, -# subtext, hyperlinks, bullet points and nested lists. Also fixes broken posts in forums. Replaces MarkdownFix.
 - **Message links:** opens message links in Aliucord instead of the Discord app/web, and fixes sometimes being redirected to the end of the chat. Replaces MessageLinkFix.
 - **Search history:** fixes cleared search history being restored after an app restart. Replaces SearchHistoryFix.
@@ -598,6 +599,9 @@ Fixes essential features that are broken in Discord 126.21. Every fix can be tur
 - **Forum tags:** fixes not being able to select a tag in a forum (by TsyQax). Replaces ForumTagFix.
 - **Server nickname:** fixes not being able to change your server nickname (by TsyQax). Replaces ServerNicknameFix.
 - **QR code login:** fixes QR code scanning to log in on other devices (by secp192k1). Replaces QRCodeLogin.
+- **Message width:** lets embeds and stickers use the full chat width, so you can long-press beside them like other messages (by zt64). Replaces MessageWidthFix.
+- **Server settings:** fixes the bans list and audit log not loading in server settings, and shows invite durations properly (by pilotbellyt-spec). Replaces ServerSettingsFix.
+- **Mentioned users:** fetches users that mentions show as invalid-user because Discord has not loaded them yet (by js6pak). Replaces ValidUser.
 
 ### ReadAll
 Read all notifications.
