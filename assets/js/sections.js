@@ -1,3 +1,6 @@
+// Browsers only use favicons declared in <head>; the Markdown page can only add them to <body>.
+document.querySelectorAll('body link[rel~="icon"]').forEach(icon => document.head.append(icon));
+
 /* Group rendered Markdown into sections, preserving its existing anchors. */
 (() => {
   const navigation = document.querySelector('.section-selector');
