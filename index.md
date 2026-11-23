@@ -738,7 +738,11 @@ Replaces SwipeToReply/SwipeActions. Hold your swipe in your own message to edit 
 Adds several options to copy user info when pressing the three dots inside a profile. Replaces CopyPlease.
 
 ### LargeUploads
-Uploads files to https://pomf.lain.la if it exceeds Discord limit. Catbox is also an option but it's currently down. Let me know if you want any other service added.
+Uploads files to https://pomf.lain.la if it exceeds Discord limit.
+
+### MessageReminders
+Backport of message reminders, synced with official Discord.
+
 # FAQ
 
 ### Can Aliucord be used with the new Discord UI?
