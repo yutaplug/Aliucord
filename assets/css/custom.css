@@ -65,6 +65,20 @@ h1, .markdown-body h1 {
   font-size: clamp(1.8rem, 4vw, 2.5rem);
 }
 h1:first-child { margin-top: 0; }
+/* Page title, generated from "# Aliucord documentation", gets the logo. */
+#aliucord-documentation {
+  display: flex;
+  align-items: center;
+  gap: 0.45em;
+}
+#aliucord-documentation::before {
+  content: "";
+  flex: none;
+  width: 0.95em;
+  height: 0.95em;
+  background: url("../favicon.svg") center / contain no-repeat;
+  filter: drop-shadow(0 0 0.35em #7c4dff59);
+}
 /* Hide the repository title inserted by the default Pages layout. */
 .markdown-body > h1:first-child:has(> a) { display: none; }
 .markdown-body > h1:first-child:has(> a) + h1 { margin-top: 0; }
@@ -212,29 +226,52 @@ details > summary + p { margin-top: 0; }
 .status-broken { color: #ffb4bd; background: #ff708512; border-color: #ff708540; }
 .status-beta { color: #d4c5ff; background: #b5a0ff12; border-color: #b5a0ff40; }
 .status-maintenance { color: #f6d28c; background: #f6bd6012; border-color: #f6bd6040; }
-.tips-list {
+.tips-list, .markdown-body .tips-list, .main-content .tips-list {
   display: grid;
-  gap: 0.65rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 .tips-list > li {
-  display: grid;
-  grid-template-columns: 85px minmax(0, 1fr);
-  gap: 1rem;
-  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
   margin: 0;
-  padding: 0.75rem 1rem;
-  border-radius: 8px;
-  background: #b5a0ff06;
+  padding: 1rem 1.1rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: linear-gradient(160deg, #1d1a2e, #161a25 60%);
+}
+.tips-list > li:hover { border-color: #655486; }
+.tip-icon {
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  margin-bottom: 0.4rem;
+  border: 1px solid #b5a0ff33;
+  border-radius: 9px;
+  background: #b5a0ff17;
+  color: var(--accent);
+}
+.tip-icon svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 .tip-label {
-  color: var(--accent);
-  font-size: 0.85rem;
+  color: var(--text);
+  font-size: 0.95rem;
   font-weight: 650;
+  line-height: 1.4;
 }
-.tips-list p { margin: 0; color: var(--text); }
+.tips-list p { margin: 0; color: var(--muted); font-size: 0.92rem; line-height: 1.6; }
 
 code, tt, .markdown-body code, .main-content code {
   padding: 0.2em 0.4em;
@@ -279,7 +316,7 @@ hr, .markdown-body hr {
 img, .markdown-body img { max-width: 100%; height: auto; background: transparent; border-radius: 8px; }
 
 @media (max-width: 640px) {
-  .tips-list > li { grid-template-columns: 1fr; gap: 0.25rem; }
+  .tips-list > li { padding: 0.9rem 1rem; }
   .status-list > li { grid-template-columns: 1fr; gap: 0.35rem; }
   .container-lg, .main-content { padding: 1.75rem 1rem; }
   h1 { margin-top: 1.75rem; }
