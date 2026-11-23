@@ -170,6 +170,7 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |DM activities|[DMActivities](https://github.com/yutaplug/yutaplugins/raw/builds/DMActivities.zip)|
 |Square server icons|[SquareServers](https://github.com/yutaplug/yutaplugins/raw/builds/SquareServers.zip)|
 |Custom typing indicators|[CustomTypingIndicator](https://github.com/yutaplug/yutaplugins/raw/builds/CustomTypingIndicator.zip)|
+|Message reminders|[MessageReminders](https://github.com/yutaplug/yutaplugins/raw/builds/MessageReminders.zip)|
 
 ### Built-in to Aliucord
 
