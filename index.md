@@ -44,7 +44,7 @@ Download the latest [Manager APK](https://github.com/Aliucord/Manager/releases/d
 <ul class="tips-list">
   <li><span class="tip-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg></span><strong class="tip-label">Restart</strong><p>Most plugins need an app restart to work properly.</p></li>
   <li><span class="tip-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect width="7" height="7" x="3" y="3" rx="1.5"/><rect width="7" height="7" x="14" y="3" rx="1.5"/><rect width="7" height="7" x="14" y="14" rx="1.5"/><rect width="7" height="7" x="3" y="14" rx="1.5"/></svg></span><strong class="tip-label">Browse</strong><p>Use the PluginWeb plugin for a built-in plugin list.</p></li>
-  <li><span class="tip-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span><strong class="tip-label">Search</strong><p>Find plugins with Lumi bot in <code>#bot-spam</code>. Type <code>!plugins</code> followed by a plugin name or keyword.</p></li>
+  <li><span class="tip-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span><strong class="tip-label">Search</strong><p>Find plugins with AliuSupport bot in <code>#bot-spam</code>. Type <code>!search plugins</code> followed by a plugin name or keyword.</p></li>
 </ul>
 </details>
 
