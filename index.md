@@ -1,8 +1,8 @@
 # Aliucord documentation
 
-<link rel="stylesheet" href="/Aliucord/assets/css/custom.css?v=dark-12">
+<link rel="stylesheet" href="/Aliucord/assets/css/custom.css?v=dark-13">
 <link rel="icon" type="image/svg+xml" href="/Aliucord/assets/favicon.svg">
-<script src="/Aliucord/assets/js/sections.js?v=2" defer></script>
+<script src="/Aliucord/assets/js/sections.js?v=3" defer></script>
 
 <nav class="section-selector" aria-label="Documentation sections">
   <span class="section-selector-label">Choose a section</span>

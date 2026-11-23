@@ -26,6 +26,34 @@ document.querySelectorAll('body link[rel~="icon"]').forEach(icon => document.hea
     return panel;
   });
 
+  // Box each "###" topic with its content so sections read as separate cards.
+  // Tables are already boxed, so topics built around one keep their plain layout.
+  const hasTable = elements => elements.some(element => element.matches('table') || element.querySelector('table'));
+  function wrapInCard(elements, className) {
+    const card = document.createElement('div');
+    card.className = className;
+    elements[0].before(card);
+    card.append(...elements);
+  }
+  panels.forEach(panel => {
+    const body = [...panel.children].slice(1);
+    const topics = body.filter(element => element.tagName === 'H3');
+    if (!topics.length) {
+      // Sections without "###" topics become a single card.
+      if (body.length && !hasTable(body)) wrapInCard(body, 'doc-card');
+      return;
+    }
+    topics.forEach(topic => {
+      const group = [topic];
+      for (let next = topic.nextElementSibling; next && !/^H[1-3]$/.test(next.tagName); next = next.nextElementSibling) {
+        group.push(next);
+      }
+      if (hasTable(group)) return;
+      // A heading with nothing under it is a notice, not a topic.
+      wrapInCard(group, group.length === 1 ? 'doc-card doc-callout' : 'doc-card');
+    });
+  });
+
   function selectSection(scroll) {
     let anchor;
     try { anchor = decodeURIComponent(location.hash.slice(1)); } catch { anchor = ''; }

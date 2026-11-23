@@ -140,6 +140,41 @@ a:focus-visible, summary:focus-visible {
 .documentation-section[hidden] { display: none !important; }
 .documentation-section > h1:first-child { margin-top: 0; }
 
+/* Topic cards built by sections.js from each "###" heading and its content. */
+.doc-card {
+  margin: 0.85rem 0;
+  padding: 1.15rem 1.35rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  box-shadow: 0 6px 24px #00000018;
+}
+.doc-card > h3:first-child,
+.markdown-body .doc-card > h3:first-child {
+  margin: 0 0 0.6rem;
+  font-size: 1.12rem;
+}
+.doc-card > p, .doc-card > ul, .doc-card > ol { margin-bottom: 0.85rem; }
+.doc-card > :last-child { margin-bottom: 0; }
+.doc-card > details {
+  margin: 1rem 0 0;
+  background: #10131b;
+  box-shadow: none;
+}
+.doc-card > details + details { margin-top: 0.65rem; }
+.doc-callout {
+  border-color: #b5a0ff40;
+  border-left: 3px solid var(--accent);
+  background: linear-gradient(135deg, #231c3a, #161a25 70%);
+}
+.doc-callout > h3:first-child,
+.markdown-body .doc-callout > h3:first-child {
+  margin: 0;
+  color: #e9e2ff;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+}
+
 /* Keep wide plugin lists inside the viewport without hiding columns. */
 table, .markdown-body table, .main-content table {
   display: table;
@@ -327,6 +362,7 @@ img, .markdown-body img { max-width: 100%; height: auto; background: transparent
   }
   table th, table td, .markdown-body table th, .markdown-body table td { padding: 0.75rem; }
   details { padding: 0.9rem 1rem; }
+  .doc-card { padding: 1rem 1.05rem; }
   ul, ol { padding-left: 1.5rem; }
 }
 @media (prefers-reduced-motion: no-preference) {
