@@ -136,7 +136,7 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Media channels|[MediaChannelFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/MediaChannelFix.zip)|
 |Media remix|[PhotoEditor](https://github.com/mantikafasi/AliucordPlugins/raw/builds/PhotoEditor.zip)|
 |Onboarding|[FixOnboardingFork](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/FixOnboardingFork.zip)|
-|Compact images|[MosaicFork](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/MosaicFork.zip)|
+|Compact images|[GroupMedia](https://github.com/yutaplug/yutaplugins/raw/builds/GroupMedia.zip)|
 |Gradient role colors and styled display names|[ModernUserStyles](https://github.com/pilotbellyt-spec/AliucordPlugins/raw/builds/ModernUserStyles.zip)|
 |New icons|[NewIcons](https://github.com/mantikafasi/AliucordPlugins/raw/builds/NewIcons.zip)|
 |Bookmarks/reminders for messages|[MessageBookmarks](https://github.com/pilotbellyt-spec/AliucordPlugins/raw/builds/MessageBookmarks.zip)|
