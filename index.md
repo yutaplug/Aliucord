@@ -19,7 +19,6 @@
     <a href="#userpfp-and-bg">UserPFP and BG</a>
     <a href="#how-to-logcat">How to logcat</a>
     <a href="#themer-fixer">Themer Fixer</a>
-    <a href="#customrpc">CustomRPC</a>
     <a href="#my-plugins">My plugins</a>
     <a href="#faq">FAQ</a>
   </div>
@@ -535,43 +534,6 @@ In case it didnt work you may want to try to do the following:
 7. Go back and disable Force Disable Module.
 8. Disable Advanced Settings and re-enable it.
 9. Restart Aliucord.
-
-# CustomRPC
-
-### How to make images show up to others
-
-Create a Discord application and enter its **Application ID** in CustomRPC, even when using an image URL. Without it, a URL image may appear for you because CustomRPC displays it locally, but other Discord clients may not show it. The application ID lets CustomRPC send image URLs through Discord's image proxy and use uploaded assets.
-
-1. Open CustomRPC settings and press **Developer Portal**, or open the [Discord Developer Portal](https://discord.com/developers/applications).
-2. Log in, press **New Application**, enter a name, accept the required terms, and press **Create**. If you already have an application, you can use it instead.
-3. In the application's **General Information**, copy the **Application ID**.
-4. Return to CustomRPC and paste it into **Application ID** under **Images**.
-5. Choose your **Activity type** and fill in **Activity name**, **Details**, and **State**.
-6. Set your **Large image** and optionally **Small image** using either method below.
-7. Press **Save and enable**, or **Save changes** if the activity is already enabled. Enabling CustomRPC automatically turns on Discord activity sharing.
-
-URL images may take a moment to appear while Discord processes them. If others still cannot see an image, check that the application ID is correct and that the image URL opens without logging in, or use an uploaded asset from that same application.
-
-### Use an image URL
-
-- Under **Large image**, paste a public HTTPS link directly to an image into **Image URL**. The link must work without logging in.
-- Optionally, repeat this under **Small image**.
-- Add **Hover text** if you want text to appear when someone hovers over the image.
-- Press **Save changes** if the activity is already enabled.
-
-### Use an uploaded asset
-
-An asset is an image uploaded to your Discord application. You use its name, called an **asset key**, instead of an image URL.
-
-1. In the Developer Portal, open the application whose ID you entered in CustomRPC.
-2. Open **Rich Presence → Art Assets**.
-3. Upload your image and give it a simple name, such as `my_image`. Save your changes. Discord references uploaded assets using lowercase keys. [Discord’s asset guide](https://github.com/discord/discord-api-docs/blob/main/developers/rich-presence/using-with-the-embedded-app-sdk.mdx)
-4. Return to CustomRPC.
-5. Under **Large image**, clear **Image URL** and enter `my_image` into **Asset key**.
-6. Optionally, repeat this under **Small image** using another uploaded asset.
-7. Press **Save and enable**, or **Save changes** if already enabled.
-
-**Image URLs override asset keys**, so leave the corresponding **Image URL** empty when using an uploaded asset.
 
 # My plugins
 
