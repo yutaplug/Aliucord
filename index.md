@@ -712,6 +712,9 @@ Uploads files to https://pomf.lain.la if it exceeds Discord limit.
 ### MessageReminders
 Backport of message reminders, synced with official Discord.
 
+### GroupMedia
+Group media if there's more than one in a message and allows switching between them in fullscreen. Replaces MosaicFork & SwipeMediaViewer.
+
 # FAQ
 
 ### Can Aliucord be used with the new Discord UI?
