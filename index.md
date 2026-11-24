@@ -575,6 +575,7 @@ Fixes essential features that are broken in Discord 126.21. Every fix can be tur
 - **Plugin menus:** fixes menus and popups from plugins doing nothing after you open and close another screen, like settings, search or an image.
 - **Message menu in search:** holding a message in search opens its menu, like in chat, instead of jumping to it. Tapping still jumps to the message.
 - **Server long press:** fixes the menu from holding a server or folder closing by itself when you let go. Moving your finger still starts dragging it.
+- **Slow uploads and downloads:** fixes uploads and media loading very slowly on networks without IPv6, where the app first waited for IPv6 connections to time out before using IPv4.
 
 ### ReadAll
 Read all notifications.
