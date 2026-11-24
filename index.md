@@ -118,7 +118,7 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |DMTabsV2|[DMTabs](https://github.com/OmegaSunkey/awesomeplugins/raw/builds/DMTabs.zip)|
 |Remove attachments individually|[AttachmentRemover](https://github.com/RazerTexz/My-plugins/raw/builds/AttachmentRemover.zip)|
 |Silent messages|[SilentMessages](https://github.com/RazerTexz/My-plugins/raw/builds/SilentMessages.zip)|
-|Channel browser|[ChannelBrowser](https://github.com/LampDelivery/AliucordPlugins/raw/builds/ChannelBrowser.zip)|
+|Channel browser|[Onboarding](https://github.com/yutaplug/yutaplugins/raw/builds/Onboarding.zip)|
 |New Discord link style|[NewLinks](https://github.com/yutaplug/yutaplugins/raw/builds/NewLinks.zip)|
 |Copy channel link|[CopyLinks](https://github.com/LampDelivery/AliucordPlugins/raw/builds/CopyLinks.zip)|
 |Message grouping|[Clump](https://github.com/LavaDesu/Awoocord/raw/builds/Clump.zip)|
@@ -135,7 +135,6 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Adding tags to forums|[Fixes](https://github.com/yutaplug/yutaplugins/raw/builds/Fixes.zip)|
 |Media channels|[MediaChannelFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/MediaChannelFix.zip)|
 |Media remix|[PhotoEditor](https://github.com/mantikafasi/AliucordPlugins/raw/builds/PhotoEditor.zip)|
-|Onboarding|[FixOnboardingFork](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/FixOnboardingFork.zip)|
 |Compact images|[GroupMedia](https://github.com/yutaplug/yutaplugins/raw/builds/GroupMedia.zip)|
 |Gradient role colors and styled display names|[ModernUserStyles](https://github.com/pilotbellyt-spec/AliucordPlugins/raw/builds/ModernUserStyles.zip)|
 |New icons|[NewIcons](https://github.com/mantikafasi/AliucordPlugins/raw/builds/NewIcons.zip)|
