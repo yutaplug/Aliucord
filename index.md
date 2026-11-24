@@ -392,13 +392,19 @@ Alternatively, you can search for another modified Discord client that uses the 
 
 First of all, you need to enable transparency in Themes plugin settings (chat, chat & settings). If you want full transparency, you need to use the [template](#how-to-make-the-background-work-with-full-transparency).
 
-**ALLOWED HOSTS:** Locally (your own files), GitHub, GitLab, Imgbb, Imgur.
+**ALLOWED HOSTS:** Locally (your own files), Discord, GitHub, GitLab, Imgbb, Imgur.
 
 **Locally (Recommended):**
   - Go to Themes plugin settings → your theme → `Background`
   - Tap the folder icon on the right of the `url` field
   - Pick the image/gif from your gallery or file manager
   - The field gets filled in automatically
+
+**Discord:**
+  - Send the image/gif in any channel or DM
+  - Open it, tap the 3 dots & copy the link
+  - Go to Themes plugin settings → your theme → `Background` & paste it in the `url` field
+  - Discord links expire, but the plugin renews them automatically. Don't delete the message, or the background will stop working
 
 **GitHub:**
   - Create a GitHub account
@@ -426,13 +432,14 @@ First of all, you need to enable the `Custom fonts` option in Themes plugin sett
   - Hold `View raw` and copy the address
   - Go to Themes plugin settings → your theme → `Fonts` & paste it where the asterisk is
 
-**Note:** If the font you want is already uploaded in some repo, you can just copy the raw link, no need to make your own repo.
+**Note:** If the font you want is already uploaded in some repo, you can just copy the raw link, no need to make your own repo. Discord links to a sent font file work too.
 
 ### Why does my background image not work
 
 - You didn't enable transparency
 - You enabled full transparency which doesn't work without the template
-- You are using `cdn.discordapp.com` or `media.discordapp.net` which don't work as a valid URL anymore
+- You are using a Discord link and the message with the image was deleted
+- You are using an outdated Themes version which doesn't support Discord links
 - The URL is incorrect
 
 ### How to make the background work with full transparency
