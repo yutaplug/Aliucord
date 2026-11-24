@@ -561,7 +561,7 @@ Fixes essential features that are broken in Discord 126.21. Every fix can be tur
 - **Accepting friend requests:** fixes accepting friend requests. Replaces FriendRequestFix.
 - **GIF downloads:** fixes downloading GIFs from Tenor, Klipy and Giphy. Replaces GifDownloadFix.
 - **GIF sticker animation:** makes GIF stickers follow the sticker animation setting in Text & Images instead of always animating.
-- **Markdown:** backports newer Discord markdown: #, ##, ### headers, -# subtext, hyperlinks, bullet points and nested lists. Also fixes broken posts in forums. Replaces MarkdownFix.
+- **Markdown:** backports newer Discord markdown: #, ##, ### headers, -# subtext, hyperlinks, bulleted, numbered and nested lists. Also fixes code blocks and broken posts in forums, and lets each heading have its own color. Replaces MarkdownFix.
 - **Message links:** opens message links in Aliucord instead of the Discord app/web, and fixes sometimes being redirected to the end of the chat. Replaces MessageLinkFix.
 - **Search history:** fixes cleared search history being restored after an app restart. Replaces SearchHistoryFix.
 - **Server sheet:** fixes weird behavior that sometimes happens when opening the server sheet. Replaces ServerSheetFix.
@@ -573,6 +573,9 @@ Fixes essential features that are broken in Discord 126.21. Every fix can be tur
 - **Message width:** lets embeds and stickers use the full chat width, so you can long-press beside them like other messages (by zt64). Replaces MessageWidthFix.
 - **Server settings:** fixes the bans list and audit log not loading in server settings, and shows invite durations properly (by pilotbellyt-spec). Replaces ServerSettingsFix.
 - **Mentioned users:** fetches users that mentions show as invalid-user because Discord has not loaded them yet (by js6pak). Replaces ValidUser.
+- **Plugin menus:** fixes menus and popups from plugins doing nothing after you open and close another screen, like settings, search or an image.
+- **Message menu in search:** holding a message in search opens its menu, like in chat, instead of jumping to it. Tapping still jumps to the message.
+- **Server long press:** fixes the menu from holding a server or folder closing by itself when you let go. Moving your finger still starts dragging it.
 
 ### ReadAll
 Read all notifications.
