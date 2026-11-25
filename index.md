@@ -123,7 +123,7 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Copy channel link|[CopyLinks](https://github.com/LampDelivery/AliucordPlugins/raw/builds/CopyLinks.zip)|
 |Message grouping|[Clump](https://github.com/LavaDesu/Awoocord/raw/builds/Clump.zip)|
 |DM previews|[Glance](https://github.com/cillynder/Awoocord/raw/builds/Glance.zip)|
-|Profile colors|[ModernProfiles](https://github.com/l6t9/AliucordPlugins/raw/builds/ModernProfiles.zip)|
+|Profile colors|[ProfileEffects](https://github.com/yutaplug/yutaplugins/raw/builds/ProfileEffects.zip)|
 |New member badge|[NewMemberBadge](https://github.com/Ushie/Aliucord-Plugins/raw/builds/NewMemberBadge.zip)|
 |Friend nicknames|[NativeFriendNicknames](https://github.com/miaaaa0a/aliucord-plugins/raw/builds/NativeFriendNicknames.zip)|
 |Muting voice channels|[MuteVoiceAndStageChannels](https://github.com/Ushie/Aliucord-Plugins/raw/builds/MuteVoiceAndStageChannels.zip)|
@@ -136,7 +136,7 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Media channels|[MediaChannelFix](https://github.com/tsyqax/aliucord_plugins_tsq/raw/builds/MediaChannelFix.zip)|
 |Media remix|[PhotoEditor](https://github.com/mantikafasi/AliucordPlugins/raw/builds/PhotoEditor.zip)|
 |Compact images|[GroupMedia](https://github.com/yutaplug/yutaplugins/raw/builds/GroupMedia.zip)|
-|Gradient role colors and styled display names|[ModernUserStyles](https://github.com/pilotbellyt-spec/AliucordPlugins/raw/builds/ModernUserStyles.zip)|
+|Gradient role colors and styled display names|[ProfileEffects](https://github.com/yutaplug/yutaplugins/raw/builds/ProfileEffects.zip)|
 |New icons|[NewIcons](https://github.com/mantikafasi/AliucordPlugins/raw/builds/NewIcons.zip)|
 |Bookmarks/reminders for messages|[MessageBookmarks](https://github.com/pilotbellyt-spec/AliucordPlugins/raw/builds/MessageBookmarks.zip)|
 |Ignoring users|[IgnoreFeature](https://github.com/pilotbellyt-spec/AliucordPlugins/raw/builds/IgnoreFeature.zip)|
@@ -590,7 +590,7 @@ Hides "Kick/Ban/Timeout" actions on user profile sheet.
 Backports sending (nitro only) and viewing super reactions.
 
 ### ProfileEffects
-Backports viewing Discord Nitro profile effects and profile frames.
+Backports viewing Discord Nitro profile effects, profile frames, profile theme colors, gradient role colors and display name styles (fonts, colors and effects). Each one can be turned off in the plugin settings. Replaces ModernProfiles and ModernUserStyles.
 
 ### CustomRPC
 Allows you to set a custom rich presence through plugin settings. Thanks to &lt;@477497542205243392&gt; for helping!
