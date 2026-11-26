@@ -567,7 +567,7 @@ Fixes essential features that are broken in Discord 126.21. Every fix can be tur
 - **Search history:** fixes cleared search history being restored after an app restart. Replaces SearchHistoryFix.
 - **Server sheet:** fixes weird behavior that sometimes happens when opening the server sheet. Replaces ServerSheetFix.
 - **Settings:** fixes settings such as who can send you friend requests and accessibility options not applying correctly. Replaces SettingsFix.
-- **Raw GitHub updater:** fetches plugin updates from raw.githubusercontent.com instead of jsDelivr, which might fix stale or failed updates. Replaces RawGitHubUpdater.
+- **GitHub updater:** replaces Aliucord's updater, for both plugins and Aliucord itself. Updates come straight from GitHub instead of jsDelivr, so new versions show up right away, and each download is checked before it replaces the old version, which fixes plugins asking to restart over and over. Shows a message with an Update button when updates are found, asks to restart after updating, and says what was updated after the restart, with its changelog. Replaces the Raw GitHub updater.
 - **Forum tags:** fixes not being able to select a tag in a forum (by TsyQax). Replaces ForumTagFix.
 - **Server nickname:** fixes not being able to change your server nickname (by TsyQax). Replaces ServerNicknameFix.
 - **QR code login:** fixes QR code scanning to log in on other devices (by secp192k1). Replaces QRCodeLogin.
