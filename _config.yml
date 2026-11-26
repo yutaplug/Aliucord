@@ -1,6 +1,8 @@
 # GitHub Pages already uses these defaults; they are spelled out because a
 # _config.yml replaces the implicit one.
 theme: jekyll-theme-primer
+twitter:
+  card: summary  # small icon beside the text, not a big banner
 description: Guides, plugins, backports and answers for Aliucord, the Discord client mod for Android.
 
 # Link previews (Discord, etc.) show this image next to every page.
