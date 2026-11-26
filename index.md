@@ -170,7 +170,6 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Square server icons|[SquareServers](https://github.com/yutaplug/yutaplugins/raw/builds/SquareServers.zip)|
 |Custom typing indicators|[CustomTypingIndicator](https://github.com/yutaplug/yutaplugins/raw/builds/CustomTypingIndicator.zip)|
 |Message reminders|[MessageReminders](https://github.com/yutaplug/yutaplugins/raw/builds/MessageReminders.zip)|
-|Account Age and other newer badges|[Fixes](https://github.com/yutaplug/yutaplugins/raw/builds/Fixes.zip)|
 |Pasting images|[Fixes](https://github.com/yutaplug/yutaplugins/raw/builds/Fixes.zip)|
 
 ### Built-in to Aliucord
@@ -567,7 +566,7 @@ Fixes essential features that are broken in Discord 126.21. Every fix can be tur
 - **Search history:** fixes cleared search history being restored after an app restart. Replaces SearchHistoryFix.
 - **Server sheet:** fixes weird behavior that sometimes happens when opening the server sheet. Replaces ServerSheetFix.
 - **Settings:** fixes settings such as who can send you friend requests and accessibility options not applying correctly. Replaces SettingsFix.
-- **GitHub updater:** replaces Aliucord's updater, for both plugins and Aliucord itself. Updates come straight from GitHub instead of jsDelivr, so new versions show up right away, and each download is checked before it replaces the old version, which fixes plugins asking to restart over and over. Shows a message with an Update button when updates are found, asks to restart after updating, and says what was updated after the restart, with its changelog. Replaces the Raw GitHub updater.
+- **GitHub updater:** replaces Aliucord's updater, for both plugins and Aliucord itself. Updates come straight from GitHub instead of jsDelivr, so new versions show up right away, and each download is checked before it replaces the old version, which fixes plugins asking to restart over and over. When updates are found, a popup at the top of the app lists them: tap it to update, or swipe it away. It asks to restart after updating, and says what was updated after the restart, with its changelog. You can also get a phone notification, or turn the popups off. Updates show when they were released, tapping an up-to-date plugin shows its changelog, and plugins you don't want updates for can be ignored. Replaces the Raw GitHub updater.
 - **Forum tags:** fixes not being able to select a tag in a forum (by TsyQax). Replaces ForumTagFix.
 - **Server nickname:** fixes not being able to change your server nickname (by TsyQax). Replaces ServerNicknameFix.
 - **QR code login:** fixes QR code scanning to log in on other devices (by secp192k1). Replaces QRCodeLogin.
@@ -578,9 +577,10 @@ Fixes essential features that are broken in Discord 126.21. Every fix can be tur
 - **Message menu in search:** holding a message in search opens its menu, like in chat, instead of jumping to it. Tapping still jumps to the message.
 - **Server long press:** fixes the menu from holding a server or folder closing by itself when you let go. Moving your finger still starts dragging it.
 - **Slow uploads and downloads:** fixes uploads and media loading very slowly on networks without IPv6, where the app first waited for IPv6 connections to time out before using IPv4.
-- **Screen refresh:** fixes the app reloading and jumping back to the start of the chat or settings after you close an image, a video or a settings page, on some phones. Off by default for now, since it doesn't work for everyone yet.
+- **Screen refresh:** fixes the app reloading and jumping back to the start of the chat or settings after you close an image, a video or a settings page, on some phones.
 - **Paste images:** lets you paste images from the clipboard into the chat box as attachments.
-- **New badges:** shows newer Discord badges on profiles, like Account Age, which Discord doesn't send to Aliucord otherwise.
+- **New badges:** shows newer Discord badges on profiles, like Account Age, which Discord doesn't send to Aliucord otherwise. Turned off for now, since it could log you out of Discord.
+- **Attachment previews:** fixes the preview of a file you add to a message (like a .zip) sometimes showing an image you added before.
 
 ### ReadAll
 Read all notifications.
