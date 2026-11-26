@@ -1,0 +1,20 @@
+# GitHub Pages already uses these defaults; they are spelled out because a
+# _config.yml replaces the implicit one.
+theme: jekyll-theme-primer
+description: Guides, plugins, backports and answers for Aliucord, the Discord client mod for Android.
+
+# Link previews (Discord, etc.) show this image next to every page.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/icon.png
+
+# Shareable section links: each file in _share/ becomes /<name>/, carries its
+# own preview title and description, and sends visitors to that section.
+# Link previews can't see "#anchor" parts of a URL, so these pages exist to
+# give each section its own preview.
+collections:
+  share:
+    output: true
+    permalink: /:name/

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{%- assign target = '/#' | append: page.anchor | relative_url -%}
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <meta name="theme-color" content="#7C4DFF">
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
+    <meta http-equiv="refresh" content="0; url={{ target }}">
+    <script>location.replace({{ target | jsonify }});</script>
+  </head>
+  <body>
+    <p>Opening <a href="{{ target }}">{{ page.title }}</a>…</p>
+  </body>
+</html>
