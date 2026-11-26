@@ -170,6 +170,8 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Square server icons|[SquareServers](https://github.com/yutaplug/yutaplugins/raw/builds/SquareServers.zip)|
 |Custom typing indicators|[CustomTypingIndicator](https://github.com/yutaplug/yutaplugins/raw/builds/CustomTypingIndicator.zip)|
 |Message reminders|[MessageReminders](https://github.com/yutaplug/yutaplugins/raw/builds/MessageReminders.zip)|
+|Account Age and other newer badges|[Fixes](https://github.com/yutaplug/yutaplugins/raw/builds/Fixes.zip)|
+|Pasting images|[Fixes](https://github.com/yutaplug/yutaplugins/raw/builds/Fixes.zip)|
 
 ### Built-in to Aliucord
 
@@ -576,6 +578,9 @@ Fixes essential features that are broken in Discord 126.21. Every fix can be tur
 - **Message menu in search:** holding a message in search opens its menu, like in chat, instead of jumping to it. Tapping still jumps to the message.
 - **Server long press:** fixes the menu from holding a server or folder closing by itself when you let go. Moving your finger still starts dragging it.
 - **Slow uploads and downloads:** fixes uploads and media loading very slowly on networks without IPv6, where the app first waited for IPv6 connections to time out before using IPv4.
+- **Screen refresh:** fixes the app reloading and jumping back to the start of the chat or settings after you close an image, a video or a settings page, on some phones. Off by default for now, since it doesn't work for everyone yet.
+- **Paste images:** lets you paste images from the clipboard into the chat box as attachments.
+- **New badges:** shows newer Discord badges on profiles, like Account Age, which Discord doesn't send to Aliucord otherwise.
 
 ### ReadAll
 Read all notifications.
