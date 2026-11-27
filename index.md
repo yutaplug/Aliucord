@@ -90,6 +90,7 @@ These plugins are recommended to get and fix features from new Discord. To insta
 
 |Feature|Plugin Name|
 |-|-|
+|E2EE voice and video calls|[Fixes](https://github.com/yutaplug/yutaplugins/raw/builds/Fixes.zip)|
 |Voice messages|[VoiceMessages](https://github.com/yutaplug/yutaplugins/raw/builds/VoiceMessages.zip)|
 |Playing Audio files|[AudioPlayer](https://github.com/mantikafasi/AliucordPlugins/raw/builds/AudioPlayer.zip)|
 |Forwarding messages|[ForwardMessages](https://github.com/Ushie/Aliucord-Plugins/raw/builds/ForwardMessages.zip)|
@@ -331,7 +332,6 @@ If a feature isn't here, see the [Backports](/Aliucord/#backports) page in case 
 
 |Feature|Notes|
 |-|-|
-|E2EE VC|End-to-end encryption in voice chats|
 |Managing join requests|Managing join requests|
 |Family center|Family center|
 |In-game friends|In-game friends|
@@ -581,6 +581,7 @@ Fixes essential features that are broken in Discord 126.21. Every fix can be tur
 - **Paste images:** lets you paste images from the clipboard into the chat box as attachments.
 - **New badges:** shows newer Discord badges on profiles, like Account Age, which Discord doesn't send to Aliucord otherwise. Turned off for now, since it could log you out of Discord.
 - **Attachment previews:** fixes the preview of a file you add to a message (like a .zip) sometimes showing an image you added before.
+- **Voice and video calls:** makes voice calls, server voice channels, camera video and screen sharing work again, with the end-to-end encryption (DAVE) Discord now requires. Type /davevoice in a call to see its status and the privacy code. Replaces DaveVoice. Don't use it together with Awoocord's VoiceE2EE.
 
 ### ReadAll
 Read all notifications.
