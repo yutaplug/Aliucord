@@ -91,6 +91,8 @@ These plugins are recommended to get and fix features from new Discord. To insta
 |Feature|Plugin Name|
 |-|-|
 |E2EE voice and video calls|[Fixes](https://github.com/yutaplug/yutaplugins/raw/builds/Fixes.zip)|
+|Soundboard|[Fixes](https://github.com/yutaplug/yutaplugins/raw/builds/Fixes.zip)|
+|Voice channel statuses|[Fixes](https://github.com/yutaplug/yutaplugins/raw/builds/Fixes.zip)|
 |Voice messages|[VoiceMessages](https://github.com/yutaplug/yutaplugins/raw/builds/VoiceMessages.zip)|
 |Playing Audio files|[AudioPlayer](https://github.com/mantikafasi/AliucordPlugins/raw/builds/AudioPlayer.zip)|
 |Forwarding messages|[ForwardMessages](https://github.com/Ushie/Aliucord-Plugins/raw/builds/ForwardMessages.zip)|
@@ -561,13 +563,13 @@ Fixes essential features that are broken in Discord 126.21. Every fix can be tur
 - **Accepting friend requests:** fixes accepting friend requests. Replaces FriendRequestFix.
 - **GIF downloads:** fixes downloading GIFs from Tenor, Klipy and Giphy. Replaces GifDownloadFix.
 - **GIF sticker animation:** makes GIF stickers follow the sticker animation setting in Text & Images instead of always animating.
-- **Markdown:** backports newer Discord markdown: #, ##, ### headers, -# subtext, hyperlinks, bulleted, numbered and nested lists. Also fixes code blocks and broken posts in forums, and lets each heading have its own color. Replaces MarkdownFix.
-- **Message links:** opens message links in Aliucord instead of the Discord app/web, and fixes sometimes being redirected to the end of the chat. Replaces MessageLinkFix.
+- **Markdown:** backports newer Discord markdown: #, ##, ### headers, -# subtext, hyperlinks, bulleted, numbered and nested lists, and ```diff code blocks highlighted like on desktop. Also fixes code blocks and broken posts in forums, and lets each heading have its own color. Replaces MarkdownFix.
+- **Message links:** opens message, channel and forum post links in Aliucord instead of the Discord app/web, and fixes sometimes being redirected to the end of the chat. Replaces MessageLinkFix.
 - **Search history:** fixes cleared search history being restored after an app restart. Replaces SearchHistoryFix.
 - **Server sheet:** fixes weird behavior that sometimes happens when opening the server sheet. Replaces ServerSheetFix.
 - **Settings:** fixes settings such as who can send you friend requests and accessibility options not applying correctly. Replaces SettingsFix.
-- **GitHub updater:** replaces Aliucord's updater, for both plugins and Aliucord itself. Updates come straight from GitHub instead of jsDelivr, so new versions show up right away, and each download is checked before it replaces the old version, which fixes plugins asking to restart over and over. When updates are found, a popup at the top of the app lists them: tap it to update, or swipe it away. It asks to restart after updating, and says what was updated after the restart, with its changelog. You can also get a phone notification, or turn the popups off. Updates show when they were released, tapping an up-to-date plugin shows its changelog, and plugins you don't want updates for can be ignored. Replaces the Raw GitHub updater.
-- **Forum tags:** fixes not being able to select a tag in a forum (by TsyQax). Replaces ForumTagFix.
+- **GitHub updater:** replaces Aliucord's updater, for both plugins and Aliucord itself. Updates come straight from GitHub instead of jsDelivr, so new versions show up right away, and each download is checked before it replaces the old version, which fixes plugins asking to restart over and over. When updates are found, a popup at the top of the app lists them: tap it to update, or swipe it away. It asks to restart after updating, and says what was updated after the restart, with its changelog. You can also get a phone notification, or turn the popups off. Updates and changelogs show when each version was released, tapping an up-to-date plugin shows its changelog, and plugins you don't want updates for can be ignored. Replaces the Raw GitHub updater.
+- **Forum tags:** fixes not being able to select a tag in a forum, and adds Change Tags to a post's long-press menu (by TsyQax). Replaces ForumTagFix.
 - **Server nickname:** fixes not being able to change your server nickname (by TsyQax). Replaces ServerNicknameFix.
 - **QR code login:** fixes QR code scanning to log in on other devices (by secp192k1). Replaces QRCodeLogin.
 - **Message width:** lets embeds and stickers use the full chat width, so you can long-press beside them like other messages (by zt64). Replaces MessageWidthFix.
@@ -581,7 +583,10 @@ Fixes essential features that are broken in Discord 126.21. Every fix can be tur
 - **Paste images:** lets you paste images from the clipboard into the chat box as attachments.
 - **New badges:** shows newer Discord badges on profiles, like Account Age, which Discord doesn't send to Aliucord otherwise. Turned off for now, since it could log you out of Discord.
 - **Attachment previews:** fixes the preview of a file you add to a message (like a .zip) sometimes showing an image you added before.
-- **Voice and video calls:** makes voice calls, server voice channels, camera video and screen sharing work again, with the end-to-end encryption (DAVE) Discord now requires. Type /davevoice in a call to see its status and the privacy code. Replaces DaveVoice. Don't use it together with Awoocord's VoiceE2EE.
+- **Voice and video calls:** makes voice calls, server voice channels, camera video and screen sharing work again, with the end-to-end encryption (DAVE) Discord now requires. Also adds the soundboard: you hear sounds others play, and the soundboard button in the call controls opens a picker with search and previews (Discord's default sounds, the server's own, and other servers' sounds, which need Nitro). Voice channel statuses show in the channel list and in calls, and you can set one by tapping the channel name at the top of the call screen. Type /davevoice in a call to see its status and the privacy code. Replaces DaveVoice. Don't use it together with Awoocord's VoiceE2EE.
+- **Videos loading forever:** fixes some videos (often tall, high-resolution screen recordings) never starting to play, by trying the phone's other video decoders when the first one can't play them, like newer Discord.
+- **Yourself in voice channels:** shows you in a voice channel's member list when you're in it on another device, like newer Discord.
+- **Delete server:** fixes deleting a server failing with "You are unauthorized to perform this request" when you have 2FA.
 
 ### ReadAll
 Read all notifications.
